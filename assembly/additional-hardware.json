@@ -1,0 +1,121 @@
+{
+  "revision": "R20",
+  "status": "provisional",
+  "source": "R20 removable rear band export-and-mount-checks.json; author CAD study dimensions, not purchased fastener specifications",
+  "items": [
+    {
+      "id": "band-screw--12",
+      "label": "Candidate M2 \u00d7 10 screw, head style unselected",
+      "kind": "screw",
+      "quantity": 1,
+      "mount_axis_mm": [
+        -11.008300010681156,
+        -12,
+        245.446729
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "provisional": true,
+      "cad_component": false,
+      "note": "Illustrative fit envelope only. Confirm fastener stack and retention using actual parts."
+    },
+    {
+      "id": "band-washer--12",
+      "label": "Candidate 0.5 mm washer, outside diameter unselected",
+      "kind": "washer",
+      "quantity": 1,
+      "mount_axis_mm": [
+        -11.008300010681156,
+        -12,
+        245.446729
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "provisional": true,
+      "cad_component": false,
+      "note": "Illustrative fit envelope only. Confirm fastener stack and retention using actual parts."
+    },
+    {
+      "id": "band-nut--12",
+      "label": "M2 nut candidate, supplier dimensions unselected",
+      "kind": "nut",
+      "quantity": 1,
+      "mount_axis_mm": [
+        -11.008300010681156,
+        -12,
+        245.446729
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "provisional": true,
+      "cad_component": false,
+      "note": "Illustrative fit envelope only. Confirm fastener stack and retention using actual parts."
+    },
+    {
+      "id": "band-screw-12",
+      "label": "Candidate M2 \u00d7 10 screw, head style unselected",
+      "kind": "screw",
+      "quantity": 1,
+      "mount_axis_mm": [
+        -11.008300010681156,
+        12,
+        245.446729
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "provisional": true,
+      "cad_component": false,
+      "note": "Illustrative fit envelope only. Confirm fastener stack and retention using actual parts."
+    },
+    {
+      "id": "band-washer-12",
+      "label": "Candidate 0.5 mm washer, outside diameter unselected",
+      "kind": "washer",
+      "quantity": 1,
+      "mount_axis_mm": [
+        -11.008300010681156,
+        12,
+        245.446729
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "provisional": true,
+      "cad_component": false,
+      "note": "Illustrative fit envelope only. Confirm fastener stack and retention using actual parts."
+    },
+    {
+      "id": "band-nut-12",
+      "label": "M2 nut candidate, supplier dimensions unselected",
+      "kind": "nut",
+      "quantity": 1,
+      "mount_axis_mm": [
+        -11.008300010681156,
+        12,
+        245.446729
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "provisional": true,
+      "cad_component": false,
+      "note": "Illustrative fit envelope only. Confirm fastener stack and retention using actual parts."
+    }
+  ]
+}

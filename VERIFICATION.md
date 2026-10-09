@@ -32,3 +32,11 @@ Inherited neck-motion collisions remain unresolved. Physical fit, structural str
 The band's two screws, washers and captive nuts are not explicitly modelled in the assembly. Their provisional candidate is M2×10 with a nominal 0.5 mm washer, leaving approximately 0.492 mm screw-tip space in the centre-line CAD stack. Without the washer, the nominal screw reaches the blind end. Actual nut dimensions, printed fit, screw-head seating, screw length and driver access require a fit test. Shell removal is required for access, and full band-removal travel remains unchecked.
 
 Source identity and licence status are recorded separately in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Geometry checks do not resolve source rights.
+
+## R20 browser assembly bundle, 09-10-2026
+
+Added 124 CAD display-reference meshes, including the same 41 printable candidates, with assembled coordinates and source identities. All mesh checksums match their generated manifest. The display bundle has 128,318 triangles and is not a manufacturing export. The original four native documents and 41 print STEP/STL pairs are unchanged from `cad-study-2026-10-09`.
+
+Additional band screw, washer and nut records are labelled provisional presentation envelopes, separate from the 124 native references. They express the recorded two mounting axes and candidate stack; no manufacturer geometry, physical fastener fit or insertion clearance is certified.
+
+The Three.js guide and physics simulator are separate tools. Browser assembly separation does not validate continuous insertion paths, structural loads or wired joint travel.

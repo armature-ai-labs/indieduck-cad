@@ -6,6 +6,12 @@ Armature's changes include compact joint supports, a two-eye face, local head-ya
 
 ![R20 assembled CAD](previews/R20-assembly.png)
 
+## Explore and assemble
+
+Open the [interactive R20 assembly guide](https://armature-ai-labs.github.io/indieduck/) for component selection, exploded views and assembly steps. The [R20 simulator](https://armature-ai-labs.github.io/indieduck-rl/) is a separate physics study. The guide uses the saved CAD assembly; it does not simulate a physical installation process.
+
+The `assembly/` bundle provides revisioned, labelled display meshes and component records generated from this CAD. These are presentation assets, not additional printable parts. Use the native sources and `exports/` for mechanical editing and printing. Steps and hardware envelopes marked provisional require confirmation during the physical build.
+
 ## Open the robot
 
 Download and extract the entire release ZIP, then open **`native/robot/IndieDuck_R20_Assembly.FCStd`** in FreeCAD 1.1.4. Keep these four sibling files together so relative links resolve:

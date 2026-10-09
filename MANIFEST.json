@@ -1,7 +1,7 @@
 {
   "project": "IndieDuck by Armature AI Labs",
   "revision": "R20",
-  "release": "cad-study-2026-10-09",
+  "release": "r20-simulation-study-v1",
   "units": "mm",
   "assembly": "native/robot/IndieDuck_R20_Assembly.FCStd",
   "component_manifest": "COMPONENTS.csv",
@@ -13,791 +13,1681 @@
       "bytes": 116,
       "sha256": "96aae8c4fd68a016568695df5e482b641fd161e106b5853a033d0fb9b345b5a5",
       "revision": "R20",
-      "role": "documentation or verification"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": ".gitignore",
       "bytes": 27,
       "sha256": "ceefd9a3dce0603b94348825c6fbb4032902c4b888cc18facc794ee72cc595a1",
       "revision": "R20",
-      "role": "documentation or verification"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "COMPONENTS.csv",
       "bytes": 7386,
       "sha256": "8e2443e160f1d8d08777e08b20f862ab75f0f542a4d2fdecc963e29cfe0de9f8",
       "revision": "R20",
-      "role": "documentation or verification"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "CONTRIBUTING.md",
       "bytes": 2255,
       "sha256": "7c0da9be0d1dbe8b35b8fb73ea5cf9650f4cac7c43fcce8d219c5e6db6a1f162",
       "revision": "R20",
-      "role": "documentation or verification"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "README.md",
-      "bytes": 4874,
-      "sha256": "c51d459ea94b05ea58606df8d1b717eb01deb8132e504ee038d571e646c599eb",
+      "bytes": 5591,
+      "sha256": "88e3c885e44f2333ae3b13f87739e0f5c6f738283cc377209e17b34c09beed80",
       "revision": "R20",
-      "role": "documentation or verification"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
       "bytes": 27058,
       "sha256": "d50ea66fd0a315e6e5f0a6e7b1b6574e561185e464c69f750225fa6201cbff50",
       "revision": "R20",
-      "role": "documentation or verification"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "VERIFICATION.md",
-      "bytes": 4633,
-      "sha256": "bf238bac9f270502a4fd1d8fd4d5573926aa43c3ca16ef56b98c1bb15b95a4c2",
+      "bytes": 5508,
+      "sha256": "016999899ad9e5145f7df8ce8c67d7d7a6f0296863f256f8893e98474868502a",
       "revision": "R20",
-      "role": "documentation or verification"
+      "role": "CAD source, export, documentation or verification"
+    },
+    {
+      "path": "assembly/README.md",
+      "bytes": 1739,
+      "sha256": "75f6fb058ffef039e9484b440ce668ef19b701aa867da0fd07360a960527f8b8",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/additional-hardware.json",
+      "bytes": 3022,
+      "sha256": "7198f4a009896ef6821e0c3ac0dbc7e34393306c8b1f5a2df1a29ea82be381c5",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/manifest.json",
+      "bytes": 155155,
+      "sha256": "c9184f5defc5c432ec34bb107eaa2928bce10431b12baf6eeb2af9ce260c3cb4",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_BodyBack.stl",
+      "bytes": 147384,
+      "sha256": "5cb5c675327124ef5476ebbd4a9251e77c03d1ba414da8ff4ce3ea6973e5a23f",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_BodyFront.stl",
+      "bytes": 169284,
+      "sha256": "9607d6c2abb296e8e7c7167ee98d61de8553fa4f1234cd93d8e0a64987527cf4",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_HeadPitch.stl",
+      "bytes": 90884,
+      "sha256": "10e0897b1e55eff8ad052784223b08953590fe7faa09f38872453d1205f1e34c",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_HeadYaw.stl",
+      "bytes": 70584,
+      "sha256": "b9e40a4772fc3ae1511b6f0d4de163b75c56eae29d2811269da0f01fc8bfcbfb",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_HipL_L.stl",
+      "bytes": 176284,
+      "sha256": "19cf147e0a7fff7a619e120ab7b0d4b0dfaa6edd6798ed26b4bd4f2828b87c99",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_HipL_R.stl",
+      "bytes": 176284,
+      "sha256": "dcf82916585abe9de85383637dc5f3525b9cd98871ef8c77ec9e9a8ee2de802d",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_Neck.stl",
+      "bytes": 70284,
+      "sha256": "55caa0de52a2a16beaf1ff877726f91aa86466dc20267edb3144d26a827a71bc",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_O2_EyeL.stl",
+      "bytes": 8884,
+      "sha256": "03a2ebd631efbf5fd1d639ac6a89f41e50a83fbe93bbbb1110c1e25555db3c12",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_O2_EyeR.stl",
+      "bytes": 16284,
+      "sha256": "361da157aca8d65820ab4835004d2431796d0474915601d6d68ca7eb9e546f4b",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_O2_HeadBase.stl",
+      "bytes": 490284,
+      "sha256": "fa8bb690dab68f6ea3ddf4aef331ad7912b106626c7719d6f20c189bfbe0724a",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_O2_Jaw.stl",
+      "bytes": 143484,
+      "sha256": "22eb32f70f28cc50e4208a5984a00f727bebe2d93ca6222666547e8b0f5ab488",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_O2_JawEdge.stl",
+      "bytes": 208484,
+      "sha256": "88b5f1103315d89ab535a307e78200d6ab4d4431948ddf7bad66a7486c1cd059",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_O2_UpperLip.stl",
+      "bytes": 46584,
+      "sha256": "b8c0d520a1fd78eeb4649cf8acaca1bc1f38d5cd6e1cb9b404aa6180df492c9d",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R10_EyeRing_L.stl",
+      "bytes": 107684,
+      "sha256": "d4ef79fcbc8bb281ebb7f868a00ca261a5357a95a4b2d1de6c141a193830115e",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R10_EyeRing_R.stl",
+      "bytes": 104084,
+      "sha256": "18fe33177bb373449ee8c3ff208596ab4b84a519029de1a7a0e98ab3ed1c365e",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R16_TwoEyeFace.stl",
+      "bytes": 107284,
+      "sha256": "f8edc3807cc0572e79c75b6f6a825cb653d6479347d83a26a7588784d7e150ae",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R17_FaceCarrier.stl",
+      "bytes": 122484,
+      "sha256": "109359e30ac36a47058c6b6372292ffd54297f50dcadce99e3b7b3923b7de86e",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R17_HeadYawClampCap.stl",
+      "bytes": 30884,
+      "sha256": "b761dfc6dbc05b21a08873769d1db32e0029c4f2b47c31eb71873f4e408fc1cf",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R17_JawBearingKeeper.stl",
+      "bytes": 37884,
+      "sha256": "65ddb5ca9dbae72ddbb74ee3f426942021ba5190d4193fa00ef9f6b60f38f9da",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R17_JawBearingPlug.stl",
+      "bytes": 22884,
+      "sha256": "39367193efc8241efd835561687d0ee3d5a1c4282864a31fd4855d0cfaa7aad7",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R17_JawBearingTower.stl",
+      "bytes": 60484,
+      "sha256": "e2789fec0c7af25c010813aa32dd02d29b1e0883383d65db644680b3628f9ed4",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R17_MouthServoCradle.stl",
+      "bytes": 48084,
+      "sha256": "02e18225eb4b74de7335c3c40cd6fc39352b92fd15a9ac43d235d521380cf6f1",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R17_MouthServoKeeper.stl",
+      "bytes": 17284,
+      "sha256": "6bbd347527eeabbf279303a73350ff231daee2712ea99c558b9450868a3052d5",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R17_RollCradleTopClamp.stl",
+      "bytes": 57284,
+      "sha256": "ed9f41ac8ced4131237ebaf9888e600abd775b8b12b4f88931b054e92fa33cca",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R17_RollServoCradle.stl",
+      "bytes": 97084,
+      "sha256": "c239a5c2c0817441a8229d8d87e021ab1a82a9912fb7c6d55cff949ca8a48c50",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R18C_PitchBearing_L.stl",
+      "bytes": 14484,
+      "sha256": "539b3eec9dac2075c0d819ba1a05486ce68a2c95c7d214b9b18ee5539d87d0b9",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R18C_PitchBearing_R.stl",
+      "bytes": 14484,
+      "sha256": "8ceada4b6a8e27a0b8e6f4023ac8c98d8d7a282580f163a9ac75476466f15f95",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R18C_PitchClampNut_L.stl",
+      "bytes": 8484,
+      "sha256": "a4481c2bb534dc0a0100be9498a8dda66490788d3a0c96230ad1c2a94edef27d",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R18C_PitchClampNut_R.stl",
+      "bytes": 8484,
+      "sha256": "442b9afc67adb2a86319783cb245a3b2e2a2baa2de7f5574874f676de63cf6b3",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R18C_PitchClampScrew_L.stl",
+      "bytes": 14284,
+      "sha256": "a30f977c812e5d077883f39e758f9c01f5970e37d23ab36695dedc0e594537ae",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R18C_PitchClampScrew_R.stl",
+      "bytes": 14284,
+      "sha256": "6d3eb834d2b8f22b72bd372118a42a936239f30f2586e9062d2564c3ae2ec80b",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R18C_PitchIdler_L.stl",
+      "bytes": 7084,
+      "sha256": "75a27268d4176cb94530a126ae974c033fe07dfaeec88bd108e5d62724611a75",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R18C_PitchIdler_R.stl",
+      "bytes": 7084,
+      "sha256": "1a692807416465d4943363f8af5d7f4cf439c3264fc277fe80bd5570f568f032",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R18C_RollBearing_L.stl",
+      "bytes": 14484,
+      "sha256": "df233b20717bdb868595c6730ad592048ed0e81a8dce62758921d82b4f0ede52",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R18C_RollBearing_R.stl",
+      "bytes": 14484,
+      "sha256": "2e706cdfcef90aa91ee63ebd36e88aaaedf5b54218ae530263cdfb0b13fee632",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R18C_RollClampNut_L.stl",
+      "bytes": 8484,
+      "sha256": "6556d690cd39a5d6b177587ab456d99c13b99e9ab217c145460190e65f906850",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R18C_RollClampNut_R.stl",
+      "bytes": 8484,
+      "sha256": "67dbc046984f05fc9c7f8d61f4e08ad3d5809cfd78061f306320236cd9d4b2c5",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R18C_RollClampScrew_L.stl",
+      "bytes": 14284,
+      "sha256": "c8c5c1fa9bc056fb105f017fec7e2ce3651bd6d9ce42eec4862ef17a56cc3b2c",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R18C_RollClampScrew_R.stl",
+      "bytes": 14284,
+      "sha256": "6b0e1cf42802e9949c08f4c39a83a50bbb3f1a6aae1ba9a9417500f4eac0a821",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R18C_RollIdler_L.stl",
+      "bytes": 7084,
+      "sha256": "d734971990a77b26f32bf72bce07afe2839b7b683b39f7ee229672a602682ff6",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R18C_RollIdler_R.stl",
+      "bytes": 7084,
+      "sha256": "5cf14ef7de867f52be0432bb67f5b5a45fd81349a2767e8986f17a0b1f0d27f8",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R18_NeckBearing693.stl",
+      "bytes": 14484,
+      "sha256": "a4380dc9492018bb64632d7d8ba2e122ad82d920939a37075b593622efdbb372",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R18_NeckBearingRetainer.stl",
+      "bytes": 28284,
+      "sha256": "f7aade0d66d8a4235a1fa0e32732bdebb58fae33c888a65d6a87901e251e9c2f",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R18_NeckM3Nut.stl",
+      "bytes": 8484,
+      "sha256": "56c6b1d4a96e9a98cabbc17ef0cf8dd4e33ad341b1ae9c6ca41553f29a8195da",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R18_NeckRetainerM2Nut0.stl",
+      "bytes": 8484,
+      "sha256": "b70ea8a3eb66080f4bcec79411eb11c6498bd7c1b03ecb39351009ed8e8acb05",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R18_NeckRetainerM2Nut1.stl",
+      "bytes": 8484,
+      "sha256": "530d4341b0b9493a8281ac27843c2a77898a870a8afa8bd41200f4d9c20fa789",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R18_NeckRetainerM2Screw0.stl",
+      "bytes": 14284,
+      "sha256": "4e78254911f05f0bb49601d21d80a6ccc7bd43d9246b4f304fbc8136da63f5df",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R18_NeckRetainerM2Screw1.stl",
+      "bytes": 14284,
+      "sha256": "15bc28f75bf8ccb47a7fa67472ea01e1048850bed84af839c6023b0f69f7bafb",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R18_NeckShoulderPin.stl",
+      "bytes": 14284,
+      "sha256": "4ee024b80a248ec565df8e1d8a31621eca0541a86ebe6f7b2abb69c37184a878",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R18_NeckSpacerInner.stl",
+      "bytes": 14484,
+      "sha256": "ce742374308a41d764e872a0253217ec566772db6e5768fc8d925745965c00ef",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R18_NeckSpacerOuter.stl",
+      "bytes": 14484,
+      "sha256": "0b34655fe21509148e6afb09636ed018be2b97313807a773b0c9b93d394a475e",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_R20_RemovableRearBand.stl",
+      "bytes": 182084,
+      "sha256": "9448bdec93e691e3ca68719c58fc4cb9a7062a952e154b5f84db31822a332909",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_RoundedFoot_L.stl",
+      "bytes": 162884,
+      "sha256": "72244a86adf7502bba9a568c17c70c2fbeaaa9f85146c10c86ab92e1ef3abe87",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_RoundedFoot_R.stl",
+      "bytes": 162884,
+      "sha256": "fc3dfae3ffdf7e7a63d9c202c7071e449b54cc35895da65d55a3eb1a15d1d2ea",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_RoundedSole_L.stl",
+      "bytes": 73884,
+      "sha256": "cdf1c0547779935089e962966fb5004c57352a88ca30b418738af887e81e9fa1",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_RoundedSole_R.stl",
+      "bytes": 73784,
+      "sha256": "146eae828624ec4384ea9a259979f0be7f188d88be5e31473b81a86447bcea06",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_Shank_L.stl",
+      "bytes": 93884,
+      "sha256": "95f3943a586932d72f70e16ccb7e5117f281ea90a3fd7cb5d4a911747215ee0c",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_Shank_R.stl",
+      "bytes": 93884,
+      "sha256": "513bc360172f0eb76d606b3006c6aa06171a43612033691a3189f17b1b79691b",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_SoftHeadShell.stl",
+      "bytes": 1232084,
+      "sha256": "13e3a4d9dc4267e339e842c091eedc607ab0493e4ff812deebe594888b3809c3",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ThighPlate_L.stl",
+      "bytes": 59684,
+      "sha256": "e111e4ae2289040b8b839e75e5310fdc440b6ac739812dc68813f11bf661bbb7",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ThighPlate_R.stl",
+      "bytes": 59684,
+      "sha256": "4b0acc8be07cf97a486ad03446bc84a5547d4ba6c65cea5e0d40737b782ae98a",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_Thigh_L.stl",
+      "bytes": 81784,
+      "sha256": "4bb2bc07cb6ee58be260ac8fd85e99def4e0361e2247b7366200e345c9533536",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_Thigh_R.stl",
+      "bytes": 81784,
+      "sha256": "37707ce720544569e455e16f90d787b51756e0d4b74c2c47e7995927b5db223b",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_Trunk.stl",
+      "bytes": 334584,
+      "sha256": "cda2606a42cc958787bb4ec5fea46ce16df81937ee0b8881faae5a6f25f00946",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_Yaw_L.stl",
+      "bytes": 62984,
+      "sha256": "58ab4856ffa25bccd87305568d941fb12f4d5a3f6c4c8a2b924184d0406c5dfa",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_Yaw_R.stl",
+      "bytes": 62984,
+      "sha256": "14e5666d7d8483fcb967ea79f78ce1c80ca7180bbae58e8289789559d27d34ee",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_Battery_Provisional.stl",
+      "bytes": 684,
+      "sha256": "386b0c9d8e9905da2ec3cc656873c879711a77bdbffd11e2a9782eb89a2f2632",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_CameraLED.stl",
+      "bytes": 7084,
+      "sha256": "499d52f55c2c8f29523dae453b7d523fa5209ce1f2d3a21d97f06d753e9383c7",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_CameraLens.stl",
+      "bytes": 5084,
+      "sha256": "6defcfd8f7d69a48c829c7ad7bf6e7074e798cd85f0971e5e1527daf6759db7f",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_CameraPCB.stl",
+      "bytes": 684,
+      "sha256": "23c20693e9a953a31a646583971771ba27759b3a865c9b5cc66d8c7a86f4d145",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_HAT_GPIO.stl",
+      "bytes": 684,
+      "sha256": "68adb5227199f89f230556573752dab916ea18b46fdac14c63c2b5f834ac6ad7",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_HAT_IMU.stl",
+      "bytes": 684,
+      "sha256": "26412d5f33b27f58275c126821fe74c96d308fdb0250c3a0c72a7ba14db787b5",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_HAT_J1.stl",
+      "bytes": 684,
+      "sha256": "75bcde1ebf1c95bfc4e0ded5bed12ae3ecd810ca1fd996c7081d54c07aa6376f",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_HAT_J11.stl",
+      "bytes": 684,
+      "sha256": "c9893391673df06e9c1840e85394111486366fd7d4b3bef84e7e253a1aaf3ba4",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_HAT_J13.stl",
+      "bytes": 684,
+      "sha256": "4b81f9907c65a838841f43e940e762a269a8d8905e0dcbe90243eb0062fc2010",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_HAT_J14.stl",
+      "bytes": 684,
+      "sha256": "0473fe1b1f55132366537f52cf588cc5cf11a8de7297911798a74aed6d24f497",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_HAT_J2.stl",
+      "bytes": 684,
+      "sha256": "e3c38808cfbbbbe0adab16b6c011d82946b497127ccdde9531d2f7fc50575aec",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_HAT_J3.stl",
+      "bytes": 684,
+      "sha256": "0c95e7b9225f599f417f1ba526564f13975a9b591fa60b2503586d00827cc0fe",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_HAT_J5.stl",
+      "bytes": 684,
+      "sha256": "f6c3a08d099b2d0fd2975d9775b291798a8b80f95c33aeced7f40ce968f5babf",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_HAT_J6.stl",
+      "bytes": 684,
+      "sha256": "8a453cac9caf5634905183fd6e3a0728e57f2869089b1ff781e0452cc11fd07f",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_HAT_J7.stl",
+      "bytes": 684,
+      "sha256": "54af24563a8e2e1b5de6ad30d03fd97145d92284b7467af0b2d3a3f5444f52d4",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_HAT_J8.stl",
+      "bytes": 684,
+      "sha256": "4bf2eb41e101fedad92a5515d1619388a1292d0fe763df8f9e532d12a2137756",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_HAT_J9.stl",
+      "bytes": 684,
+      "sha256": "0e3d6013bed84bfe622c869cd791c1c65a9710ff6edec239d72f42e59116fb83",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_HAT_PCB.stl",
+      "bytes": 30284,
+      "sha256": "fc97d9ae3dd3f8926e0749399e6af25357526d4682e8a392a571e9d68314c0ff",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_HeadIMU.stl",
+      "bytes": 684,
+      "sha256": "50699711ea76a854e4abfe95a0008432e357f9a61c54a767b146c99a13a1bcf3",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_R17_FaceFasteners.stl",
+      "bytes": 111684,
+      "sha256": "a62942c14cc49abe3a8800a346ba7bfaf4f85f1291ec3587e6d7ac6e6188b04f",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_R17_FixedCarrierFasteners.stl",
+      "bytes": 56884,
+      "sha256": "49e1acbfbe932486d7b089a33a7633677ba63ed1a7e5b84a9e4f8814d251e43c",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_R17_HeadModuleFasteners.stl",
+      "bytes": 255684,
+      "sha256": "ba3a03df1d888658da561a4513c9f69ce66ab7466c61d000ff1ca0f1290eece2",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_R17_JawBearing16x22x4.stl",
+      "bytes": 14484,
+      "sha256": "a12ad3ca3f3a59c4ebe3838d08f838a76425924b6b18954fafb3b531d420ae8e",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_R17_JawFasteners.stl",
+      "bytes": 14284,
+      "sha256": "f729f45aa49b24330a8e7feeda3b3a96c610730b45bc5a8ce4fe1fcf3c32064c",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_Radxa_GPIO.stl",
+      "bytes": 684,
+      "sha256": "5f8fc686d6fef9bd316b9191f4a0336a56981cd7aae439edba86ea63c8e993e9",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_Radxa_PCB.stl",
+      "bytes": 30284,
+      "sha256": "1c248afef3d60e34b2f6118d5056e7fd7493ec10b86d3e297b7d0fdfd812ec44",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_ToFOptics.stl",
+      "bytes": 7084,
+      "sha256": "93a0e8e4a093a59c76b8253087db3041a71359b4e32a1f543b98662d27e8193b",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_ToFPCB.stl",
+      "bytes": 684,
+      "sha256": "dc2578f0f40f0e9d11f3dc56b778376995d5bb37884baf4a0607213eae151684",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_horn_head_pitch.stl",
+      "bytes": 7084,
+      "sha256": "66676517de99631812876185eee105511eed52234f74efc3b96bcd00b27b0ee1",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_horn_head_roll.stl",
+      "bytes": 7084,
+      "sha256": "12d7953d6d6ea93b6ee256898c41e5d054048e324b4e7866af59a0b4aacc74b4",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_horn_head_yaw.stl",
+      "bytes": 7084,
+      "sha256": "4a6957f63905456533d99220c35c55748a9357e90477963014be9431837d9081",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_horn_left_ankle.stl",
+      "bytes": 7084,
+      "sha256": "e7c650e33bc270281376ef018ef42d6c09c10d83525ddbc310f1acd4e8e51eac",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_horn_left_hip_pitch.stl",
+      "bytes": 7084,
+      "sha256": "56072354d9dbf592c77b32ba1d5d22b6fba868cf4fb5d1ee54dc6e77583d1a8f",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_horn_left_hip_roll.stl",
+      "bytes": 7084,
+      "sha256": "b8d113548fbcd1becc0c1aa8cf2f34b9f82425c0057e9fdd1d1e7aa06eec90a4",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_horn_left_hip_yaw.stl",
+      "bytes": 7084,
+      "sha256": "8c7b2f08d690024bf71544312ad639fac56b33f6b539d7ad636f3ff78ec586a1",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_horn_left_knee.stl",
+      "bytes": 7084,
+      "sha256": "888bcc0e7fc063a4ec7cdfd6b5da895ca01b6a9dfe655fa1169d16e123f6751e",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_horn_mouth.stl",
+      "bytes": 7084,
+      "sha256": "0e176cf6bb3544676a0669a9a34a8b1bf244e6df8909a9f728612b88d7c63041",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_horn_neck_pitch.stl",
+      "bytes": 7084,
+      "sha256": "dfb6d434adc93bd1518ab0aace485730c5710783476cebb6acdcacd5da1c5cc6",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_horn_right_ankle.stl",
+      "bytes": 7084,
+      "sha256": "b34267ecb5a88315d6d8067b9b6dae86eee7d9d3ce07f6df8af863595a0f0e82",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_horn_right_hip_pitch.stl",
+      "bytes": 7084,
+      "sha256": "a5417d940c075827b97d78a0f28a6d7c91f4711a07ed4fb706fb027bdb68bf88",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_horn_right_hip_roll.stl",
+      "bytes": 7084,
+      "sha256": "38ff469cea5e2c557b7efe0b34cad2bed9b91565ab055d2355365f50057cf4dc",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_horn_right_hip_yaw.stl",
+      "bytes": 7084,
+      "sha256": "e4cef181f431774261f19c39d7c3db16a1ef411ae116fe4ce565eb948d9af1aa",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_horn_right_knee.stl",
+      "bytes": 7084,
+      "sha256": "a46952b7713625c68b3ce444ebdbb9bf61e9723dd55778f9755061c8d736e7e9",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_servo_head_pitch.stl",
+      "bytes": 684,
+      "sha256": "17e2c9f3c05f687f1bcd5c8c24f940fd8a5353ab81dc5bfd8de214664d170402",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_servo_head_roll.stl",
+      "bytes": 684,
+      "sha256": "ea0df798b69a64ada10f7801f44bd548e36fcf9d342baf9be82d1e9bd119ad89",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_servo_head_yaw.stl",
+      "bytes": 684,
+      "sha256": "383cf0ebcf6744c4fdf17330599149edb0bb61458fae740d58a50cf68c24c60c",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_servo_left_ankle.stl",
+      "bytes": 684,
+      "sha256": "ba9ef0bd807af6947de16717a28621fa5ee2d610cddc65322b5f09b322f94b5a",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_servo_left_hip_pitch.stl",
+      "bytes": 684,
+      "sha256": "1ede9e29e2fd36836fc41ebc964ce279cb5f4f65783299bbd8321f3badd2424e",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_servo_left_hip_roll.stl",
+      "bytes": 684,
+      "sha256": "72d2e6ebd9a8a5a14f4138c2773ab9e1c588935600f3c101d20170550ed9ff62",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_servo_left_hip_yaw.stl",
+      "bytes": 684,
+      "sha256": "194df980e83c3cd3f9abf0aefd76f347082ef2c1f98aaa77532d1d5347bc4eaf",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_servo_left_knee.stl",
+      "bytes": 684,
+      "sha256": "ca3e7d7a98c491815876cec47a97037cd4d909ed8f3bb1ff906cca099ad78139",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_servo_mouth.stl",
+      "bytes": 684,
+      "sha256": "a186ef401ab832629f1335cc3375838445a6a13a501f327dea4fb24ef0f18652",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_servo_neck_pitch.stl",
+      "bytes": 684,
+      "sha256": "ceacc06d4f407217d1289b64dffc615b3e1a997abfb566dc9a8e7227ceb970f2",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_servo_right_ankle.stl",
+      "bytes": 684,
+      "sha256": "e46d47589c4d3559221f26e59ad14d469fa5c3fdce4623450d90a4f49e63d179",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_servo_right_hip_pitch.stl",
+      "bytes": 684,
+      "sha256": "818697f1c2d1d488e51f721a62946ae7ef512ea87e3b117d1de92ac69a5967c9",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_servo_right_hip_roll.stl",
+      "bytes": 684,
+      "sha256": "a3c85c5ad4d6a3f23200aa6a346b93a9fa7dddb0207fae5fcf16601e694a5841",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_servo_right_hip_yaw.stl",
+      "bytes": 684,
+      "sha256": "2d281794439b90b5ad8030d93fc3e58ac4e92d3a9911b19fd5d44de30c9ea6cc",
+      "revision": "R20",
+      "role": "assembly display"
+    },
+    {
+      "path": "assembly/meshes/A_ref_servo_right_knee.stl",
+      "bytes": 684,
+      "sha256": "348e61c9c8155634e24e9a7d8f477d6a180de340bf5d9d59110264ef3851d947",
+      "revision": "R20",
+      "role": "assembly display"
     },
     {
       "path": "drawings/README.md",
       "bytes": 325,
       "sha256": "fcd2efe7852ac657ba19985267170a5e84ff9cc4e1287ac74b4a5d695dc2981c",
       "revision": "R20",
-      "role": "documentation or verification"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "drawings/inherited-R18/01_compact-neck.pdf",
       "bytes": 1450536,
       "sha256": "ee5d4716a3bc22658cf7b0f2ff41c5a45b78483bdc1bc3c4b613c1740be7c15d",
-      "revision": "R18 retained in R20",
-      "role": "inherited R18 review drawing"
+      "revision": "R20",
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "drawings/inherited-R18/01_compact-neck.svg",
       "bytes": 321259,
       "sha256": "350081895b9f3d9b72df085bda2ff583673db6e41b9263d2cd8056a7a36fda66",
-      "revision": "R18 retained in R20",
-      "role": "inherited R18 review drawing"
+      "revision": "R20",
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "drawings/inherited-R18/02_compact-reinforcement.pdf",
       "bytes": 444728,
       "sha256": "988f7762f80f70b84b12c0915c3157d4607e52be31da353e22d78f5c406a4300",
-      "revision": "R18 retained in R20",
-      "role": "inherited R18 review drawing"
+      "revision": "R20",
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "drawings/inherited-R18/02_compact-reinforcement.svg",
       "bytes": 150412,
       "sha256": "508e5b6b6e469b04f34af3f9beb761451af21934b9cd1b4c58ea477ce2564df9",
-      "revision": "R18 retained in R20",
-      "role": "inherited R18 review drawing"
+      "revision": "R20",
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/IndieDuck_R20_Assembly.step",
       "bytes": 42969867,
       "sha256": "182b1a8347c34981a2f438afd47637fc1e01e8d9307fe22d9470f5ef51af74c2",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_BodyBack.step",
       "bytes": 176569,
       "sha256": "8785bcf6626801227dace31acc967e1e57f4ed5c08fc6ebcec4ce2bb4151f678",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_BodyFront.step",
       "bytes": 224077,
       "sha256": "b3e27f77ef6480a393ee1669619ea006ae5004134ced7aeb5caf284204fd96d4",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_HeadPitch.step",
       "bytes": 39070,
       "sha256": "c3ba37b8388e24ad89918a307052b36b8af81e68255665f732383a9aa26ff7cf",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_HeadYaw.step",
       "bytes": 53161,
       "sha256": "af290d6fb9394c2ed474d853005617845c134c1ba5d2f733841957d039f0b13a",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_HipL_L.step",
       "bytes": 111915,
       "sha256": "b1253adc71535677c2a3a5a21a5e1680fff800c63739ddcf907b14354aa5fd08",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_HipL_R.step",
       "bytes": 113178,
       "sha256": "abd449218ad58fa5059aae4944f1afe80de76d981f8805c721b54c8058c3927e",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_Neck.step",
       "bytes": 38363,
       "sha256": "ee52d7a1a84d2f3d3db1273b1ee4783cc660f70e8d1ee187bfe2f82acb20208a",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_O2_EyeL.step",
       "bytes": 3648,
       "sha256": "daa0b3f18a5ee9b5529dc606fac758d30798466249aab5bbe9efa0a363a3e689",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_O2_EyeR.step",
       "bytes": 5100,
       "sha256": "75d5114e00b810115eea62576b171a28b0eab9d5798f91c5e8e36a5dc8017f00",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_O2_HeadBase.step",
       "bytes": 6142988,
       "sha256": "c669389daaf1a11098358ba239135c622156b6f7d7e574c22b639747edfae010",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_O2_Jaw.step",
       "bytes": 1130618,
       "sha256": "f5705a07697643db42ba52e158878c5a1000ce100d5cbe30bc56878178d7c042",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_O2_JawEdge.step",
       "bytes": 4273818,
       "sha256": "9962c3b43e0494fd978d50d41f9537142d94c057d16c1d7e049cc0685a12bdcc",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_O2_UpperLip.step",
       "bytes": 894552,
       "sha256": "2092c16b1648a4a76b0bb46ec7b6bb12738882fde6b2efb13029d6936d884a70",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_R10_EyeRing_L.step",
       "bytes": 36166,
       "sha256": "e5fa60c5cfc251a536fc075448b6919d97415192e69daec1b8cc8d4c5489d23f",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_R10_EyeRing_R.step",
       "bytes": 36092,
       "sha256": "7d40fd1825ef98efdbd19a90a5984ae6e1000106dc651666fda387b1f1878593",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_R16_TwoEyeFace.step",
       "bytes": 170115,
       "sha256": "69060b8a6be381aa8f6f0894aed88013aec61fe9247bcb6a73aa19012131c5d7",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_R17_FaceCarrier.step",
       "bytes": 153045,
       "sha256": "6e2234947ebb905b01190966f9bb58ffcc844ee70c60eb85650449672cb07d8e",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_R17_HeadYawClampCap.step",
       "bytes": 17369,
       "sha256": "3fa6c66b925ce625c8235123c1a15e85747dcca913d5012c5cac806ad05f8123",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_R17_JawBearingKeeper.step",
       "bytes": 13905,
       "sha256": "58b4c8993e08b70d689c9dcad209c3a733b113b773e81b10cb51def56a705ec6",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_R17_JawBearingPlug.step",
       "bytes": 15899,
       "sha256": "756c7b1ca486b301229597acf66187e8ca49585858dcd38a7c0e1e69320d3b9f",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_R17_JawBearingTower.step",
       "bytes": 27313,
       "sha256": "9c35746c9dba4f06d63117dbe898a151c00df8ad6dc7b38f6e456965ec373c3e",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_R17_MouthServoCradle.step",
       "bytes": 37046,
       "sha256": "bd1a698d22cdbaa265f042c4426a36a116924d290bbcedac4768d38511661487",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_R17_MouthServoKeeper.step",
       "bytes": 11431,
       "sha256": "3f09b3d00c0b3a283c84aee9fb46edc5a954490b391e4afd3622b25358b99116",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_R17_RollCradleTopClamp.step",
       "bytes": 19295,
       "sha256": "89dfa42e7e712cf44252cb503b0a9893948190f01bb6b32f2b8c9d1109babe37",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_R17_RollServoCradle.step",
       "bytes": 63729,
       "sha256": "f5a011fd5de8d3cd8503597d901dfa86e7ff4b5d2f01bec92a5e674918c8165c",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_R18_NeckBearingRetainer.step",
       "bytes": 15147,
       "sha256": "109c856a03ac6eb5886712ca187d147410e6008d920398f27b60c5fbb3350025",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_R20_RemovableRearBand.step",
       "bytes": 1881072,
       "sha256": "a81d1f6bac96322acf0de0ec6f397d4d3061015425931959728663e203e7be8a",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_RoundedFoot_L.step",
       "bytes": 150114,
       "sha256": "d7d7ee85f0f734d48ddd5cece476b6cf0e68517b909f98b01c44eda2f2f17187",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_RoundedFoot_R.step",
       "bytes": 150712,
       "sha256": "95469d0acee1a4dacd8e6bad579db59f917ddb2ca341789582980f35e7a59023",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_RoundedSole_L.step",
       "bytes": 45908,
       "sha256": "07f2a67da5f137548d6852280788a43e49b784e96acd8e65eaf70fa54af98b27",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_RoundedSole_R.step",
       "bytes": 46181,
       "sha256": "1277ffff5ea0dfb7e57c2a895a70e1cfcf690714d336f81c7bad59eea75a5512",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_Shank_L.step",
       "bytes": 57254,
       "sha256": "47540ec63d0947c396104854c116adfe29410f9f74f3958de9642496122cbde6",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_Shank_R.step",
       "bytes": 57629,
       "sha256": "0ffd5dbe1a65288e33065ee1f5c70f8e3347f6e7b880a084a0c4088622207f30",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_SoftHeadShell.step",
       "bytes": 24237267,
       "sha256": "a821bb7d0e031c46c297aee4119470c4dce2d2f3bfc941e0d6b10d0947786fd3",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_ThighPlate_L.step",
       "bytes": 23127,
       "sha256": "32abb6e3991ee90386a3b451d6f5dd4eef700be7ed88efcb6b71cd3fe7ad64a3",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_ThighPlate_R.step",
       "bytes": 23215,
       "sha256": "f1c472496755faf9f905b0d3d8e3d368e231ed97afef9a6d9ff18d3b4ffee7e7",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_Thigh_L.step",
       "bytes": 60504,
       "sha256": "833efefd62f626c3e79d78be96e55e2853cc7e7e2eed6b3ab7cdfe912a55eac9",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_Thigh_R.step",
       "bytes": 61419,
       "sha256": "9b40cdd65b02fdc8e94d9614be2fe011a04d1a6824359d1591c76254c66ed1ad",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_Trunk.step",
       "bytes": 263866,
       "sha256": "41a8b2cd5a64d7aead3cf07b94699d25d873b79e3455ad486f0908c1340a1ca9",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_Yaw_L.step",
       "bytes": 36186,
       "sha256": "aa6d91af07e130dda4a390e8fc80f0856df56ad14332224944fa75601e96d0df",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/step/R20_Yaw_R.step",
       "bytes": 36349,
       "sha256": "636f0d3362579a90231c95d7a729a10bcbf1fe9f9b5f4309701d4d663faff08c",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_BodyBack.stl",
       "bytes": 344784,
       "sha256": "59b0902aac72ba30f64458a2d8b23b1e5ebb838fe525151a81a8a9604f458962",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_BodyFront.stl",
       "bytes": 980884,
       "sha256": "3f24ae8e73fc17e872362b038a33d5e5fc5797586322597f2a0a71eb32c51dfb",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_HeadPitch.stl",
       "bytes": 105284,
       "sha256": "05e33b4f5c99f566ba2ebd108b23a2df03bb752d46791b997afd603dcb192daa",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_HeadYaw.stl",
       "bytes": 81384,
       "sha256": "3e9391a73d1599261a9fd7db48d36408a1beb7f48dd125b22ad3fce3d1efa02a",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_HipL_L.stl",
       "bytes": 209484,
       "sha256": "da0b81ee3917652600fc012eb13e2b761bcb3a87ed8da5bffcfb6b01f251e32c",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_HipL_R.stl",
       "bytes": 209484,
       "sha256": "b74c4365eb06280e96605a43987fd4cd6a9fe62058fa81b9595f5364321a4ae2",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_Neck.stl",
       "bytes": 81484,
       "sha256": "ee5e2d3369ab0b8372db0d196d154ff8735dbb7ece08ff33990fe24c0e9ee034",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_O2_EyeL.stl",
       "bytes": 10684,
       "sha256": "e7b60b6d4a51ff8dbb2681ac666aad4289ddf91c3ef19cb87bc93c50a8d43824",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_O2_EyeR.stl",
       "bytes": 19284,
       "sha256": "bd24c7ed9c02cf39c7c02c049bf0294921c82c40dc80c2dd8b91710a6378a7da",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_O2_HeadBase.stl",
       "bytes": 510384,
       "sha256": "849919b7ede12551dc1e5815e082251a4cf5a7b2b6b35baa10a3714cc14a1048",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_O2_Jaw.stl",
       "bytes": 151884,
       "sha256": "5e88132dc57469a9366a3d1a4157a8e266fbfaa2b02b14dbcf7745408ad472b6",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_O2_JawEdge.stl",
       "bytes": 208484,
       "sha256": "c6fa0adfc5e3008b1107c6e2e845a17ef84371cea6882b56547f0ec01dcc6b0d",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_O2_UpperLip.stl",
       "bytes": 46584,
       "sha256": "0440967b4f607faf29bd863171f649d19c90fca6c06142a27c3ee867466eac46",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_R10_EyeRing_L.stl",
       "bytes": 144884,
       "sha256": "a1a605441cc192ec890f89ba9b93cfc3c1b4bc2efce0e8a0e31f44068cbfcb5b",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_R10_EyeRing_R.stl",
       "bytes": 142284,
       "sha256": "f8bbe35c77fdf8c8393dd28b04f175b465b99799248e7621e4a30acd7a4ba16d",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_R16_TwoEyeFace.stl",
       "bytes": 124884,
       "sha256": "15e4b1a4f5a601e9b71dfaebe0642221aa8f4b323575599a07d51b1c0ab3979c",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_R17_FaceCarrier.stl",
       "bytes": 139284,
       "sha256": "17f563573685e1955ea685d3edc95c8a11b1f35755e8f4c4183fa90758dfe57c",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_R17_HeadYawClampCap.stl",
       "bytes": 35684,
       "sha256": "0e758c714cc8353a047ed6e21d2682432bc338c34025678771487112ea555018",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_R17_JawBearingKeeper.stl",
       "bytes": 46484,
       "sha256": "e4816aba782511851369985b5ba81e1aa1c3ec87912636036a2b5125e455493f",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_R17_JawBearingPlug.stl",
       "bytes": 26484,
       "sha256": "d683cac085fa57d8a83860725b4dd4693732bd106f73740c00e65e70364c471e",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_R17_JawBearingTower.stl",
       "bytes": 73684,
       "sha256": "59ca14e5caf96d638eb19c6957d4f9405ad8384a654f6426ef5dc3e1eda12017",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_R17_MouthServoCradle.stl",
       "bytes": 54884,
       "sha256": "624fa30a072d140c1df481b1dc1097e8dbc745f2ca26ab5a9f3d3c501ded822d",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_R17_MouthServoKeeper.stl",
       "bytes": 20084,
       "sha256": "c1d0c740ea5a2702786e2ad09c5a3af0f1a9729f67ebf8c3afcf15ec680cf94f",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_R17_RollCradleTopClamp.stl",
       "bytes": 75084,
       "sha256": "9b1eedc2879ffcf929f4049e6ff4d4183e1950895502bfe00d59f89d6627e410",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_R17_RollServoCradle.stl",
       "bytes": 111884,
       "sha256": "27aea7ac34f42c886f62b1dbbdefaac909e84d6e8d9a80de0749bb2b62bba6a7",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_R18_NeckBearingRetainer.stl",
       "bytes": 32484,
       "sha256": "cfcadf7891c8c67580c7ac587b3ed1eee76308e407916e0875baceea56ae2e22",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_R20_RemovableRearBand.stl",
       "bytes": 2477684,
       "sha256": "e7e1bb0f461e1455e8096ea9e2b4b4cd775aa7f23a9779753785f37167d14ba4",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_RoundedFoot_L.stl",
       "bytes": 214584,
       "sha256": "6cde728d4bbefff6438462f23a1b6130cf290d98687e1a1d0beb8ef04890a610",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_RoundedFoot_R.stl",
       "bytes": 214584,
       "sha256": "c279674086dff38fde2b7928ed43788ca05553c0b0209a86ad1bcd6a714e2d53",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_RoundedSole_L.stl",
       "bytes": 98884,
       "sha256": "a25a32c5e49cf3eca103a3cd6eed8b13f7220be46cb3459878ced41453abd704",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_RoundedSole_R.stl",
       "bytes": 98884,
       "sha256": "7f9e24e68c09277a971d4962fd25b9ec69d1d338e9de89512771c7dc448b97c0",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_Shank_L.stl",
       "bytes": 108884,
       "sha256": "4bacc95a6d01b498bef54085d36c6a61124fd8ba7c83375d1b1e5af9201c522b",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_Shank_R.stl",
       "bytes": 108884,
       "sha256": "8d06493cde8a53e6d41a9c6756adfdab6a9d716519ab931fad0ace519a2c89d3",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_SoftHeadShell.stl",
       "bytes": 1244484,
       "sha256": "399242f69388055a374272d4aea7382d356b97fc616260e09eddb7e856bd9385",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_ThighPlate_L.stl",
       "bytes": 69684,
       "sha256": "61d3795aa1ff008386e409cef8e1a3af619b6450fe59eae907045bb9810bdc5c",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_ThighPlate_R.stl",
       "bytes": 69684,
       "sha256": "82d49370d9bc07a11d6c19d2398b112eb13e0825064e702427dcc0f41fcc6f76",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_Thigh_L.stl",
       "bytes": 94884,
       "sha256": "b8f7c250cd94ff7130241802bb0c0c0456e61a76228cf19e600d1c397bcc32e5",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_Thigh_R.stl",
       "bytes": 94884,
       "sha256": "bba1d2b17873677505c5e00fd8ce825487bda5c9ea68a827b2251c1b2d7f38b1",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_Trunk.stl",
       "bytes": 386584,
       "sha256": "0ec066d9666a8c845e25578932d335143851366468858c2cc552d5a1335f2d03",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_Yaw_L.stl",
       "bytes": 73684,
       "sha256": "045a076989bc97a87b024a6c350a04e69db8df152f9c374fe8402c0979f1677c",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "exports/R20/stl/R20_Yaw_R.stl",
       "bytes": 73684,
       "sha256": "d8f319a26423900b5de83ae5fdb12e6b998e1e1323375a2302e2edd52ec00939",
       "revision": "R20",
-      "role": "R20 export"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "native/head-band/README.md",
       "bytes": 365,
       "sha256": "1c0abe6dfab786f6e2d30246b5ad5a6747edb329cd05a2a8470e043427484a5f",
       "revision": "R20",
-      "role": "documentation or verification"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "native/robot/IndieDuck_R20_Assembly.FCStd",
       "bytes": 78585,
       "sha256": "02c83ef661fc768fe100043775ea006eb05987fa1d87865f85c6e3a1e57b9e34",
       "revision": "R20",
-      "role": "native CAD"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "native/robot/IndieDuck_R20_HeadBand.FCStd",
       "bytes": 30046294,
       "sha256": "f59cb790c4587751741284f31cdb80708825c9fc9f9811f8aecc4785a89a34da",
       "revision": "R20",
-      "role": "native CAD"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "native/robot/IndieDuck_R20_Interfaces.FCStd",
       "bytes": 1306385,
       "sha256": "141cfefba129f87f37fb8eab72a8c51fc2dcdc8780c92aeb2cc5e4e217cc6d49",
       "revision": "R20",
-      "role": "native CAD"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "native/robot/IndieDuck_R20_Structure.FCStd",
       "bytes": 75993739,
       "sha256": "19b1195f3c9ef2cc6c2d1cf79a160b4f384caa9ae4ffaf793a57cc0ed4235295",
       "revision": "R20",
-      "role": "native CAD"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "previews/R20-assembly.png",
       "bytes": 147346,
       "sha256": "6b24b3d8adbb36536254a6aa86236740cb1aecacf84cd307db094b3ca63a6769",
       "revision": "R20",
-      "role": "actual CAD preview"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "previews/R20-band-exploded.png",
       "bytes": 139646,
       "sha256": "6e283a21175530ce4003412ea5ed6b9c256268a23e742f0e0d27fddcabcd6d1c",
       "revision": "R20",
-      "role": "actual CAD preview"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "previews/R20-front.png",
       "bytes": 91279,
       "sha256": "484641c25211c55517b59e82e2044eb53215753d58f30ab2488aebdf41a0c95b",
       "revision": "R20",
-      "role": "actual CAD preview"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "previews/R20-head-band-attached.png",
       "bytes": 135707,
       "sha256": "c129e431f6e99dc7ca5ac9b0e19a64f9d8c4994bb90c550e2108f2395d2a09c9",
       "revision": "R20",
-      "role": "actual CAD preview"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "previews/R20-rear.png",
       "bytes": 152706,
       "sha256": "93c4466ebd781fa8e34e1175623130eca52832ea030bfb4f012b2a4498237fa4",
       "revision": "R20",
-      "role": "actual CAD preview"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "previews/R20-reopened-package.png",
       "bytes": 147591,
       "sha256": "9f3dd610bcc9f4b188aec3638ec29070a1ed9821464df7ab40fab6651efc8a6c",
       "revision": "R20",
-      "role": "actual CAD preview"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "previews/README.md",
       "bytes": 378,
       "sha256": "c853b5baecffa11584d62bcf3191dbc61e0112301870098f58b6e2537af4a73a",
       "revision": "R20",
-      "role": "documentation or verification"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "validation/band-mesh-quality.json",
       "bytes": 326,
       "sha256": "885f4c3dd31f6eeb0ca1b10b995097ebbbeb31cd6212eea889037d03a8e9c816",
       "revision": "R20",
-      "role": "documentation or verification"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "validation/export-readback.json",
       "bytes": 7242,
       "sha256": "deb6542c01344e56ccb5978ed00944348024a91d692a38c07392a278bc63ee13",
       "revision": "R20",
-      "role": "documentation or verification"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "validation/exports.json",
       "bytes": 20681,
       "sha256": "50bd114f4efb57fcf42be173e1e97b705e92df1c53df5b9ade1a1b2f64cef095",
       "revision": "R20",
-      "role": "documentation or verification"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "validation/gui-reopen.json",
       "bytes": 284,
       "sha256": "9a8b4d9c009bd33c8d5a96d4460b7ac5d0c4855692fec34fdcbb170e85584403",
       "revision": "R20",
-      "role": "documentation or verification"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "validation/integration.json",
       "bytes": 1282,
       "sha256": "1362dddf58a3effa9f61bec5a8d4c851f8562840d50a82541b22619ca81fa11c",
       "revision": "R20",
-      "role": "documentation or verification"
+      "role": "CAD source, export, documentation or verification"
     },
     {
       "path": "validation/isolated-reopen.json",
       "bytes": 1353,
       "sha256": "aca2bca95b54d7aad7fb31c3d368adca393b35f6bcd3dd9d27e2081314f958c7",
       "revision": "R20",
-      "role": "documentation or verification"
+      "role": "CAD source, export, documentation or verification"
     }
-  ]
+  ],
+  "assembly_display_manifest": "assembly/manifest.json"
 }
