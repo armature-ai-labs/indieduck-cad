@@ -1,0 +1,12 @@
+{
+  "closed": true,
+  "nonmanifold": false,
+  "inconsistent_normals": false,
+  "invalid_neighbourhood": false,
+  "corrupted_facets": false,
+  "mesh_volume_FreeCAD": 7554.63037109375,
+  "centered_triangle_volume_mm3": 7554.697037400177,
+  "brep_volume_mm3": 7729.295119291638,
+  "facets": 49552,
+  "self_intersections": false
+}

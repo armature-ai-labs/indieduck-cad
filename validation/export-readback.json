@@ -1,0 +1,219 @@
+{
+  "status": "TOPOLOGY_PASS_WITH_RECORDED_VOLUME_DISCREPANCIES",
+  "stl": [
+    {
+      "file": "exports/R20/stl/R20_Trunk.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.008552266800526986
+    },
+    {
+      "file": "exports/R20/stl/R20_Neck.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.012906753751977943
+    },
+    {
+      "file": "exports/R20/stl/R20_HeadPitch.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.052483412724457876
+    },
+    {
+      "file": "exports/R20/stl/R20_HeadYaw.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.009601836417981801
+    },
+    {
+      "file": "exports/R20/stl/R20_Yaw_L.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.026256486836007224
+    },
+    {
+      "file": "exports/R20/stl/R20_HipL_L.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.011599380457919119
+    },
+    {
+      "file": "exports/R20/stl/R20_Thigh_L.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.005126869310022309
+    },
+    {
+      "file": "exports/R20/stl/R20_Shank_L.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.010030685252712756
+    },
+    {
+      "file": "exports/R20/stl/R20_RoundedFoot_L.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.06816077405693817
+    },
+    {
+      "file": "exports/R20/stl/R20_SoftHeadShell.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.0007730626905904007
+    },
+    {
+      "file": "exports/R20/stl/R20_BodyFront.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.020733542708059424
+    },
+    {
+      "file": "exports/R20/stl/R20_BodyBack.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.06931280373626078
+    },
+    {
+      "file": "exports/R20/stl/R20_RoundedSole_L.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.05227908221043427
+    },
+    {
+      "file": "exports/R20/stl/R20_ThighPlate_L.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.01927041489009585
+    },
+    {
+      "file": "exports/R20/stl/R20_O2_HeadBase.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.02266701199318468
+    },
+    {
+      "file": "exports/R20/stl/R20_O2_Jaw.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.018450360248795993
+    },
+    {
+      "file": "exports/R20/stl/R20_O2_UpperLip.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.00488697622783157
+    },
+    {
+      "file": "exports/R20/stl/R20_O2_JawEdge.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.0018104024169412075
+    },
+    {
+      "file": "exports/R20/stl/R20_Yaw_R.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.0256615088643219
+    },
+    {
+      "file": "exports/R20/stl/R20_HipL_R.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.011229623476896943
+    },
+    {
+      "file": "exports/R20/stl/R20_Thigh_R.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.005403487034543907
+    },
+    {
+      "file": "exports/R20/stl/R20_Shank_R.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.009611305988980141
+    },
+    {
+      "file": "exports/R20/stl/R20_RoundedFoot_R.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.0681193879783881
+    },
+    {
+      "file": "exports/R20/stl/R20_RoundedSole_R.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.052332942461675726
+    },
+    {
+      "file": "exports/R20/stl/R20_ThighPlate_R.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.018024631015696912
+    },
+    {
+      "file": "exports/R20/stl/R20_O2_EyeL.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.24618690395165654
+    },
+    {
+      "file": "exports/R20/stl/R20_O2_EyeR.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.1669397256926443
+    },
+    {
+      "file": "exports/R20/stl/R20_R10_EyeRing_L.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.3633425811639213
+    },
+    {
+      "file": "exports/R20/stl/R20_R10_EyeRing_R.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.39217795540562456
+    },
+    {
+      "file": "exports/R20/stl/R20_R16_TwoEyeFace.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.06447927685013359
+    },
+    {
+      "file": "exports/R20/stl/R20_R17_HeadYawClampCap.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.013427968493613121
+    },
+    {
+      "file": "exports/R20/stl/R20_R17_RollServoCradle.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.070370810145609
+    },
+    {
+      "file": "exports/R20/stl/R20_R17_RollCradleTopClamp.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.05436771072875948
+    },
+    {
+      "file": "exports/R20/stl/R20_R17_MouthServoCradle.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.008862663590211522
+    },
+    {
+      "file": "exports/R20/stl/R20_R17_MouthServoKeeper.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.023008724793527887
+    },
+    {
+      "file": "exports/R20/stl/R20_R17_JawBearingTower.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.02683587302400665
+    },
+    {
+      "file": "exports/R20/stl/R20_R17_JawBearingKeeper.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.0794564009185472
+    },
+    {
+      "file": "exports/R20/stl/R20_R17_JawBearingPlug.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.38892822867363597
+    },
+    {
+      "file": "exports/R20/stl/R20_R17_FaceCarrier.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.0030415287137160476
+    },
+    {
+      "file": "exports/R20/stl/R20_R18_NeckBearingRetainer.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 0.08148085662028808
+    },
+    {
+      "file": "exports/R20/stl/R20_R20_RemovableRearBand.stl",
+      "closed_after_readback": true,
+      "volume_difference_percent": 2.260111987643875
+    }
+  ],
+  "assembly_volume_comparison": "Above the initial 100 ppm comparison threshold; retained as an unresolved numerical discrepancy, not a precision pass",
+  "assembly_step": {
+    "valid": true,
+    "solids": 161,
+    "volume_mm3": 766328.6023925425,
+    "native_visible_volume_sum_mm3": 765924.5762988083,
+    "volume_difference_ppm": 527.5011485942628
+  },
+  "limitation": "Band mesh topology passes, but the BRep/triangle volume difference remains approximately 2.26 percent. Assembled STEP mass comparison also differs from the summed visible native shapes. This is not a geometric precision or print-readiness certification."
+}

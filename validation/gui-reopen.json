@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "scope": "Copied-folder GUI reopen, source paths, body final-feature visibility and retained material colours",
+  "native_files": 4,
+  "assembly_links": 135,
+  "visible_links": 124,
+  "image": "previews/R20-reopened-package.png",
+  "geometry_changed": false
+}

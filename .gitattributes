@@ -1,0 +1,6 @@
+*.FCStd binary
+*.stl binary
+*.step binary
+*.png binary
+*.pdf binary
+THIRD_PARTY_NOTICES.md whitespace=-blank-at-eol

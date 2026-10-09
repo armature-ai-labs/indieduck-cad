@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "scope": "Packaged R20 CAD portability, active shapes, yaw control and added-band rigid clearance",
+  "failures": [],
+  "original_project_read_denied": true,
+  "link_count": 135,
+  "visible_link_count": 124,
+  "band_pure_yaw_fixed_clearance": {
+    "method": "exact-shape optimal Z bounds, invariant under vertical yaw",
+    "minimum_z_separation_mm": 9.213517371597561,
+    "fixed_part_count": 87
+  },
+  "band_overlap_checks": [
+    {
+      "other": "A_SoftHeadShell",
+      "common_mm3": 0.0
+    },
+    {
+      "other": "A_ref_servo_head_roll",
+      "common_mm3": 0.0
+    },
+    {
+      "other": "A_R17_RollServoCradle",
+      "common_mm3": 0.0
+    },
+    {
+      "other": "A_ref_R17_HeadModuleFasteners",
+      "common_mm3": 0.0
+    }
+  ],
+  "yaw_trials": [
+    {
+      "degrees": -90,
+      "point_error_mm": 2.1316282072803006e-14
+    },
+    {
+      "degrees": 0,
+      "point_error_mm": 0.0
+    },
+    {
+      "degrees": 90,
+      "point_error_mm": 7.105427357601002e-15
+    }
+  ],
+  "editable_sources": {
+    "Thigh_L": {
+      "feature_count": 29,
+      "tip": "R18DividerExternalSpine"
+    },
+    "Neck": {
+      "feature_count": 17,
+      "tip": "R18_NeckM3BlindClearance"
+    },
+    "HeadPitchAnalyticBase": {
+      "feature_count": 20,
+      "tip": "R18HeadPitchCornerGusset1"
+    }
+  },
+  "head_band_profiles": 29
+}

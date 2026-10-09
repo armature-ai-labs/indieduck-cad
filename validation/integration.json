@@ -1,0 +1,39 @@
+{
+  "release_revision": "R20",
+  "changes": [
+    "Mounted R20 band and mounting-hole shell in complete robot",
+    "Band and shell linked into HeadYawMotion",
+    "Relative sibling document links",
+    "Restored final Body tip visibility and material display; geometry unchanged"
+  ],
+  "preserved_sources": [
+    {
+      "source_revision": "R19",
+      "source_file": "IndieDuck_R19_Parts.FCStd",
+      "sha256": "6d76931313839502658901d83e48d3f2cf6a38f348d711d010cfe7cce65e5e91",
+      "bytes": 76004961
+    },
+    {
+      "source_revision": "R19",
+      "source_file": "IndieDuck_R19_Interfaces.FCStd",
+      "sha256": "f14b1b5a3a62b64d07418299faf8c5aafd1181901dcf3e897749c83659b1efdb",
+      "bytes": 1309103
+    },
+    {
+      "source_revision": "R19",
+      "source_file": "IndieDuck_R19_Assembly.FCStd",
+      "sha256": "d15d2023f94bd6ba0d627e8aebbee15b28a3313da45e0325a29c4ff55f275079",
+      "bytes": 351908
+    },
+    {
+      "source_revision": "R20 accessory",
+      "source_file": "IndieDuck_R20_RemovableRearBand.FCStd",
+      "sha256": "600a6a8e8298151f609d726f8ee40e4feafde97108e424373bca4dc17690648e",
+      "bytes": 30043544
+    }
+  ],
+  "units": "mm",
+  "root_z_translation_mm": -0.5532706018213,
+  "printable_component_count": 41,
+  "assembly_link_count": 135
+}
