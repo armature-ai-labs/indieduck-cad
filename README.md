@@ -12,6 +12,7 @@ R25 is a **design-review CAD candidate, not a manufacturing release**. The previ
 
 | Path | Contents |
 |---|---|
+| `native/robot/IndieDuck_R25_HeadBase.FCStd` | The head base as an editable PartDesign body with a parameter sheet (see below) |
 | `native/robot/IndieDuck_R25_Assembly.FCStd` | Complete R25 robot in its saved pose, FreeCAD 1.1.4, self-contained. Each part stores a `MovingBody` property naming the joint link it moves with. |
 | `exports/R25/step/`, `exports/R25/stl/` | 51 printed-component candidates, STEP and STL, in assembly coordinates (millimetres) |
 | `exports/R25/IndieDuck_R25_Assembly.step` | Full assembly, 161 solids including purchased-part reference envelopes |
@@ -30,6 +31,10 @@ R25 is a **design-review CAD candidate, not a manufacturing release**. The previ
 ## Printing (provisional)
 
 Sliced in Bambu Studio 2.08 for a Bambu Lab P2S, 0.4 mm nozzle, 0.20 mm layers, 3 walls, 20 % infill: 39 parts on seven plates, about **360 g PLA and 34 g TPU 95A, roughly 16½ hours**. The retained R20 head base, thighs, yaw links, head brackets and cradles are extra. White, orange and dark are appearance colours; use PLA for rigid parts and TPU 95A for the soles. Keep the four HelmetRoof, HelmetLower, FaceBezel and CameraCarrier parts on two plates; Bambu silently dropped one part when all four shared a plate.
+
+## Head base redrawn (13 October 2026)
+
+The head base (the head's chassis: the roll-servo cradle, mouth-servo cradle, jaw bearing tower and camera carrier all mount on it) was the last part built from XGO-Duck geometry. It is replaced by `A_HeadBase`, drawn by IndieDuck from our own parameters: the same footprint and mounting points, a 5 mm floor, a stiffening wall, and clearances taken from our neighbouring parts and from the swept paths of the head roll, head yaw and jaw. It is clear of every other part, and clear through head roll ±25°, head yaw ±90°, jaw 0° to 30° and the neck range. It prints flat with no supports (25.8 g, 56 min on a P2S). The front half is 7 mm narrower each side than before, where the jaw's sides pass. Editable source: `native/robot/IndieDuck_R25_HeadBase.FCStd`; comparison in `previews/R25-headbase-replacement.png`; record in `validation/R25-headbase-replacement.json`.
 
 ## R25 limits
 

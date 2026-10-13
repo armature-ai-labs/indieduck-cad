@@ -47,7 +47,7 @@ R25,A_HeadYaw,IndieDuck_R25_Assembly.FCStd,A_HeadYaw,"PLA, structural (dark appe
 R25,A_Yaw_L,IndieDuck_R25_Assembly.FCStd,A_Yaw_L,"PLA, structural (dark appearance)",exports/R25/step/R25_Yaw_L.step,exports/R25/stl/R25_Yaw_L.stl,7221.906
 R25,A_HipL_L,IndieDuck_R25_Assembly.FCStd,A_HipL_L,"PLA, structural (dark appearance)",exports/R25/step/R25_HipL_L.step,exports/R25/stl/R25_HipL_L.stl,13782.856
 R25,A_Thigh_L,IndieDuck_R25_Assembly.FCStd,A_Thigh_L,"PLA, structural (dark appearance)",exports/R25/step/R25_Thigh_L.step,exports/R25/stl/R25_Thigh_L.stl,12356.29
-R25,A_O2_HeadBase,IndieDuck_R25_Assembly.FCStd,A_O2_HeadBase,"PLA, structural (dark appearance)",exports/R25/step/R25_O2_HeadBase.step,exports/R25/stl/R25_O2_HeadBase.stl,31372.912
+R25,A_HeadBase,IndieDuck_R25_Assembly.FCStd,A_HeadBase,"PLA, structural (dark appearance)",exports/R25/step/R25_HeadBase.step,exports/R25/stl/R25_HeadBase.stl,34077.880
 R25,A_Yaw_R,IndieDuck_R25_Assembly.FCStd,A_Yaw_R,"PLA, structural (dark appearance)",exports/R25/step/R25_Yaw_R.step,exports/R25/stl/R25_Yaw_R.stl,7221.906
 R25,A_HipL_R,IndieDuck_R25_Assembly.FCStd,A_HipL_R,"PLA, structural (dark appearance)",exports/R25/step/R25_HipL_R.step,exports/R25/stl/R25_HipL_R.stl,13782.856
 R25,A_Thigh_R,IndieDuck_R25_Assembly.FCStd,A_Thigh_R,"PLA, structural (dark appearance)",exports/R25/step/R25_Thigh_R.step,exports/R25/stl/R25_Thigh_R.stl,12356.29

@@ -1,0 +1,88 @@
+{
+ "part": "A_HeadBase",
+ "replaces": "A_O2_HeadBase (from R19_UpperBillYawClearance, built on XGO head.stl)",
+ "date": "2026-10-13",
+ "design_basis": "IndieDuck parameters only: outline numbers (front x 96.5, rear apex x -19, half width 44, rear half-ellipse from x 22), 5 mm floor at z 218.5 matching the parts that sit on it, mouth-cradle pad and camera-carrier bosses from those parts, screw clearances from IndieDuck fastener references, clearance envelopes from IndieDuck moving parts. No XGO geometry used.",
+ "native_source": "native/robot/IndieDuck_R25_HeadBase.FCStd (PartDesign body with Params sheet; HeadBase_Final is the body after the clearance cut)",
+ "build": {
+  "volume_mm3": 34077.8800695414,
+  "old_volume_mm3": 31372.9121357434,
+  "faces": 586,
+  "valid": true,
+  "fragments_removed_mm3": [
+   499.2,
+   499.2
+  ],
+  "envelope_pieces": 198
+ },
+ "checks": {
+  "static_overlaps": [],
+  "head_roll_-25_25": {},
+  "head_yaw_-90_90_at_roll_-25_0_25": {},
+  "jaw_0_30": {},
+  "neck_-65_27.5": {},
+  "screw_material": [
+   {
+    "xy": [
+     -3.0,
+     -29.5
+    ],
+    "material_fraction_r1.3_to_4_in_floor": 0.974
+   },
+   {
+    "xy": [
+     -3.0,
+     14.5
+    ],
+    "material_fraction_r1.3_to_4_in_floor": 0.974
+   },
+   {
+    "xy": [
+     10.0,
+     -29.5
+    ],
+    "material_fraction_r1.3_to_4_in_floor": 0.971
+   },
+   {
+    "xy": [
+     10.0,
+     14.5
+    ],
+    "material_fraction_r1.3_to_4_in_floor": 0.97
+   },
+   {
+    "xy": [
+     19.4,
+     -35.6
+    ],
+    "material_fraction_r1.3_to_4_in_floor": 0.963
+   },
+   {
+    "xy": [
+     62.4,
+     -35.6
+    ],
+    "material_fraction_r1.3_to_4_in_floor": 0.938
+   },
+   {
+    "xy": [
+     83.5,
+     29.0
+    ],
+    "camera_pilot_boss_fraction": 0.968
+   },
+   {
+    "xy": [
+     83.5,
+     -29.0
+    ],
+    "camera_pilot_boss_fraction": 0.968
+   }
+  ]
+ },
+ "slicing": "Bambu Studio 2.08 CLI, P2S 0.4 mm, 0.20 mm, 3 walls, 20 % infill: flat on its underside, no supports, no warnings, 25.8 g, 56 min",
+ "notes": [
+  "front half is 7 mm narrower each side than the XGO part: the jaw sides sweep through there; two 499 mm3 edge strips left unconnected by that clearance were removed",
+  "the jaw overlapped a plain floor by up to 1.9 cm3 when closed; the new base clears the jaw through 0..32 deg, which R25 had not checked"
+ ]
+}

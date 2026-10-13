@@ -96,16 +96,17 @@
    "stl_volume_diff_pct": 0.005
   },
   {
-   "part": "R25_O2_HeadBase",
-   "native_object": "A_O2_HeadBase",
+   "part": "R25_HeadBase",
+   "native_object": "A_HeadBase",
    "moving_body": "head_roll_link",
-   "native_volume_mm3": 31372.912,
+   "native_volume_mm3": 34077.88,
    "step_valid": true,
    "step_solids": 1,
-   "step_drift_ppm": 0.881,
+   "step_drift_ppm": 0.0,
    "stl_closed": true,
-   "stl_facets": 10206,
-   "stl_volume_diff_pct": 0.021
+   "stl_facets": 6328,
+   "stl_volume_diff_pct": 0.021,
+   "note": "replaced 2026-10-13 by IndieDuck-drawn head base; see R25-headbase-replacement.json"
   },
   {
    "part": "R25_Yaw_R",
