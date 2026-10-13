@@ -1,0 +1,67 @@
+{
+ "revision": "R25",
+ "date": "2026-10-13",
+ "basis": "reference-redesign R25 (Companion_R25.step / Companion_R25_View.FCStd), built on indieduck-cad 38eb2eb",
+ "neck_pitch_design_range_deg": [
+  -65,
+  27.5
+ ],
+ "joint_convention": "simulator neck_pitch, axis (0,-1,0); negative is chin down",
+ "simulator_range_before_deg": [
+  -90,
+  60
+ ],
+ "changes": [
+  {
+   "part": "TorsoFront",
+   "change": "swept 1 mm clearance channel for neck link, neck and head-pitch servos, neck pin hardware and head-pitch bracket over -70..+35 deg",
+   "volume_removed_mm3": 1072,
+   "solids_after": 1
+  },
+  {
+   "part": "Trunk",
+   "change": "same envelope without the neck link; detached 50.7 mm3 deck sliver removed",
+   "volume_removed_mm3": 331,
+   "solids_after": 1
+  },
+  {
+   "part": "Neck",
+   "change": "trimmed where the right hip-yaw servo (grown 0.5 mm) sweeps through",
+   "volume_removed_mm3": 24,
+   "solids_after": 1
+  },
+  {
+   "part": "TorsoRear",
+   "change": "relief for head base at +30 deg tried and reverted (removed 1.8 cm3 of visible panel); head-back limit set to +27.5 deg instead"
+  },
+  {
+   "part": "HelmetLower",
+   "change": "no geometry change; print orientation upside down (flat top edge on the bed). exports/R25/print-oriented/R25_HelmetLower_upside-down.stl"
+  }
+ ],
+ "checks": {
+  "neck_sweep": "every 2.5 deg from -65 to +27.5 (38 poses), all parts of neck, head pitch, yaw, roll and mouth links against all other parts: no overlap above 0.1 mm3",
+  "roulade_tuck": "neck -65, head pitch +57 and -57: no overlap above 0.1 mm3 (checked before cuts that only removed material)",
+  "static": "43 new R25 exterior parts against all parts at the saved pose: no overlap above 0.1 mm3",
+  "not_checked": [
+   "head yaw or roll away from zero combined with neck pitch",
+   "leg motion with the new hip cowls, thigh, shin and toe caps",
+   "jaw motion with the jaw surrounds",
+   "cables"
+  ]
+ },
+ "slicing": {
+  "tool": "Bambu Studio 2.08.02.61 CLI",
+  "profile": "P2S 0.4 mm nozzle, 0.20 mm layers, 3 walls, 20 % infill, pinned local profiles",
+  "plates": 7,
+  "parts": 39,
+  "pla_g": 359.9,
+  "tpu_g": 33.7,
+  "time": "about 16 h 26 m",
+  "notes": [
+   "HelmetLower as originally exported is rejected by the slicer (no flat underside); upside down it slices with no warnings, supports optional under five internal bosses",
+   "a 4-part head plate silently dropped HelmetRoof; head is split over two plates",
+   "retained R20 parts not in this plan (head base, thighs, yaw links, head brackets, cradles)"
+  ]
+ }
+}

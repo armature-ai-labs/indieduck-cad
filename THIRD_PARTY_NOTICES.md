@@ -16,6 +16,8 @@ Copyright 2026 Armature AI Labs for our engineering modifications. Our independe
 
 Armature contributions include the HD-1910 structure and interface features, compact joint supports, adapted covers, two-eye face and eye rings, foot studies, the upper-bill yaw clearance, and the removable rear band with internal mounting. An independently authored modification does not relicense underlying geometry. Hidden source features retained for editability are not an additional current print list.
 
+**R25 (13 October 2026).** R25 replaces the R20 head shell, jaw, upper and lower lips, face, eye rings, body covers, feet, soles, shanks, thigh plates and rear band with new Armature geometry. It retains the R20 upper bill (`A_O2_HeadBase`, from `R19_UpperBillYawClearance`) and the R17/R18 support and interface parts, so the XGO and other source notices above continue to apply to those retained parts. R25 printed exports inherit the provenance of their native objects as listed in `COMPONENTS.csv`.
+
 For the active part-to-native-object mapping and material classification, use the package manifest. STEP/STL files inherit the provenance of their corresponding native objects. Assembly and review files combine those objects and do not broaden their permissions.
 
 ## Preserved contributor attribution

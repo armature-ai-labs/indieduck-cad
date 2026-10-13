@@ -1,4 +1,20 @@
-# R20 CAD verification
+# R25 CAD verification (13 October 2026)
+
+R25 adds a reference-driven exterior to the R20 mechanism. Verification concerns this digital package, not a buildable or motion-qualified robot.
+
+| Check | Result and scope |
+|---|---|
+| Native file | `IndieDuck_R25_Assembly.FCStd` opens in FreeCAD 1.1.4: 141 objects, 161 solids, all valid. Solid geometry only for the new exterior parts. |
+| Static clearance | The 43 new exterior parts against every part at the saved pose: no overlap above 0.1 mm³ (240 candidate pairs). |
+| Neck sweep | Every 2.5° from −65° to +27.5° (38 poses), all parts of the neck, head pitch, head yaw, head roll and mouth links against every other part: no overlap above 0.1 mm³. Forward-roll tuck (neck −65°, head pitch ±57°): clear. Head yaw and roll were at zero. |
+| Publication changes | TorsoFront −1072 mm³, trunk −331 mm³ (including a detached 50.7 mm³ deck sliver removed), neck link −24 mm³. All one solid each. Details in `validation/R25-fixes.json`. |
+| STEP exports | All 51 reopened as valid single solids. Volume drift below 10 ppm except four mirrored right-side parts: ShankStructure_R 399 ppm (4.4 mm³), ShinCap_R 178 ppm, ToeCap_R 72 ppm, ThighCap_R 55 ppm. Assembly STEP valid, 161 solids. |
+| STL exports | All 51 read back closed. JawSurround_L read back open at a near-degenerate spot and was repaired (duplicate points, degenerate facets, non-manifold edges, hole fill), then re-verified. Largest STL volume difference 0.31 %. Details in `validation/R25-export-readback.json`. |
+| Slicing | Bambu Studio 2.08.02.61 CLI, P2S 0.4 mm, 0.20 mm, 3 walls, 20 % infill: 39 parts on seven plates sliced with no warnings, each plate's G-code object count checked against its part count. HelmetLower only in its upside-down orientation. |
+
+Not verified: physical fit, fastener engagement, strength of added mounts, combined head motion, leg motion with the new covers, jaw motion, cables, mass and balance, any gait.
+
+# R20 CAD verification (previous release)
 
 This release combines the complete saved robot assembly and 41 current printed-component candidates in one R20 CAD package. Verification concerns this digital package. It does not establish a physically buildable or motion-qualified robot.
 
