@@ -37,9 +37,16 @@
    "role": "CAD source, export, documentation or verification"
   },
   {
+   "path": "CONTRIBUTORS.md",
+   "bytes": 630,
+   "sha256": "c1a4d9876cca31b431d0706a536db44821b42055bd03619c0f9e971b526364a2",
+   "revision": "R25",
+   "role": "Contributor credits"
+  },
+  {
    "path": "README.md",
-   "bytes": 9892,
-   "sha256": "a8e0c4edbf0ae2ce2a84e38e7710cee8d5aadbafb9b1fc23911aa4d2c9bdbd31",
+   "bytes": 10106,
+   "sha256": "ea938b20989c6d3beee6cf1eeffe8ce5d6f49f2d004db097693acd86c6d7cd43",
    "revision": "R25",
    "role": "CAD source, export, documentation or verification"
   },

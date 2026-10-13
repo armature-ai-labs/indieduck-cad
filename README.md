@@ -6,6 +6,8 @@ R25 is a **design-review CAD candidate, not a manufacturing release**. The previ
 
 ![R25 assembled CAD](previews/R25-assembly.png)
 
+**Credits.** [Zankar Savalia](https://www.linkedin.com/in/zankarvs/) contributed to the design of the R25 exterior and helped prepare it for publication. Thank you, Zankar. See [CONTRIBUTORS.md](CONTRIBUTORS.md).
+
 ## R25 files
 
 | Path | Contents |
