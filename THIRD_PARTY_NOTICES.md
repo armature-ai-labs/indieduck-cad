@@ -2,21 +2,20 @@
 
 IndieDuck by Armature AI Labs, adapted from Open Duck Mini and inspired by Pollen Robotics' MicroDuck.
 
-Copyright 2026 Armature AI Labs for our engineering modifications. Our independently authored contributions and documentation are offered under Apache-2.0, whose text is included below. This grant does not extend to underlying third-party geometry or replace its source-specific terms. This R20 CAD study combines separately authored structure and interfaces, inherited geometry, and our changes. It is not covered by a single blanket Apache-2.0 grant. The retained upstream texts below apply to their respective material; public availability does not supply any missing upstream permission. No sponsorship, endorsement or trademark rights are asserted.
+Copyright 2026 Armature AI Labs for our engineering modifications. Our independently authored contributions and documentation are offered under Apache-2.0, whose text is included below. This grant does not extend to underlying third-party geometry or replace its source-specific terms. This R25 CAD study combines separately authored structure and interfaces, project-lineage material, and our changes. It is not covered by a single blanket Apache-2.0 grant. The retained upstream texts below apply to their respective material; public availability does not supply any missing upstream permission. No sponsorship, endorsement or trademark rights are asserted.
 
 ## Source scope
 
 | Source | Pinned revision | Included or referenced material | Recorded terms |
 | --- | --- | --- | --- |
-| [Open Duck Mini](https://github.com/apirrone/Open_Duck_Mini) by Antoine Pirrone and contributors | `b23317a485b3cec7d8417f352478778b3475173c` | Retained native source history and adapted covers; Jaime Machuca's BD-X-style body-cover mod and Justin Andrews' Park Head mod are credited below. | Apache-2.0, text retained below. |
-| [XGO-Duck hardware](https://github.com/LuwuDynamics/xgoduck_hardware) by Luwu Dynamics and upstream contributors | `8b355c6fc374ff7f2921bf78b4880c2b38c57b07` | Head shell, upper bill, jaw, upper/lower lips and retained support source geometry. R20 adds a separate band and shell mounting holes; earlier IndieDuck revisions changed the face, mounting, jaw support and yaw relief. | No finalized source-specific redistribution grant was established in the inspected snapshot. The snapshot's LICENSING and UPSTREAM texts are retained below. This geometry is not newly labelled Apache-2.0. |
-| [MicroDuck / microduck_rl](https://github.com/pollen-robotics/microduck_rl) by Pollen Robotics | model reference `273afe0b31c4ab365b9ff806a927b63ac92b5ddd` | Robot inspiration and numerical joint, stance, foot and roller references. No original Pollen mesh files or policies are directly bundled. XGO's recorded Pollen lineage remains applicable to inherited XGO geometry. | Pinned repository distinguishes Apache-2.0 software from its model terms. Software permission is not asserted as a CAD grant. |
+| [Open Duck Mini](https://github.com/apirrone/Open_Duck_Mini) by Antoine Pirrone and contributors | `b23317a485b3cec7d8417f352478778b3475173c` | Project basis and design lineage; Jaime Machuca's BD-X-style body-cover mod and Justin Andrews' Park Head mod are credited below as part of that lineage. | Apache-2.0, text retained below. |
+| [MicroDuck / microduck_rl](https://github.com/pollen-robotics/microduck_rl) by Pollen Robotics | model reference `273afe0b31c4ab365b9ff806a927b63ac92b5ddd` | Robot inspiration and numerical joint, stance, foot and roller references. No original Pollen mesh files or policies are directly bundled. | Pinned repository distinguishes Apache-2.0 software from its model terms. Software permission is not asserted as a CAD grant. |
 | Radxa ZERO 3W and Pollen RPI Robot HAT | Radxa V1.11 mechanical reference; HAT `78f60f711f519e8b57c4b1ea937bd2bb8249b1d3` | Numerical outline, mounting and component-envelope facts represented as reference shapes. | Original Radxa CAD and the HAT STEP's embedded Raspberry Pi model are not included. |
 | Feetech HD-1910-C001 documentation | drawing/specification referenced in the project source register | Numerical servo interfaces and simplified hardware reference envelopes. | Manufacturer documentation is not relabelled as IndieDuck CAD. |
 
-Armature contributions include the HD-1910 structure and interface features, compact joint supports, adapted covers, two-eye face and eye rings, foot studies, the upper-bill yaw clearance, and the removable rear band with internal mounting. An independently authored modification does not relicense underlying geometry. Hidden source features retained for editability are not an additional current print list.
+Armature contributions include the HD-1910 structure and interface features, compact joint supports, the R25 exterior and the R25 head base. An independently authored modification does not relicense any underlying third-party material.
 
-**R25 (13 October 2026).** R25 replaces the R20 head shell, jaw, upper and lower lips, face, eye rings, body covers, feet, soles, shanks, thigh plates and rear band with new Armature geometry, and replaces the R20 upper bill (`A_O2_HeadBase`, built on XGO `head.stl`) with a head base drawn by Armature from IndieDuck parameters (`A_HeadBase`). **The R25 robot (`native/robot/IndieDuck_R25_Assembly.FCStd`, `native/robot/IndieDuck_R25_HeadBase.FCStd` and `exports/R25/`) contains no geometry imported from XGO-Duck.** Some R25 parts were originally fitted around the earlier XGO-derived head base; their geometry is new Armature CAD. The XGO notices below continue to apply to the R20 files that remain in this repository (`native/robot/IndieDuck_R20_*`, `exports/R20/`, `assembly/`). R25 retains the R17/R18 Armature support and interface parts. Pollen, Open Duck Mini and hardware notices continue to apply where listed. R25 printed exports inherit the provenance of their native objects as listed in `COMPONENTS.csv`.
+**R25 and earlier releases (13 October 2026).** The current R25 robot (`native/robot/IndieDuck_R25_Assembly.FCStd`, `native/robot/IndieDuck_R25_HeadBase.FCStd` and `exports/R25/`) contains no geometry imported from XGO-Duck. Its head base, the last XGO-derived part, was replaced by an Armature-drawn part. R20 and earlier files, which did contain XGO-Duck geometry, have been removed from this branch; they remain available, with their own notices, at the tag `r20-simulation-study-v1`. Those notices are not repeated here because no current file depends on them.
 
 For the active part-to-native-object mapping and material classification, use the package manifest. STEP/STL files inherit the provenance of their corresponding native objects. Assembly and review files combine those objects and do not broaden their permissions.
 
@@ -83,82 +82,6 @@ This mod updates the Open Duck Mini v2 head to more closely resemble the Disney 
 - Project: Open Duck Mini v2 head mod
 
 If you use or remix this, please credit the author above.
-```
-
-## Preserved XGO source notices
-
-These are the inspected source snapshot texts. Their internal links refer to the upstream project; they are not an IndieDuck permission grant.
-
-### XGO LICENSING.md
-
-```text
-# Licensing status
-
-No top-level license file was found in the repository snapshot used for this documentation update. Publication of files by itself does not establish a complete reuse grant. Upstream and third-party components retain their applicable terms.
-
-## Maintainer intent for eligible original material
-
-The maintainer intends to allow personal and educational replication and require separate authorization for commercial use of material they have the right to license. This statement records intent; it is not a finalized replacement license and does not override any existing grants or third-party rights. File-level scope and final terms are pending.
-
-A project-wide “noncommercial only” label would be inaccurate where Apache-2.0 or another license already permits commercial use. Noncommercial restrictions also do not meet the OSI definition of open-source software. Describe the actual license of each component rather than claiming the whole project is under one permissive license.
-
-For a commercial enquiry, email **hello@xgorobot.com** with the files/revisions involved, intended product or service, expected quantity and distribution plans. For personal/educational replication of material without final terms, use the same address to confirm applicable permissions.
-
-## Design and model provenance
-
-Code licensing does not establish rights to every model or design asset. Review the upstream findings and file-level scope in the hardware repository's [origins documentation](https://github.com/LuwuDynamics/xgoduck_hardware) before distributing inherited designs. Exact source revisions and applicable notices remain to be recorded.
-
-## Credits
-
-The project builds on [Microduck](https://github.com/pollen-robotics/microduck) and [microduck_rl](https://github.com/pollen-robotics/microduck_rl) by Pollen Robotics. Training uses [mjlab](https://github.com/mujocolab/mjlab) and [BAM](https://github.com/Rhoban/bam). Hardware and software adaptations should be credited without implying endorsement by those projects or Arduino.
-
-References: [OSI Open Source Definition](https://opensource.org/osd), [Apache-2.0 text](https://www.apache.org/licenses/LICENSE-2.0).
-```
-
-### XGO UPSTREAM.md
-
-```text
-# Origins and adaptations
-
-[Project](readme.md) · [Licensing](LICENSING.md)
-
-XGO-Duck is a substantial adaptation of the Microduck ecosystem, not an independently originated robot concept. The maintainer has confirmed extensive reference to Microduck materials. The XGO-Duck repository descriptions also identify that lineage. This page records the architectural relationship; it is not a completed file-by-file copyright audit.
-
-## Credit the foundation
-
-- [Microduck, Pollen Robotics](https://pollen-robotics.com/microduck/): the robot concept and upstream project.
-- [Microduck runtime](https://github.com/pollen-robotics/microduck): upstream onboard software and system reference.
-- [microduck_rl](https://github.com/pollen-robotics/microduck_rl): upstream learning environments and sim-to-real approach.
-- [mjlab](https://github.com/mujocolab/mjlab): training framework.
-- [BAM, Rhoban](https://github.com/Rhoban/bam): actuator modelling.
-
-## What follows upstream and what is adapted
-
-| Area | Inherited or referenced foundation | XGO-Duck adaptation documented in its source |
-| --- | --- | --- |
-| Robot form | Duck-shaped biped with articulated legs, neck, head and mouth | Printable XGO-Duck structure and assembly drawings |
-| Joint layout | Fifteen servos and retained policy ordering | Feetech 1910 bus integration and per-robot encoder calibration |
-| Learning | Microduck task recipes and PPO/ONNX workflow | XGO-Duck geometry/inertias and HLS1910 BAM parameters |
-| Control interface | Shared policy conventions and motion concepts | Linux policy host plus STM32 control on Uno Q |
-| Electronics | Reference robot architecture | Luwu expansion board with QMI8658A, power and servo interfaces |
-
-“Adaptation” here describes the engineering work visible in the XGO-Duck source. It does not establish exclusive ownership of every file. The exact upstream base revision, copied paths, original design sources and permissions must still be recorded.
-
-## Compatibility is a separate question
-
-Use the XGO-Duck task IDs, dependencies and deployment instructions in these repositories. Do not substitute an upstream policy solely because its tensors have the same dimensions. Actuator dynamics, geometry, calibration, command meaning and runtime behavior must also agree.
-
-Upstream commands such as `robotctl` belong to a different runtime. They are not XGO-Duck Uno Q installation instructions. Features demonstrated on an upstream robot are not evidence that this hardware variant supports them.
-
-## Model and design rights need their own record
-
-The current [upstream RL README](https://github.com/pollen-robotics/microduck_rl) distinguishes its code license from a noncommercial, share-alike statement for 3D models. Preserve the applicable terms for the actual inherited files and versions; obtain the precise license text and provenance before redistributing derivatives. A code LICENSE alone is insufficient evidence for model rights.
-
-The official [Microduck press kit](https://pollen-robotics.com/microduck/press-kit/) also limits its open-source statement to software. Do not infer design-file permissions from product marketing. These observations were reviewed on 2026-09-26 and are not a finding that any specific XGO-Duck file is unauthorized.
-
-## Attribution for articles and demonstrations
-
-Suggested credit: **“XGO-Duck by Luwu Dynamics, based on Microduck and microduck_rl by Pollen Robotics.”** Add mjlab and Rhoban BAM when discussing training. Preserve file-level copyright and license notices in source distributions. This project does not claim endorsement by Pollen Robotics, Hugging Face, Rhoban or Arduino.
 ```
 
 ## Apache License 2.0 text for the Open Duck Mini material and separately designated Armature material
@@ -370,34 +293,12 @@ Suggested credit: **“XGO-Duck by Luwu Dynamics, based on Microduck and microdu
 
 ## Native source mapping
 
-
-The integrated R20 assembly preserves the R19 robot's datums and structural geometry, replaces the shell with its R20 mounting-hole variant, and adds the R20 removable band. R19 itself builds on R18 structural changes. Do not identify these inherited parts as newly redesigned in R20.
-
-## Imported XGO geometry retained in the native history
-
-Source repository: https://github.com/LuwuDynamics/xgoduck_hardware
-
-Pinned revision: `8b355c6fc374ff7f2921bf78b4880c2b38c57b07`.
-
-| Original file | Retained source object | Current role |
-| --- | --- | --- |
-| `head_shell.stl` | `XGO_HeadShell_Original`, `XGO_HeadShell_Aligned` | Basis of the modified shell; R20 mounted shell adds two screw holes. |
-| `head.stl` | `XGO_head_Source` | Basis of the fastened upper bill and R19 yaw-relief feature. |
-| `jaw.stl` | `XGO_jaw_Source` | Basis of the repaired active jaw. |
-| `head_servo_support.stl` | `XGO_head_servo_support_Source` | Hidden retained history; superseded by the active IndieDuck cradles. |
-| `mouth_up_tpu.stl` | `XGO_mouth_up_tpu_Source` | Active upper lip. |
-| `mouth_buttom_tpu.stl` | `XGO_mouth_buttom_tpu_Source` | Active lower lip; source spelling retained. |
-
-Those source STL shapes were converted into faceted B-reps, so editability does not mean every imported surface has an independent dimensioned feature history. Original IndieDuck feature trees, spreadsheets and Boolean modifications remain editable. The two-eye face follows the inherited head boundary and is a source-derived adapter. Native files retain hidden geometry needed for history; only active assembly objects belong in the current part list.
+`native/robot/IndieDuck_R25_Assembly.FCStd` holds the complete R25 robot as solids, each with a `MovingBody` property naming its joint link. `native/robot/IndieDuck_R25_HeadBase.FCStd` is the head base as an editable PartDesign body. `COMPONENTS.csv` maps every printed part to its native object, material and exports. Retained R17 and R18 Armature support and interface parts keep their original identifiers.
 
 ## Active printable classification
 
-Initial rigid fit tests: PLA. Soft soles and lips: TPU 95A. Eye inserts are cosmetic aperture parts, not optical lenses; the camera lens and other bought hardware are reference geometry. All material choices remain prototype choices, not strength or print certification.
-
-The active structural print set is the 39 visible non-reference R19 links preceding R18 hardware, plus the R18 neck-bearing retainer, with the shell replaced and the R20 removable band added: 41 physical printed-piece entries including left/right counterparts. The final component manifest records these 41 entries.
-
-Exclude from printable-part exports: all `A_ref_*` items; hidden head-core/cap and crank-linkage alternatives; R18 bearing, idler, shoulder-pin, metal-spacer, screw and nut objects. Preserve their assembly reference shapes and distinguish any custom metal item still requiring manufacture or sourcing.
+Initial rigid fit tests: PLA. Soft soles: TPU 95A. The camera lens and other bought hardware are reference geometry. Exclude all `A_ref_*` items and purchased hardware from printable-part exports. All material choices remain prototype choices, not strength or print certification.
 
 ## Attribution scope
 
-Open Duck Mini adapted source history includes Antoine Pirrone and contributors, Jaime Machuca's BD-X-style cover mod, and Justin Andrews' Park Head mod. Credit remains even when an older source feature is hidden. Pollen Robotics' MicroDuck supplies inspiration and numerical references. XGO's own source records Pollen lineage. Read THIRD_PARTY_NOTICES.md for the pinned records and preserved notices.
+Open Duck Mini project lineage includes Antoine Pirrone and contributors, Jaime Machuca's BD-X-style cover mod, and Justin Andrews' Park Head mod. Credit remains even when an older source feature is hidden. Pollen Robotics' MicroDuck supplies inspiration and numerical references. Read THIRD_PARTY_NOTICES.md for the pinned records and preserved notices.

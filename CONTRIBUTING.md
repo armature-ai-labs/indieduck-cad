@@ -1,11 +1,11 @@
 # Contributing
 
-Start from the complete R20 release and keep all four files in `native/robot/` together. Open the Assembly document, then edit the relevant Structure, Interfaces or HeadBand source. Preserve existing feature identifiers and dependencies when possible.
+Start from the current R25 files in `native/robot/`. Open `IndieDuck_R25_Assembly.FCStd` for the complete robot; edit the head base in `IndieDuck_R25_HeadBase.FCStd` (driven by its `Params` sheet). Other R25 parts are solids without history, so changes to them are direct solid edits until they are rebuilt as editable features. Keep each part's `MovingBody` property and object label, since the export and simulator tooling depend on them.
 
 For a focused change:
 
 1. Describe the mechanical problem, changed dimensions and affected parts. Preserve established joint centres and servo interfaces unless the change explicitly proposes a new interface revision.
-2. Keep editable FreeCAD features, constraints and parameters. Do not replace editable construction history with a mesh-only result. Some inherited geometry is a faceted B-rep; describe that limitation accurately.
+2. Keep editable FreeCAD features, constraints and parameters. Do not replace editable construction history with a mesh-only result. A few surfaces are still faceted (triangulated) B-rep; describe that limitation accurately and prefer rebuilding them as exact features.
 3. Recompute, check affected solids and inspect the assembled result. Reopen a copied folder to catch external links. Include matched before/after CAD views and relevant clearance checks, with joint angles and assumptions stated.
 4. Regenerate affected STEP and STL exports in millimetres, preserving revision consistency. Record geometry and export checks separately from slicing or physical fit tests. Update the revision/checksum manifest and applicable drawings.
 5. Open a pull request with the change, evidence and remaining limitations. Include only relevant native files, exports, drawings and documentation; exclude backups, rejected variants, machine configuration and temporary scripts.

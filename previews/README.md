@@ -1,3 +1,3 @@
-# Actual FreeCAD R20 views
+# Actual FreeCAD R25 views
 
-Assembly, front, rear and attached-band views show the integrated R20 native assembly. `R20-band-exploded.png` temporarily translates only the band 35 mm rearward to reveal the retained shell reinforcement and mount holes. It illustrates separation, not a validated removal path. Geometry was restored after capture. Colours are appearance settings.
+`R25-assembly.png`, `R25-front.png`, `R25-side.png` and `R25-rear.png` show the R25 native assembly in its saved standing pose. `R25-headbase-replacement.png` compares the IndieDuck-drawn head base (blue) with the earlier XGO-derived part it replaced (orange). These are CAD screenshots, not renders or photographs.
