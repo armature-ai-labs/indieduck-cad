@@ -1,7 +1,7 @@
 {
  "project": "IndieDuck by Armature AI Labs",
  "revision": "R25",
- "release": "r25-cad-study-v4",
+ "release": "r25-cad-study-v5",
  "units": "mm",
  "assembly": "native/robot/IndieDuck_R25_Assembly.FCStd",
  "component_manifest": "COMPONENTS.csv",
@@ -25,7 +25,7 @@
   {
    "path": "COMPONENTS.csv",
    "bytes": 8867,
-   "sha256": "8c2f1b0320fd8ec28360f7216685c991f71973f6d46ae89373e8f3347a0d322d",
+   "sha256": "6af00a8d3bee0ef087e948437e7d8094fa32be06c2a7b8f350cd6e3e45a9f348",
    "revision": "R25",
    "role": "CAD source, export, documentation or verification"
   },
@@ -59,8 +59,8 @@
   },
   {
    "path": "VERIFICATION.md",
-   "bytes": 3226,
-   "sha256": "08d6f6d1cc859c0721f0641e8667ee5cdc74c4d7cfcf3d0a618ec80cf0509c63",
+   "bytes": 3291,
+   "sha256": "51f91c855c99cbbee73c703a8cbd2c1465b73746e4c654d477134a3f856601f3",
    "revision": "R25",
    "role": "CAD source, export, documentation or verification"
   },
@@ -80,8 +80,8 @@
   },
   {
    "path": "exports/R25/step/R25_AngularJaw.step",
-   "bytes": 240889,
-   "sha256": "af7e73672b6d3a205a0b9c3a948496cb71b2f12c1e031558869e41cd9f3838b6",
+   "bytes": 177406,
+   "sha256": "83c407626123bb06b93af325e9756a065909abb11df41fad6bf6e9feef32d348",
    "revision": "R25",
    "role": "R25 CAD source, export, preview or verification"
   },
@@ -136,8 +136,8 @@
   },
   {
    "path": "exports/R25/step/R25_HeadBase.step",
-   "bytes": 1025380,
-   "sha256": "a430d24a1e19bd6cfbce2f9e9c7a8f5d471ab7574ba95d3223df94e510876498",
+   "bytes": 1203319,
+   "sha256": "71b2abe50e2bce4bedb68a8f198f37b3d5d603a7d10aa0ce454df791d61375e3",
    "revision": "R25",
    "role": "R25 CAD source, export, preview or verification"
   },
@@ -437,8 +437,8 @@
   },
   {
    "path": "exports/R25/stl/R25_AngularJaw.stl",
-   "bytes": 198484,
-   "sha256": "fedf5173f3e1f5fd91e7525613a568f5a078e842a5b068018f64223e6c9c1706",
+   "bytes": 201284,
+   "sha256": "00c063314d9ff12a89c586fde3115c9da2bb1fa465755fb08d56e0af3e16dbf6",
    "revision": "R25",
    "role": "R25 CAD source, export, preview or verification"
   },
@@ -493,8 +493,8 @@
   },
   {
    "path": "exports/R25/stl/R25_HeadBase.stl",
-   "bytes": 316484,
-   "sha256": "263b5df209eb8eb04e75383ba9f53f44185d6db8c90c74125120ecacb9ec942c",
+   "bytes": 350384,
+   "sha256": "f9f1399e8cd01117ad6d3111e4e983f496fd44a292481585d663f9f9e4d2c019",
    "revision": "R25",
    "role": "R25 CAD source, export, preview or verification"
   },
@@ -794,15 +794,15 @@
   },
   {
    "path": "native/robot/IndieDuck_R25_Assembly.FCStd",
-   "bytes": 2159114,
-   "sha256": "772f33ab94c3ba956a62452104fd2db5d2a0b1cd43be4e533678ccb25d878fe1",
+   "bytes": 2205408,
+   "sha256": "1c8b77aca189bb8a70e319e3077c87a264e2095ce2c2982bef616dd8ba1449c8",
    "revision": "R25",
    "role": "R25 CAD source, export, preview or verification"
   },
   {
    "path": "native/robot/IndieDuck_R25_HeadBase.FCStd",
-   "bytes": 355451,
-   "sha256": "50d72cfb50426d12615e2f545e45dfb3bcffaade962abd4e7ea7aca563713b85",
+   "bytes": 392174,
+   "sha256": "860bfbed7cc2126a8bbd5d5af22b8eb9f2c843e06fe55326854b23faf63f4a84",
    "revision": "R25",
    "role": "R25 CAD source, export, preview or verification"
   },
@@ -850,15 +850,15 @@
   },
   {
    "path": "validation/R25-export-readback.json",
-   "bytes": 15508,
-   "sha256": "02fbbcfc20790f852278915cbacb5716cf191c249a6e55599ec99ce9a0b9e2fd",
+   "bytes": 15465,
+   "sha256": "51e4856382f4201d7ce79c7226e2f9e79737d77e2013559db8ee7a8975f6d52e",
    "revision": "R25",
    "role": "R25 CAD source, export, preview or verification"
   },
   {
    "path": "validation/R25-face-cleanup.json",
-   "bytes": 1498,
-   "sha256": "3e74624efed66fa881c839fe091d37a0f9f68a7e43c7f4bf1a4007648d43c677",
+   "bytes": 1979,
+   "sha256": "82b8412035123851b34bd2961cbdfb950207976474909cb1a58329ad61888235",
    "revision": "R25",
    "role": "R25 CAD source, export, preview or verification"
   },

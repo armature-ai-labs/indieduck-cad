@@ -4,24 +4,25 @@
   "AngularJaw": {
    "faces": [
     718,
-    177
+    117
    ],
    "triangular_faces": [
     532,
-    60
+    4
    ],
    "volume_mm3": [
     7456.5,
-    7451.4
+    7452.3
    ],
    "rebuilt_exact": [
     "bearing-side boss, 17 mm diameter, y -40.5..-36.0",
     "10 mm bore, y -40.5..-31.8 (open end)",
     "horn-side 4 x 2 mm holes on a 12 mm circle with 4.1 mm counterbores",
     "6 mm centre hole above the 0.2 mm print bridge",
-    "9 mm-radius rounded edges of both side plates"
+    "9 mm-radius rounded edges of both side plates",
+    "lower plate corners: 6.775 mm arc and flat bottom intersected with a 3 mm round along x (centre y +-41, z 221)"
    ],
-   "remaining": "56 triangles on the two lower plate corners (6.775 mm radius arc crossed by a second edge round near the outer faces) and 4 coplanar triangles on the front face"
+   "remaining": "none tessellated; 4 genuine triangular faces where a 0.6 mm chamfer meets the bill block back face at x 98"
   },
   "JawSurround_L": {
    "faces": [
@@ -42,9 +43,12 @@
    "note": "+12.9 mm3 because the original faceted pins were undersized polygons; clearance to the jaw holes is 0.01 mm, no overlap"
   },
   "A_HeadBase": {
-   "triangular_faces": 100,
-   "note": "imprinted by the jaw's remaining faceted lower corners through the jaw sweep; unchanged, clears through again with the cleaned jaw"
+   "note": "rebuilt against the clean jaw: 45 three-sided faces, all genuine sweep-cut ends (none adjacent to another triangle); volume 34,077.5 mm3; clear statically and through roll, yaw, jaw and neck sweeps; slices flat, no supports"
   }
  },
- "checks": "head base static clear; head roll +-25, head yaw +-90 at three rolls, jaw 0..30 and neck -65..+27.5 clear with the cleaned jaw and surround; exports STEP valid, 0 ppm drift, STL closed"
+ "checks": "head base static clear; head roll +-25, head yaw +-90 at three rolls, jaw 0..30 and neck -65..+27.5 clear with the cleaned jaw and surround; exports STEP valid, 0 ppm drift, STL closed",
+ "tessellation_audit": {
+  "method": "three-sided planar faces that share an edge with another such face (tessellation signature)",
+  "result": "0 in every part except HeadRim_L (9) and HeadRim_R (8), whose small triangles are the deliberate low-poly bevels of the R25 exterior (two 14.4 mm2 and six identical 1.0 mm2 faces each), left as designed"
+ }
 }

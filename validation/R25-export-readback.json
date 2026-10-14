@@ -99,14 +99,14 @@
    "part": "R25_HeadBase",
    "native_object": "A_HeadBase",
    "moving_body": "head_roll_link",
-   "native_volume_mm3": 34077.88,
+   "native_volume_mm3": 34077.493,
    "step_valid": true,
    "step_solids": 1,
-   "step_drift_ppm": 0.0,
+   "step_drift_ppm": 0.01,
    "stl_closed": true,
-   "stl_facets": 6328,
-   "stl_volume_diff_pct": 0.021,
-   "note": "replaced 2026-10-13 by IndieDuck-drawn head base; see R25-headbase-replacement.json"
+   "stl_facets": 7006,
+   "stl_volume_diff_pct": 0.027,
+   "note": "exact geometry, no tessellation (2026-10-13)"
   },
   {
    "part": "R25_Yaw_R",
@@ -256,14 +256,14 @@
    "part": "R25_AngularJaw",
    "native_object": "AngularJaw",
    "moving_body": "mouth_link",
-   "native_volume_mm3": 7451.412,
+   "native_volume_mm3": 7452.303,
    "step_valid": true,
    "step_solids": 1,
-   "step_drift_ppm": 0.0,
+   "step_drift_ppm": 0.57,
    "stl_closed": true,
-   "stl_facets": 3968,
-   "stl_volume_diff_pct": 0.083,
-   "note": "pivot features rebuilt as exact geometry 2026-10-13"
+   "stl_facets": 4024,
+   "stl_volume_diff_pct": 0.093,
+   "note": "exact geometry, no tessellation (2026-10-13)"
   },
   {
    "part": "R25_TorsoFront",
