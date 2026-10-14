@@ -1,7 +1,7 @@
 {
  "project": "IndieDuck by Armature AI Labs",
  "revision": "R25",
- "release": "r25-cad-study-v5",
+ "release": "r25-cad-study-v6",
  "units": "mm",
  "assembly": "native/robot/IndieDuck_R25_Assembly.FCStd",
  "component_manifest": "COMPONENTS.csv",
@@ -24,8 +24,8 @@
   },
   {
    "path": "COMPONENTS.csv",
-   "bytes": 8867,
-   "sha256": "6af00a8d3bee0ef087e948437e7d8094fa32be06c2a7b8f350cd6e3e45a9f348",
+   "bytes": 9733,
+   "sha256": "a52fa8c7e11e3692a1bb3ee1cd5422331ec94f97889e6f95e6bc7703684c8448",
    "revision": "R25",
    "role": "CAD source, export, documentation or verification"
   },
@@ -45,8 +45,8 @@
   },
   {
    "path": "README.md",
-   "bytes": 5828,
-   "sha256": "8447f1f8c84c4ec7750f037a2a15f5fae5f78b331765886c4dc57c812fdc3c2a",
+   "bytes": 6314,
+   "sha256": "0aea141b5e17fd7e9830d95c4d44d692475c04152431ff592fa5b88749861b6f",
    "revision": "R25",
    "role": "CAD source, export, documentation or verification"
   },
@@ -59,8 +59,8 @@
   },
   {
    "path": "VERIFICATION.md",
-   "bytes": 3291,
-   "sha256": "51f91c855c99cbbee73c703a8cbd2c1465b73746e4c654d477134a3f856601f3",
+   "bytes": 3511,
+   "sha256": "8bf4aab8bd7613126e7954b999d32b5cf1e90d9a314840b5f75a6f67fa5bbf7a",
    "revision": "R25",
    "role": "CAD source, export, documentation or verification"
   },
@@ -268,6 +268,27 @@
    "role": "R25 CAD source, export, preview or verification"
   },
   {
+   "path": "exports/R25/step/R25_R17_JawBearingKeeper.step",
+   "bytes": 13903,
+   "sha256": "c13589bc39a9234b80857dcedceca2bf5146e3bfea049df7862b7c4434fbcf44",
+   "revision": "R25",
+   "role": "R25 CAD source, export, preview or verification"
+  },
+  {
+   "path": "exports/R25/step/R25_R17_JawBearingPlug.step",
+   "bytes": 15897,
+   "sha256": "52f291226a6875318fd5c4117abf537d09c788dd8569e4d7f01746161cc691ce",
+   "revision": "R25",
+   "role": "R25 CAD source, export, preview or verification"
+  },
+  {
+   "path": "exports/R25/step/R25_R17_JawBearingTower.step",
+   "bytes": 27733,
+   "sha256": "994799c0fe2aa68adf2d3b2634f64d17d6224f9bb41ed0352f8daa6655da73aa",
+   "revision": "R25",
+   "role": "R25 CAD source, export, preview or verification"
+  },
+  {
    "path": "exports/R25/step/R25_R17_MouthServoCradle.step",
    "bytes": 38434,
    "sha256": "e34f5993ab3c866cb1ce623d499d78e07588d42f88b6653ab85b0ec5049a1cca",
@@ -292,6 +313,13 @@
    "path": "exports/R25/step/R25_R17_RollServoCradle.step",
    "bytes": 77783,
    "sha256": "a163db6ce9a39e65dc0f4836d1614c928626b87dc62ef50b49ec6d516b725ae9",
+   "revision": "R25",
+   "role": "R25 CAD source, export, preview or verification"
+  },
+  {
+   "path": "exports/R25/step/R25_R18_NeckBearingRetainer.step",
+   "bytes": 15725,
+   "sha256": "7ff5daf8385305072ad12e8992a345e97600c3115cfe36a140388542db39fb7b",
    "revision": "R25",
    "role": "R25 CAD source, export, preview or verification"
   },
@@ -625,6 +653,27 @@
    "role": "R25 CAD source, export, preview or verification"
   },
   {
+   "path": "exports/R25/stl/R25_R17_JawBearingKeeper.stl",
+   "bytes": 46484,
+   "sha256": "f43df60adca281151206ea9cf8d88caa0ce02ef3b086b1f9b26d55162b3d6dbb",
+   "revision": "R25",
+   "role": "R25 CAD source, export, preview or verification"
+  },
+  {
+   "path": "exports/R25/stl/R25_R17_JawBearingPlug.stl",
+   "bytes": 26484,
+   "sha256": "95f11257d28da2bf4967b50a04eff14615998e3556b5ca12f77a5ef090089d5c",
+   "revision": "R25",
+   "role": "R25 CAD source, export, preview or verification"
+  },
+  {
+   "path": "exports/R25/stl/R25_R17_JawBearingTower.stl",
+   "bytes": 73684,
+   "sha256": "3ded4b12bada98564ae0b29cb77bfcbdbabfb2e3615f0630e2d3e4f765644285",
+   "revision": "R25",
+   "role": "R25 CAD source, export, preview or verification"
+  },
+  {
    "path": "exports/R25/stl/R25_R17_MouthServoCradle.stl",
    "bytes": 54884,
    "sha256": "13106852d9e7a16dcefdb017160dd6be41e87c6fbf2b119aa98c631e69e7211c",
@@ -649,6 +698,13 @@
    "path": "exports/R25/stl/R25_R17_RollServoCradle.stl",
    "bytes": 113484,
    "sha256": "8d3106e6ea0a1f964ebf1f72eae74f54bdbe7baf907b13930c0cde196771be41",
+   "revision": "R25",
+   "role": "R25 CAD source, export, preview or verification"
+  },
+  {
+   "path": "exports/R25/stl/R25_R18_NeckBearingRetainer.stl",
+   "bytes": 32484,
+   "sha256": "9217bd6b43d2cb414e52d3e4d370d04c288f1ebcccd205fc0efa4e8c2604b923",
    "revision": "R25",
    "role": "R25 CAD source, export, preview or verification"
   },
@@ -850,8 +906,8 @@
   },
   {
    "path": "validation/R25-export-readback.json",
-   "bytes": 15465,
-   "sha256": "51e4856382f4201d7ce79c7226e2f9e79737d77e2013559db8ee7a8975f6d52e",
+   "bytes": 17144,
+   "sha256": "db5e885f4e7fd9f3941dc2394790093082ea9f660bff060dda38171e45236d0e",
    "revision": "R25",
    "role": "R25 CAD source, export, preview or verification"
   },

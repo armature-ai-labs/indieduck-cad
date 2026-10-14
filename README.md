@@ -14,7 +14,7 @@ R25 is a **design-review CAD candidate, not a manufacturing release**. The previ
 |---|---|
 | `native/robot/IndieDuck_R25_HeadBase.FCStd` | The head base as an editable PartDesign body with a parameter sheet (see below) |
 | `native/robot/IndieDuck_R25_Assembly.FCStd` | Complete R25 robot in its saved pose, FreeCAD 1.1.4, self-contained. Each part stores a `MovingBody` property naming the joint link it moves with. |
-| `exports/R25/step/`, `exports/R25/stl/` | 51 printed-component candidates, STEP and STL, in assembly coordinates (millimetres) |
+| `exports/R25/step/`, `exports/R25/stl/` | 55 printed-component candidates, STEP and STL, in assembly coordinates (millimetres) |
 | `exports/R25/IndieDuck_R25_Assembly.step` | Full assembly, 161 solids including purchased-part reference envelopes |
 | `exports/R25/print-oriented/R25_HelmetLower_upside-down.stl` | HelmetLower in its print orientation (see below) |
 | `previews/R25-*.png` | Actual CAD views: assembly, front, side, rear |
@@ -31,6 +31,10 @@ R25 is a **design-review CAD candidate, not a manufacturing release**. The previ
 ## Printing (provisional)
 
 Sliced in Bambu Studio 2.08 for a Bambu Lab P2S, 0.4 mm nozzle, 0.20 mm layers, 3 walls, 20 % infill: 39 parts on seven plates, about **360 g PLA and 34 g TPU 95A, roughly 16½ hours**. The retained R20 head base, thighs, yaw links, head brackets and cradles are extra. White, orange and dark are appearance colours; use PLA for rigid parts and TPU 95A for the soles. Keep the four HelmetRoof, HelmetLower, FaceBezel and CameraCarrier parts on two plates; Bambu silently dropped one part when all four shared a plate.
+
+## Support parts added to the printed list (14 October 2026)
+
+Four printed support parts were modelled in the assembly but missing from `COMPONENTS.csv`: the jaw bearing tower, jaw bearing keeper and jaw bearing plug, and the neck bearing retainer. They are now listed and exported (PLA, structural), bringing the printed set to 55. The full bill of materials, including purchased parts, fasteners, electronics and wiring, is in the project hub: `armature-ai-labs/indieduck` `BOM.md`.
 
 ## Head base redrawn (13 October 2026)
 

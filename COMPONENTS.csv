@@ -50,3 +50,7 @@ R25,HipCowl_L,IndieDuck_R25_Assembly.FCStd,HipCowl_L,"PLA, white appearance",exp
 R25,HipCowl_R,IndieDuck_R25_Assembly.FCStd,HipCowl_R,"PLA, white appearance",exports/R25/step/R25_HipCowl_R.step,exports/R25/stl/R25_HipCowl_R.stl,3311.473
 R25,ToeCap_L,IndieDuck_R25_Assembly.FCStd,ToeCap_L,"PLA, white appearance",exports/R25/step/R25_ToeCap_L.step,exports/R25/stl/R25_ToeCap_L.stl,2557.217
 R25,ToeCap_R,IndieDuck_R25_Assembly.FCStd,ToeCap_R,"PLA, white appearance",exports/R25/step/R25_ToeCap_R.step,exports/R25/stl/R25_ToeCap_R.stl,2556.788
+R25,A_R17_JawBearingTower,IndieDuck_R25_Assembly.FCStd,A_R17_JawBearingTower,"PLA, structural (dark appearance)",exports/R25/step/R25_R17_JawBearingTower.step,exports/R25/stl/R25_R17_JawBearingTower.stl,2244.051
+R25,A_R17_JawBearingKeeper,IndieDuck_R25_Assembly.FCStd,A_R17_JawBearingKeeper,"PLA, structural (dark appearance)",exports/R25/step/R25_R17_JawBearingKeeper.step,exports/R25/stl/R25_R17_JawBearingKeeper.stl,579.693
+R25,A_R17_JawBearingPlug,IndieDuck_R25_Assembly.FCStd,A_R17_JawBearingPlug,"PLA, structural (dark appearance)",exports/R25/step/R25_R17_JawBearingPlug.step,exports/R25/stl/R25_R17_JawBearingPlug.stl,1125.097
+R25,A_R18_NeckBearingRetainer,IndieDuck_R25_Assembly.FCStd,A_R18_NeckBearingRetainer,"PLA, structural (dark appearance)",exports/R25/step/R25_R18_NeckBearingRetainer.step,exports/R25/stl/R25_R18_NeckBearingRetainer.stl,406.739

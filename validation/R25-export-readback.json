@@ -1,7 +1,7 @@
 {
  "revision": "R25",
  "summary": {
-  "parts": 51,
+  "parts": 55,
   "all_step_valid_single_solid": true,
   "max_step_drift_ppm": 399.003,
   "all_stl_closed": true,
@@ -625,6 +625,58 @@
    "stl_closed": true,
    "stl_facets": 1732,
    "stl_volume_diff_pct": 0.096
+  },
+  {
+   "part": "R25_R17_JawBearingTower",
+   "native_object": "A_R17_JawBearingTower",
+   "moving_body": "head_roll_link",
+   "native_volume_mm3": 2244.051,
+   "step_valid": true,
+   "step_solids": 1,
+   "step_drift_ppm": 0.0,
+   "stl_closed": true,
+   "stl_facets": 1472,
+   "stl_volume_diff_pct": 0.021,
+   "note": "support part added to the printed list 2026-10-14 (was modelled but missing from COMPONENTS.csv)"
+  },
+  {
+   "part": "R25_R17_JawBearingKeeper",
+   "native_object": "A_R17_JawBearingKeeper",
+   "moving_body": "head_roll_link",
+   "native_volume_mm3": 579.693,
+   "step_valid": true,
+   "step_solids": 1,
+   "step_drift_ppm": 0.0,
+   "stl_closed": true,
+   "stl_facets": 928,
+   "stl_volume_diff_pct": 0.076,
+   "note": "support part added to the printed list 2026-10-14 (was modelled but missing from COMPONENTS.csv)"
+  },
+  {
+   "part": "R25_R17_JawBearingPlug",
+   "native_object": "A_R17_JawBearingPlug",
+   "moving_body": "mouth_link",
+   "native_volume_mm3": 1125.097,
+   "step_valid": true,
+   "step_solids": 1,
+   "step_drift_ppm": 0.0,
+   "stl_closed": true,
+   "stl_facets": 528,
+   "stl_volume_diff_pct": 0.401,
+   "note": "support part added to the printed list 2026-10-14 (was modelled but missing from COMPONENTS.csv)"
+  },
+  {
+   "part": "R25_R18_NeckBearingRetainer",
+   "native_object": "A_R18_NeckBearingRetainer",
+   "moving_body": "trunk_base",
+   "native_volume_mm3": 406.739,
+   "step_valid": true,
+   "step_solids": 1,
+   "step_drift_ppm": 0.0,
+   "stl_closed": true,
+   "stl_facets": 648,
+   "stl_volume_diff_pct": 0.071,
+   "note": "support part added to the printed list 2026-10-14 (was modelled but missing from COMPONENTS.csv)"
   }
  ]
 }
