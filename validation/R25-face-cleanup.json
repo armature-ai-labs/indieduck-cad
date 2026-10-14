@@ -1,0 +1,50 @@
+{
+ "date": "2026-10-13",
+ "parts": {
+  "AngularJaw": {
+   "faces": [
+    718,
+    177
+   ],
+   "triangular_faces": [
+    532,
+    60
+   ],
+   "volume_mm3": [
+    7456.5,
+    7451.4
+   ],
+   "rebuilt_exact": [
+    "bearing-side boss, 17 mm diameter, y -40.5..-36.0",
+    "10 mm bore, y -40.5..-31.8 (open end)",
+    "horn-side 4 x 2 mm holes on a 12 mm circle with 4.1 mm counterbores",
+    "6 mm centre hole above the 0.2 mm print bridge",
+    "9 mm-radius rounded edges of both side plates"
+   ],
+   "remaining": "56 triangles on the two lower plate corners (6.775 mm radius arc crossed by a second edge round near the outer faces) and 4 coplanar triangles on the front face"
+  },
+  "JawSurround_L": {
+   "faces": [
+    266,
+    29
+   ],
+   "triangular_faces": [
+    177,
+    0
+   ],
+   "volume_mm3": [
+    1640.1,
+    1652.9
+   ],
+   "rebuilt_exact": [
+    "four integral pins, radius 1.0 mm (y 42..43) with 2.05 mm heads (y 43..44), on the 12 mm circle"
+   ],
+   "note": "+12.9 mm3 because the original faceted pins were undersized polygons; clearance to the jaw holes is 0.01 mm, no overlap"
+  },
+  "A_HeadBase": {
+   "triangular_faces": 100,
+   "note": "imprinted by the jaw's remaining faceted lower corners through the jaw sweep; unchanged, clears through again with the cleaned jaw"
+  }
+ },
+ "checks": "head base static clear; head roll +-25, head yaw +-90 at three rolls, jaw 0..30 and neck -65..+27.5 clear with the cleaned jaw and surround; exports STEP valid, 0 ppm drift, STL closed"
+}

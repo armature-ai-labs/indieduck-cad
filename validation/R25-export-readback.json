@@ -256,13 +256,14 @@
    "part": "R25_AngularJaw",
    "native_object": "AngularJaw",
    "moving_body": "mouth_link",
-   "native_volume_mm3": 7456.498,
+   "native_volume_mm3": 7451.412,
    "step_valid": true,
    "step_solids": 1,
    "step_drift_ppm": 0.0,
    "stl_closed": true,
-   "stl_facets": 3048,
-   "stl_volume_diff_pct": 0.037
+   "stl_facets": 3968,
+   "stl_volume_diff_pct": 0.083,
+   "note": "pivot features rebuilt as exact geometry 2026-10-13"
   },
   {
    "part": "R25_TorsoFront",
@@ -508,14 +509,14 @@
    "part": "R25_JawSurround_L",
    "native_object": "JawSurround_L",
    "moving_body": "mouth_link",
-   "native_volume_mm3": 1640.065,
+   "native_volume_mm3": 1652.942,
    "step_valid": true,
    "step_solids": 1,
    "step_drift_ppm": 0.0,
    "stl_closed": true,
-   "stl_facets": 1402,
-   "stl_volume_diff_pct": 0.061,
-   "note": "0.02 mm mesh read back open at a near-degenerate spot; repaired (duplicate points, degenerate facets, non-manifolds, hole fill) and re-verified"
+   "stl_facets": 2136,
+   "stl_volume_diff_pct": 0.144,
+   "note": "pivot features rebuilt as exact geometry 2026-10-13"
   },
   {
    "part": "R25_RearHeadBumper",
