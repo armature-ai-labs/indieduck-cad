@@ -793,13 +793,6 @@
    "role": "R25 CAD source, export, preview or verification"
   },
   {
-   "path": "native/robot/IndieDuck_R25_Assembly 2.FCStd",
-   "bytes": 4303391,
-   "sha256": "f4d5b415de331ee866c0ff5067632123a90787ed16241b09b11872c88462ccb4",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
    "path": "native/robot/IndieDuck_R25_Assembly.FCStd",
    "bytes": 2159114,
    "sha256": "772f33ab94c3ba956a62452104fd2db5d2a0b1cd43be4e533678ccb25d878fe1",
