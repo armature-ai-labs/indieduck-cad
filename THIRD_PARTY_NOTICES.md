@@ -15,7 +15,7 @@ Copyright 2026 Armature AI Labs for our engineering modifications. Our independe
 
 Armature contributions include the HD-1910 structure and interface features, compact joint supports, the R25 exterior and the R25 head base. An independently authored modification does not relicense any underlying third-party material.
 
-**R25 and earlier releases (13 October 2026).** The current R25 robot (`native/robot/IndieDuck_R25_Assembly.FCStd`, `native/robot/IndieDuck_R25_HeadBase.FCStd` and `exports/R25/`) contains no geometry imported from XGO-Duck. Its head base, the last XGO-derived part, was replaced by an Armature-drawn part. R20 and earlier files, which did contain XGO-Duck geometry, have been removed from this branch; they remain available, with their own notices, at the tag `r20-simulation-study-v1`. Those notices are not repeated here because no current file depends on them.
+**R25 and earlier releases (13 October 2026).** The current robot, IndieDuck Cyber Edition on platform P1 (`editions/cyber/native/IndieDuck_Cyber_Assembly.FCStd`, `platform/` and `editions/cyber/`) contains no geometry imported from XGO-Duck. Its head base, the last XGO-derived part, was replaced by an Armature-drawn part. R20 and earlier files, which did contain XGO-Duck geometry, have been removed from this branch; they remain available, with their own notices, at the tag `r20-simulation-study-v1`. Those notices are not repeated here because no current file depends on them.
 
 For the active part-to-native-object mapping and material classification, use the package manifest. STEP/STL files inherit the provenance of their corresponding native objects. Assembly and review files combine those objects and do not broaden their permissions.
 
@@ -293,7 +293,7 @@ If you use or remix this, please credit the author above.
 
 ## Native source mapping
 
-`native/robot/IndieDuck_R25_Assembly.FCStd` holds the complete R25 robot as solids, each with a `MovingBody` property naming its joint link. `native/robot/IndieDuck_R25_HeadBase.FCStd` is the head base as an editable PartDesign body. `COMPONENTS.csv` maps every printed part to its native object, material and exports. Retained R17 and R18 Armature support and interface parts keep their original identifiers.
+`editions/cyber/native/IndieDuck_Cyber_Assembly.FCStd` holds the complete R25 robot as solids, each with a `MovingBody` property naming its joint link. `platform/native/IndieDuck_P1_HeadBase.FCStd` is the head base as an editable PartDesign body. `COMPONENTS.csv` maps every printed part to its native object, material and exports. Retained R17 and R18 Armature support and interface parts keep their original identifiers.
 
 ## Active printable classification
 

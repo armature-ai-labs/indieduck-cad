@@ -1,7 +1,7 @@
 {
  "project": "IndieDuck by Armature AI Labs",
  "revision": "R25",
- "release": "r25-cad-study-v7",
+ "release": "cyber-edition-v1",
  "units": "mm",
  "assembly": "native/robot/IndieDuck_R25_Assembly.FCStd",
  "component_manifest": "COMPONENTS.csv",
@@ -12,936 +12,956 @@
    "path": ".gitattributes",
    "bytes": 116,
    "sha256": "96aae8c4fd68a016568695df5e482b641fd161e106b5853a033d0fb9b345b5a5",
-   "revision": "R25",
-   "role": "CAD source, export, documentation or verification"
+   "scope": "repository",
+   "role": "Repository documentation and indexes"
   },
   {
    "path": ".gitignore",
    "bytes": 83,
    "sha256": "85242ace56b4cc634de7bd73f4d98d443d953f5f2140b55e6e0d5cbe04d6b1ad",
-   "revision": "R25",
-   "role": "CAD source, export, documentation or verification"
+   "scope": "repository",
+   "role": "Repository documentation and indexes"
   },
   {
    "path": "COMPONENTS.csv",
-   "bytes": 9733,
-   "sha256": "280a50662d8f1dc86e9e7423fa80286b1d618601c4a6f05e5884c3a0071f61c6",
-   "revision": "R25",
-   "role": "CAD source, export, documentation or verification"
+   "bytes": 12673,
+   "sha256": "887d16fb41f5810c5ba372fe0cdc208b183f38bd065d00be83f85a9974b8dcaf",
+   "scope": "repository",
+   "role": "Repository documentation and indexes"
   },
   {
    "path": "CONTRIBUTING.md",
-   "bytes": 2500,
-   "sha256": "21cffc3f630deef3dda7f49f08f485dceaf94908e8716675e82de35a1c0c9d3d",
-   "revision": "R25",
-   "role": "CAD source, export, documentation or verification"
+   "bytes": 2640,
+   "sha256": "698fae7d67e1d43ccfa1dd3c51e439aa195a098168a4fc21c8d45a854df096f9",
+   "scope": "repository",
+   "role": "Repository documentation and indexes"
   },
   {
    "path": "CONTRIBUTORS.md",
    "bytes": 630,
    "sha256": "c1a4d9876cca31b431d0706a536db44821b42055bd03619c0f9e971b526364a2",
-   "revision": "R25",
-   "role": "Contributor credits"
+   "scope": "repository",
+   "role": "Repository documentation and indexes"
   },
   {
    "path": "README.md",
-   "bytes": 7399,
-   "sha256": "ecfd30ab744331bf6bba8b4404b1b364400485cc98c2a1dc1c9603196bbbdf0e",
-   "revision": "R25",
-   "role": "CAD source, export, documentation or verification"
+   "bytes": 7632,
+   "sha256": "fd3d3088c728b656bed3e4d9ccc8f8045e37bb9e8b5201848fe04cb4ed560b36",
+   "scope": "repository",
+   "role": "Repository documentation and indexes"
   },
   {
    "path": "THIRD_PARTY_NOTICES.md",
-   "bytes": 18835,
-   "sha256": "36773f67c5c65dc0346a9f1129c514a0fe51410bb5f3c606c512f9127a3cc51c",
-   "revision": "R25",
-   "role": "CAD source, export, documentation or verification"
+   "bytes": 18866,
+   "sha256": "c458ae9470ac68f32f81cc6a5c28c7e276bc320aeb0daf8c9f1a6bd323df4860",
+   "scope": "repository",
+   "role": "Repository documentation and indexes"
   },
   {
    "path": "VERIFICATION.md",
-   "bytes": 3766,
-   "sha256": "f7cb66a6694142d7065ed8efb2a13ff1bc5fffb7d44f96033b1a32e19e2eeca6",
-   "revision": "R25",
-   "role": "CAD source, export, documentation or verification"
+   "bytes": 3841,
+   "sha256": "fe3e6eea82b6329d6d6d09eb9debad4621d70d51787b35d4ae40c32c170748d1",
+   "scope": "repository",
+   "role": "Repository documentation and indexes"
   },
   {
-   "path": "exports/R25/IndieDuck_R25_Assembly.step",
+   "path": "editions/cyber/edition.yaml",
+   "bytes": 969,
+   "sha256": "25c7c43f81a168fd1a49e86e3b4a8a46ee2bbb4a32ff30e955e907124c7ceb4e",
+   "scope": "cyber",
+   "role": "Cyber Edition"
+  },
+  {
+   "path": "editions/cyber/exports/IndieDuck_Cyber_Assembly.step",
    "bytes": 13448916,
    "sha256": "40ff9120b0a2b1f48fe7a76a23ab206f96516a55661471e8e5b16facbb0b5b76",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/print-oriented/R25_HelmetLower_upside-down.stl",
+   "path": "editions/cyber/exports/print-oriented/Cyber_HelmetLower_upside-down.stl",
    "bytes": 222284,
    "sha256": "fb00342a5b22ff72b90f332d442775bfa67d84b0049a92846bc9788fc0d826cd",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/step/R25_AngularJaw.step",
+   "path": "editions/cyber/exports/step/Cyber_AngularJaw.step",
    "bytes": 177406,
    "sha256": "83c407626123bb06b93af325e9756a065909abb11df41fad6bf6e9feef32d348",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/step/R25_CameraCarrier.step",
-   "bytes": 117081,
-   "sha256": "85afb4df80c6bddfe4bd4463091be9f39be8ffc1ce7588edb69e7146b2db8a81",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/step/R25_CameraFace.step",
+   "path": "editions/cyber/exports/step/Cyber_CameraFace.step",
    "bytes": 53273,
    "sha256": "5b9c2b70d80e6f1b4739cd782c585552badef30a73a3e1d195589f635678649d",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/step/R25_FaceBezel.step",
+   "path": "editions/cyber/exports/step/Cyber_FaceBezel.step",
    "bytes": 32002,
    "sha256": "7b8aae26c259162e8dacdda83772764b3e10e97daf48cd40d5a5f759c5aead0c",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/step/R25_FacetedFoot_L.step",
-   "bytes": 215777,
-   "sha256": "73e353c3ac28a4d55b8ecfb2a5e2ffcf8937a62f75f56a31493f05037613b2e9",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/step/R25_FacetedFoot_R.step",
-   "bytes": 219991,
-   "sha256": "7f077b857a09239d5af80baed7cb6681927e927cc8b31110f7fac54172003919",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/step/R25_FacetedSole_L.step",
-   "bytes": 131362,
-   "sha256": "ed85d1e963ba940d12a7773dae9855a6929c0c6aea0a8a3280c4f420b2adb3d7",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/step/R25_FacetedSole_R.step",
-   "bytes": 142198,
-   "sha256": "f0156a59d39e6bc1f30e5a1abf903bc419a7d3eba021736f3054919f98d569a0",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/step/R25_HeadBase.step",
-   "bytes": 1203319,
-   "sha256": "71b2abe50e2bce4bedb68a8f198f37b3d5d603a7d10aa0ce454df791d61375e3",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/step/R25_HeadPitch.step",
-   "bytes": 40130,
-   "sha256": "4efeb1cce4c4b9ff1edf5f7c6661fd04bd07cfc280bf71aa401da0b6b310d7ad",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/step/R25_HeadRim_L.step",
+   "path": "editions/cyber/exports/step/Cyber_HeadRim_L.step",
    "bytes": 105385,
    "sha256": "44c3552eec1f2e498fc33987c56d0be856c4a7ae4917b0236f60e52134f79d08",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/step/R25_HeadRim_R.step",
+   "path": "editions/cyber/exports/step/Cyber_HeadRim_R.step",
    "bytes": 103918,
    "sha256": "24b59c7f7a2cc59c4810c03576ad8d2d247ea21ce8f29f39af9353d0c0cb2e95",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/step/R25_HeadYaw.step",
-   "bytes": 54787,
-   "sha256": "15d8414ee7ef73fc88efc464b37fa65ad6a9c0cafa028a293c0e0cb1dbe79df8",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/step/R25_HelmetLower.step",
+   "path": "editions/cyber/exports/step/Cyber_HelmetLower.step",
    "bytes": 311407,
    "sha256": "1a74863d86a955b6fb6771c9bd40d168d961ed95c120563de2a898b4b0c9d16b",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/step/R25_HelmetRoof.step",
+   "path": "editions/cyber/exports/step/Cyber_HelmetRoof.step",
    "bytes": 179253,
    "sha256": "a9660068504cf5b9b77a93d25047db32f0b509f17926715feccf754263624ba5",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/step/R25_HipCowl_L.step",
+   "path": "editions/cyber/exports/step/Cyber_HipCowl_L.step",
    "bytes": 50660,
    "sha256": "484e67537765abf368ca186ba01479d2c004839b6112d1f8fe3c9ddfba6f2807",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/step/R25_HipCowl_R.step",
+   "path": "editions/cyber/exports/step/Cyber_HipCowl_R.step",
    "bytes": 87220,
    "sha256": "7a3f6351cad58549769ec9ab5f2c0efbb943c6a2389b0010371516d215f71c66",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/step/R25_HipL_L.step",
-   "bytes": 154673,
-   "sha256": "382f206a0d1e7f209269fff72f012e867faf5417b49ad70e735a6df32b76e0a2",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/step/R25_HipL_R.step",
-   "bytes": 154999,
-   "sha256": "4cbdcb4547019c34a6c2ca5c306e792ea8c5eb4ca51df5e3c552723a495e9bf7",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/step/R25_JawSurround_L.step",
+   "path": "editions/cyber/exports/step/Cyber_JawSurround_L.step",
    "bytes": 68596,
    "sha256": "01d9f2223053720c18570168fbe6bb49ff400916f1288af66ea104423f5b10c6",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/step/R25_JawSurround_R.step",
+   "path": "editions/cyber/exports/step/Cyber_JawSurround_R.step",
    "bytes": 12561,
    "sha256": "27034d431a995f916295c69512ab75b48cbaf6b2b624a540937b728076f2a416",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/step/R25_Neck.step",
-   "bytes": 117030,
-   "sha256": "c290acef104069dc69c521af846e7f318ebc05ef90d0ba323b08b9ae29116358",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/step/R25_OpticalRing_L.step",
+   "path": "editions/cyber/exports/step/Cyber_OpticalRing_L.step",
    "bytes": 4960,
    "sha256": "7a0b5d713b610578266f989be79732be6e5dc6c00a5997b446afd677867cb93c",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/step/R25_OpticalRing_R.step",
+   "path": "editions/cyber/exports/step/Cyber_OpticalRing_R.step",
    "bytes": 4974,
    "sha256": "f76bb4694a5801ea69668afa530c53b1c264ecf53f697782b8e1ed2d9fd9276e",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/step/R25_PelvisFront.step",
+   "path": "editions/cyber/exports/step/Cyber_PelvisFront.step",
    "bytes": 87196,
    "sha256": "5867c3558af8952c5b0c1aa13650b19677b828ae1045a98a1ba85613976bd70d",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/step/R25_PelvisRear.step",
+   "path": "editions/cyber/exports/step/Cyber_PelvisRear.step",
    "bytes": 119018,
    "sha256": "e736abb22b3133b8be31d9fb447943e655840432836cb22fcf01f176c2737df2",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/step/R25_R17_HeadYawClampCap.step",
-   "bytes": 17918,
-   "sha256": "5782623a46e9e257d1d19e3d0af477365cc6b32fa619e4b6e1a31ef1f168b3ca",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/step/R25_R17_JawBearingKeeper.step",
-   "bytes": 13903,
-   "sha256": "c13589bc39a9234b80857dcedceca2bf5146e3bfea049df7862b7c4434fbcf44",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/step/R25_R17_JawBearingPlug.step",
-   "bytes": 15897,
-   "sha256": "52f291226a6875318fd5c4117abf537d09c788dd8569e4d7f01746161cc691ce",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/step/R25_R17_JawBearingTower.step",
-   "bytes": 27733,
-   "sha256": "994799c0fe2aa68adf2d3b2634f64d17d6224f9bb41ed0352f8daa6655da73aa",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/step/R25_R17_MouthServoCradle.step",
-   "bytes": 38434,
-   "sha256": "e34f5993ab3c866cb1ce623d499d78e07588d42f88b6653ab85b0ec5049a1cca",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/step/R25_R17_MouthServoKeeper.step",
-   "bytes": 11900,
-   "sha256": "d8235fff0f8be609d8245fe3b5a22980f5b1ec2d579b574aaf3e57ccf1971e74",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/step/R25_R17_RollCradleTopClamp.step",
-   "bytes": 19987,
-   "sha256": "7059648a951c7bc33e3a736956bc8d0b32e95567dc72caa53c974f5de91182bf",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/step/R25_R17_RollServoCradle.step",
-   "bytes": 77783,
-   "sha256": "a163db6ce9a39e65dc0f4836d1614c928626b87dc62ef50b49ec6d516b725ae9",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/step/R25_R18_NeckBearingRetainer.step",
-   "bytes": 15725,
-   "sha256": "7ff5daf8385305072ad12e8992a345e97600c3115cfe36a140388542db39fb7b",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/step/R25_RearHeadBumper.step",
+   "path": "editions/cyber/exports/step/Cyber_RearHeadBumper.step",
    "bytes": 40089,
    "sha256": "237fde431cabe5b6eff1329f8d2d3653fa84bc0fc47c44fe781fca0d3750b2a0",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/step/R25_ShankStructure_L.step",
-   "bytes": 97936,
-   "sha256": "255850c3552bec34502c3468ca9d80d18fe5b900e1c9435a1e69e758a9c8271a",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/step/R25_ShankStructure_R.step",
-   "bytes": 159225,
-   "sha256": "cd703e81236307cd89f87ca0e90b5f06bca76050cff0669a2bae3411f37b4e43",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/step/R25_ShinCap_L.step",
+   "path": "editions/cyber/exports/step/Cyber_ShinCap_L.step",
    "bytes": 106306,
    "sha256": "be0d32aaefa427ef6d4ccdbc66805d451807333038b8df7d1a9f746c1f74e031",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/step/R25_ShinCap_R.step",
+   "path": "editions/cyber/exports/step/Cyber_ShinCap_R.step",
    "bytes": 163876,
    "sha256": "48494d10be0d6971d8c3ca77136417ca9423fdfc51ad515d5a7ee699ef6b7a6e",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/step/R25_ThighCap_L.step",
+   "path": "editions/cyber/exports/step/Cyber_ThighCap_L.step",
    "bytes": 115193,
    "sha256": "c8f6cd70f8f5411e7ec6beab01d4ab909bda775d85074a9f126299d38f1e270b",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/step/R25_ThighCap_R.step",
+   "path": "editions/cyber/exports/step/Cyber_ThighCap_R.step",
    "bytes": 173735,
    "sha256": "86c210d1294871430030a7ddb720ad2012b5ee15f4c7e19cb039538ddad62bbe",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/step/R25_Thigh_L.step",
-   "bytes": 79914,
-   "sha256": "619b0a3182fd9761254194138ac9982efd7e329a7b43e9f3ee6bb87832fb6870",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/step/R25_Thigh_R.step",
-   "bytes": 80018,
-   "sha256": "0a8c4c1d7bd2901dfdaf02dec193b205c0b4d59dc479a55d77a6d635127fc6a1",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/step/R25_ToeCap_L.step",
+   "path": "editions/cyber/exports/step/Cyber_ToeCap_L.step",
    "bytes": 495277,
    "sha256": "aef3870ad39fe9b0a462e337c81f6d6343ef58bf930203fb63ffaebd572dfd1b",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/step/R25_ToeCap_R.step",
+   "path": "editions/cyber/exports/step/Cyber_ToeCap_R.step",
    "bytes": 553390,
    "sha256": "e174c2162f96bac3b64614711a7be178a2dd5cb6592a3bda0fab46bdfac77895",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/step/R25_TorsoAccent_Front_L.step",
+   "path": "editions/cyber/exports/step/Cyber_TorsoAccent_Front_L.step",
    "bytes": 15480,
    "sha256": "e1ae64ea17f312b0006c1e45aa61b9dda976c301f35d25e31ff5b93cf0d13c7b",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/step/R25_TorsoAccent_Front_R.step",
+   "path": "editions/cyber/exports/step/Cyber_TorsoAccent_Front_R.step",
    "bytes": 15529,
    "sha256": "0a9eeb28ee4ba568ca1026753ed40159dec916445eed35fe930be121a6af023a",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/step/R25_TorsoAccent_Rear_L.step",
+   "path": "editions/cyber/exports/step/Cyber_TorsoAccent_Rear_L.step",
    "bytes": 19905,
    "sha256": "14b535110c7b39d927a810437ed4d02af85bb94aad29c3a1289a2cc487eda335",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/step/R25_TorsoAccent_Rear_R.step",
+   "path": "editions/cyber/exports/step/Cyber_TorsoAccent_Rear_R.step",
    "bytes": 19980,
    "sha256": "a32b1779fcc7a07946b12d8ad104092030723f21ad8cae63ce83c8617b783b4d",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/step/R25_TorsoFront.step",
+   "path": "editions/cyber/exports/step/Cyber_TorsoFront.step",
    "bytes": 364014,
    "sha256": "8b0a5b761b05f24c14c22771db1731ae334adfc89bb84f22ab5742e9d8f6e27f",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/step/R25_TorsoRear.step",
+   "path": "editions/cyber/exports/step/Cyber_TorsoRear.step",
    "bytes": 180273,
    "sha256": "8b26efdb201cbac64245d35b220efa9d6e906b91fcc3fa6c79481ab5cea52f0b",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/step/R25_Trunk.step",
-   "bytes": 355635,
-   "sha256": "4df0ff85e838256c52c841681337ed0361a31e56b98c5a167917639e808e530f",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/step/R25_Yaw_L.step",
-   "bytes": 44549,
-   "sha256": "fc40e6703351f69c1f5a92dbbbc28761e17c6a0acf117824a9ba989fb4799854",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/step/R25_Yaw_R.step",
-   "bytes": 44671,
-   "sha256": "b79558a0a1addadae5df884e1a45a65dade98c6ad6c7fec0cadbe6c4dac26193",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/stl/R25_AngularJaw.stl",
+   "path": "editions/cyber/exports/stl/Cyber_AngularJaw.stl",
    "bytes": 201284,
    "sha256": "00c063314d9ff12a89c586fde3115c9da2bb1fa465755fb08d56e0af3e16dbf6",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/stl/R25_CameraCarrier.stl",
-   "bytes": 50884,
-   "sha256": "66426639fb079a312b6eb02ed53b0363bd669d813c56e0a65928f1d16d44a008",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/stl/R25_CameraFace.stl",
+   "path": "editions/cyber/exports/stl/Cyber_CameraFace.stl",
    "bytes": 73884,
    "sha256": "60bdb0136e99413b29f8ccadf1350932a1db33b8a0bf5dc8dc964c1c05575803",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/stl/R25_FaceBezel.stl",
+   "path": "editions/cyber/exports/stl/Cyber_FaceBezel.stl",
    "bytes": 14084,
    "sha256": "3feafed9ad464e996fb5deb7b0813c611b6494b12f7a94ac614361cc774a995c",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/stl/R25_FacetedFoot_L.stl",
-   "bytes": 211484,
-   "sha256": "565c28c63b8bc93d76fcb32576ce6d9227f906a5bc50818e859a83c550889d92",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/stl/R25_FacetedFoot_R.stl",
-   "bytes": 210884,
-   "sha256": "ffd88befef9bbe5367ffb3f0be2a2a7b81c13e77525ee12c5c4f791d22920556",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/stl/R25_FacetedSole_L.stl",
-   "bytes": 97184,
-   "sha256": "b2f33138ba03ac62d1625e0f13b2e8c3d0c52dd8b1bf962933befee6967b22fe",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/stl/R25_FacetedSole_R.stl",
-   "bytes": 93884,
-   "sha256": "e754e6e88e5ac79c262c87e9e3ddc11c9af60f4e7e5dc279d925c7c372723fec",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/stl/R25_HeadBase.stl",
-   "bytes": 350384,
-   "sha256": "f9f1399e8cd01117ad6d3111e4e983f496fd44a292481585d663f9f9e4d2c019",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/stl/R25_HeadPitch.stl",
-   "bytes": 105284,
-   "sha256": "ea7939429f84e87e341765fe774740863253dc7452f93b1b5d4f6a4387f957dc",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/stl/R25_HeadRim_L.stl",
+   "path": "editions/cyber/exports/stl/Cyber_HeadRim_L.stl",
    "bytes": 13984,
    "sha256": "8ba5b964ccf3bd28cc524aff7dd1a60d94840ea949ab6b783b9d009b0d12c793",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/stl/R25_HeadRim_R.stl",
+   "path": "editions/cyber/exports/stl/Cyber_HeadRim_R.stl",
    "bytes": 15384,
    "sha256": "ff7c0a6a047dd0bae1a3df6fb544727f2615876b2f45987dd5edc2cd14c48d76",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/stl/R25_HeadYaw.stl",
-   "bytes": 81384,
-   "sha256": "2e5c46695e886f18796b8ac8d96ae3f12213d56455cf97a42c48392f75a74d93",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/stl/R25_HelmetLower.stl",
+   "path": "editions/cyber/exports/stl/Cyber_HelmetLower.stl",
    "bytes": 213884,
    "sha256": "8d9d6ff63d482bb68e6d479b909cc7fda6457930c900a0c5d938134e958bb9f7",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/stl/R25_HelmetRoof.stl",
+   "path": "editions/cyber/exports/stl/Cyber_HelmetRoof.stl",
    "bytes": 188084,
    "sha256": "49baa4607065d93ff6f89e84b40900175327f8fdec965b00ecef8516d85c90fc",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/stl/R25_HipCowl_L.stl",
+   "path": "editions/cyber/exports/stl/Cyber_HipCowl_L.stl",
    "bytes": 44584,
    "sha256": "7145c77a3c4e46a2a66dd43cff7d682ca1f0d9a5f337898ad04d62baa38c1528",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/stl/R25_HipCowl_R.stl",
+   "path": "editions/cyber/exports/stl/Cyber_HipCowl_R.stl",
    "bytes": 60984,
    "sha256": "f75fd91810bce80ac021c941d72b0baadb1a6c0429c3b3be1af4a11fd98dd9c4",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/stl/R25_HipL_L.stl",
-   "bytes": 228884,
-   "sha256": "7638a7e36fdfb98cf32fd2ee07a39f0bfe32e86705ddd2687c2440a8703e937d",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/stl/R25_HipL_R.stl",
-   "bytes": 228884,
-   "sha256": "bd62222f7949ba2b16fea056ebcaac9c9139bd303d62da57636a5ff141f84586",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/stl/R25_JawSurround_L.stl",
+   "path": "editions/cyber/exports/stl/Cyber_JawSurround_L.stl",
    "bytes": 106884,
    "sha256": "a80ed20fbaf3ca9975f0d73fa7c134faf6d764e2f02c6062d0b60da48b4056fa",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/stl/R25_JawSurround_R.stl",
+   "path": "editions/cyber/exports/stl/Cyber_JawSurround_R.stl",
    "bytes": 22784,
    "sha256": "170b66f3ae8d1bb3781807c66b623134a804490f5a34dc2c228fe4f02358d562",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/stl/R25_Neck.stl",
-   "bytes": 123884,
-   "sha256": "b3c41bdf284109d1cb13a5928fbbf9c07282289f0896b2a452813d80401af8c1",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/stl/R25_OpticalRing_L.stl",
+   "path": "editions/cyber/exports/stl/Cyber_OpticalRing_L.stl",
    "bytes": 18684,
    "sha256": "4496c3ba9d79a8ea1ebcda95bfb55ac38fe9b60ac2f5304722f52f0a2b5aa001",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/stl/R25_OpticalRing_R.stl",
+   "path": "editions/cyber/exports/stl/Cyber_OpticalRing_R.stl",
    "bytes": 18684,
    "sha256": "b326b6ddda64b6646323d295fff23c88fc11645a058c190b574adb943f455449",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/stl/R25_PelvisFront.stl",
+   "path": "editions/cyber/exports/stl/Cyber_PelvisFront.stl",
    "bytes": 30984,
    "sha256": "f2fce63066b33563387d3a63008e305df98a1ffc12f207bf65218b9f94940409",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/stl/R25_PelvisRear.stl",
+   "path": "editions/cyber/exports/stl/Cyber_PelvisRear.stl",
    "bytes": 31684,
    "sha256": "1ac54081368027d1ef4441eed5201d76a1307502d9235d876ce84b1349951264",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/stl/R25_R17_HeadYawClampCap.stl",
-   "bytes": 35684,
-   "sha256": "54fbb2b6356dfd53717038edc386d7166cae1fb06ec12e32028004521321aab4",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/stl/R25_R17_JawBearingKeeper.stl",
-   "bytes": 46484,
-   "sha256": "f43df60adca281151206ea9cf8d88caa0ce02ef3b086b1f9b26d55162b3d6dbb",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/stl/R25_R17_JawBearingPlug.stl",
-   "bytes": 26484,
-   "sha256": "95f11257d28da2bf4967b50a04eff14615998e3556b5ca12f77a5ef090089d5c",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/stl/R25_R17_JawBearingTower.stl",
-   "bytes": 73684,
-   "sha256": "3ded4b12bada98564ae0b29cb77bfcbdbabfb2e3615f0630e2d3e4f765644285",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/stl/R25_R17_MouthServoCradle.stl",
-   "bytes": 54884,
-   "sha256": "13106852d9e7a16dcefdb017160dd6be41e87c6fbf2b119aa98c631e69e7211c",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/stl/R25_R17_MouthServoKeeper.stl",
-   "bytes": 20084,
-   "sha256": "cabc2ee724c2c98cdeb31a1102770728a41c24deb25902439b86cca6d4deed10",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/stl/R25_R17_RollCradleTopClamp.stl",
-   "bytes": 75084,
-   "sha256": "43761949d59e1e308b8594038a5390fffad75192e235d71fac9ea18a38081541",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/stl/R25_R17_RollServoCradle.stl",
-   "bytes": 113484,
-   "sha256": "8d3106e6ea0a1f964ebf1f72eae74f54bdbe7baf907b13930c0cde196771be41",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/stl/R25_R18_NeckBearingRetainer.stl",
-   "bytes": 32484,
-   "sha256": "9217bd6b43d2cb414e52d3e4d370d04c288f1ebcccd205fc0efa4e8c2604b923",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/stl/R25_RearHeadBumper.stl",
+   "path": "editions/cyber/exports/stl/Cyber_RearHeadBumper.stl",
    "bytes": 22784,
    "sha256": "1f7b24333cd32c892f3a253b1ada75ecab18ce52a9ffdc37fc0e327db6ce97c8",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/stl/R25_ShankStructure_L.stl",
-   "bytes": 143684,
-   "sha256": "f4b32466dc1f1261cb817d003e3c31e53053e42f9466538ee641bbbad0230787",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/stl/R25_ShankStructure_R.stl",
-   "bytes": 289684,
-   "sha256": "60c979c132d5099e66212a90a5c18ca5d2312c28b217498fe66f3aa495861621",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/stl/R25_ShinCap_L.stl",
+   "path": "editions/cyber/exports/stl/Cyber_ShinCap_L.stl",
    "bytes": 49284,
    "sha256": "1d1746d28ec9dfd06622984a0b4458c5d2b383aeff489cd4adce6f2e44494765",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/stl/R25_ShinCap_R.stl",
+   "path": "editions/cyber/exports/stl/Cyber_ShinCap_R.stl",
    "bytes": 70284,
    "sha256": "786e10897b96cca63d0a2748d907ca59f7a80e10034e1c0a546bb2def9cd180c",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/stl/R25_ThighCap_L.stl",
+   "path": "editions/cyber/exports/stl/Cyber_ThighCap_L.stl",
    "bytes": 159184,
    "sha256": "425496069260611b9629b6f83b196f0549ca8f9778a8cfc4f3b8a47f88eb9fd4",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/stl/R25_ThighCap_R.stl",
+   "path": "editions/cyber/exports/stl/Cyber_ThighCap_R.stl",
    "bytes": 258684,
    "sha256": "40fd16622d01f7fc4a7e4d7826922d9ccfaf9d08f1d7d2c8ad91fc96afc4002d",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/stl/R25_Thigh_L.stl",
-   "bytes": 94884,
-   "sha256": "cfce62e49d4031ffaa3817ca3c2be589fb88e651b43105ddf96926c61d706362",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/stl/R25_Thigh_R.stl",
-   "bytes": 94884,
-   "sha256": "03da88fbac3d7135aab00ae4d20a60c86d3db750983392b2119055fd543444ae",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/stl/R25_ToeCap_L.stl",
+   "path": "editions/cyber/exports/stl/Cyber_ToeCap_L.stl",
    "bytes": 112584,
    "sha256": "71a4718a8af4a9a1742e556bfeb8ab97ec30b6e86b8c7943da2011573feaa94b",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/stl/R25_ToeCap_R.stl",
+   "path": "editions/cyber/exports/stl/Cyber_ToeCap_R.stl",
    "bytes": 127984,
    "sha256": "4328827cdee0b6ace66acd2a4117560b229ed7b9eca70f12b8cb7a9c9ab563de",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/stl/R25_TorsoAccent_Front_L.stl",
+   "path": "editions/cyber/exports/stl/Cyber_TorsoAccent_Front_L.stl",
    "bytes": 1784,
    "sha256": "75ff87671adfa8bdca1506b2c06288f5ce2820213bd71e48dce08d83af670fa4",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/stl/R25_TorsoAccent_Front_R.stl",
+   "path": "editions/cyber/exports/stl/Cyber_TorsoAccent_Front_R.stl",
    "bytes": 1784,
    "sha256": "09dc4e526d9994cb739ed88148da4a1bdddcefd25e1499c9c0f483bc6d040d17",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/stl/R25_TorsoAccent_Rear_L.stl",
+   "path": "editions/cyber/exports/stl/Cyber_TorsoAccent_Rear_L.stl",
    "bytes": 4084,
    "sha256": "6f4e90578d078df08af9d539ff144860a731e0ed5bebf635815a213bbb05bd67",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/stl/R25_TorsoAccent_Rear_R.stl",
+   "path": "editions/cyber/exports/stl/Cyber_TorsoAccent_Rear_R.stl",
    "bytes": 4084,
    "sha256": "20844cc1eb1df05174f77ad16d42bbf241ae61d1fde1b523f18c2c34ab4242b7",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/stl/R25_TorsoFront.stl",
+   "path": "editions/cyber/exports/stl/Cyber_TorsoFront.stl",
    "bytes": 153384,
    "sha256": "2bc9a883413ae14dbe36f85ab2497a570530426c4d72018ffa37e24ce6734c87",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/stl/R25_TorsoRear.stl",
+   "path": "editions/cyber/exports/stl/Cyber_TorsoRear.stl",
    "bytes": 118884,
    "sha256": "2f8f469b797016375cc9090092960328babf48e49af51169badeb72c78ee29c0",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "exports/R25/stl/R25_Trunk.stl",
-   "bytes": 388584,
-   "sha256": "ceb91c4154134fe30d1a05d2d5ae16c1136f90157b127393a017b094980dd4ea",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/stl/R25_Yaw_L.stl",
-   "bytes": 73684,
-   "sha256": "9d4b4c8a28e135378eb48f17bc6ccb78a070a61313e6c2cfca9e776a1e5896dd",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "exports/R25/stl/R25_Yaw_R.stl",
-   "bytes": 73684,
-   "sha256": "d2ea2e54072870283781dab96af7176255dfac82893f53bee0c6d45eb0da17bb",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "native/robot/IndieDuck_R25_Assembly.FCStd",
+   "path": "editions/cyber/native/IndieDuck_Cyber_Assembly.FCStd",
    "bytes": 2372498,
    "sha256": "079f9111f95f94358d1ba63fea7c5c734e603a9b8b9b27cb15fd4d42eacee349",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "native/robot/IndieDuck_R25_HeadBase.FCStd",
-   "bytes": 392174,
-   "sha256": "860bfbed7cc2126a8bbd5d5af22b8eb9f2c843e06fe55326854b23faf63f4a84",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "previews/R25-assembly.png",
-   "bytes": 70311,
-   "sha256": "69027d0f63278f682481e1ffe9c3a1344e358f6c53c22a2d51ec097a6741935b",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "previews/R25-front.png",
-   "bytes": 55878,
-   "sha256": "248fd0549a77097277e4b4bcd338176952bd587e90a9e32f9417dedd679e3c47",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "previews/R25-headbase-replacement.png",
-   "bytes": 37684,
-   "sha256": "ce19c9b1e208df9b7b373283352800b364c57cce7ae5cc3795302be1f958e342",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "previews/R25-rear.png",
-   "bytes": 46446,
-   "sha256": "6be939a1eb38eee7bc1d4d8f8247e9779eedaa03b3429d2e3a33e979428c8170",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "previews/R25-side.png",
-   "bytes": 43536,
-   "sha256": "6e249ed6e8f1932b2ae8ea76f571e2e72b072fd1487e1887627ea977d0bf1f4e",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
-  },
-  {
-   "path": "previews/README.md",
+   "path": "editions/cyber/previews/README.md",
    "bytes": 344,
    "sha256": "3333b714fa3a220b8bd1c5c37a752346fde9cf4a117e02ca442256033018c0fa",
-   "revision": "R25",
-   "role": "CAD source, export, documentation or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "validation/R25-export-readback.json",
+   "path": "editions/cyber/previews/cyber-assembly.png",
+   "bytes": 70311,
+   "sha256": "69027d0f63278f682481e1ffe9c3a1344e358f6c53c22a2d51ec097a6741935b",
+   "scope": "cyber",
+   "role": "Cyber Edition"
+  },
+  {
+   "path": "editions/cyber/previews/cyber-front.png",
+   "bytes": 55878,
+   "sha256": "248fd0549a77097277e4b4bcd338176952bd587e90a9e32f9417dedd679e3c47",
+   "scope": "cyber",
+   "role": "Cyber Edition"
+  },
+  {
+   "path": "editions/cyber/previews/cyber-headbase-replacement.png",
+   "bytes": 37684,
+   "sha256": "ce19c9b1e208df9b7b373283352800b364c57cce7ae5cc3795302be1f958e342",
+   "scope": "cyber",
+   "role": "Cyber Edition"
+  },
+  {
+   "path": "editions/cyber/previews/cyber-rear.png",
+   "bytes": 46446,
+   "sha256": "6be939a1eb38eee7bc1d4d8f8247e9779eedaa03b3429d2e3a33e979428c8170",
+   "scope": "cyber",
+   "role": "Cyber Edition"
+  },
+  {
+   "path": "editions/cyber/previews/cyber-side.png",
+   "bytes": 43536,
+   "sha256": "6e249ed6e8f1932b2ae8ea76f571e2e72b072fd1487e1887627ea977d0bf1f4e",
+   "scope": "cyber",
+   "role": "Cyber Edition"
+  },
+  {
+   "path": "editions/cyber/validation/R25-export-readback.json",
    "bytes": 17697,
    "sha256": "20464ea440854e7e3a5e956eebdf3d106ac164bfe5cd8c5750db68c1ad652acf",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "validation/R25-face-cleanup.json",
+   "path": "editions/cyber/validation/R25-face-cleanup.json",
    "bytes": 1979,
    "sha256": "82b8412035123851b34bd2961cbdfb950207976474909cb1a58329ad61888235",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "validation/R25-fixes.json",
+   "path": "editions/cyber/validation/R25-fixes.json",
    "bytes": 2533,
    "sha256": "4796797b65735a2107e547856a9dbf2d503afc7e72dff21f0fefe5edfa0114d1",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "validation/R25-headbase-replacement.json",
+   "path": "editions/cyber/validation/R25-headbase-replacement.json",
    "bytes": 2304,
    "sha256": "be47edfcff8d1a0e402e4f2eb921248d058f266398e31e171e80b693702b4783",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
   },
   {
-   "path": "validation/R25-joint-ranges.json",
+   "path": "editions/cyber/validation/R25-joint-ranges.json",
    "bytes": 5209,
    "sha256": "895d07354edbaf8a4d026003e30fcc0424f11ba9db931ddebbbfe150c1967af1",
-   "revision": "R25",
-   "role": "R25 CAD source, export, preview or verification"
+   "scope": "cyber",
+   "role": "Cyber Edition"
+  },
+  {
+   "path": "platform/PLATFORM.md",
+   "bytes": 2186,
+   "sha256": "17736fae23ebc614c3394d65485014724a2394948ff665c72eacfef91219c638",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/step/P1_CameraCarrier.step",
+   "bytes": 117081,
+   "sha256": "85afb4df80c6bddfe4bd4463091be9f39be8ffc1ce7588edb69e7146b2db8a81",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/step/P1_FacetedFoot_L.step",
+   "bytes": 215777,
+   "sha256": "73e353c3ac28a4d55b8ecfb2a5e2ffcf8937a62f75f56a31493f05037613b2e9",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/step/P1_FacetedFoot_R.step",
+   "bytes": 219991,
+   "sha256": "7f077b857a09239d5af80baed7cb6681927e927cc8b31110f7fac54172003919",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/step/P1_FacetedSole_L.step",
+   "bytes": 131362,
+   "sha256": "ed85d1e963ba940d12a7773dae9855a6929c0c6aea0a8a3280c4f420b2adb3d7",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/step/P1_FacetedSole_R.step",
+   "bytes": 142198,
+   "sha256": "f0156a59d39e6bc1f30e5a1abf903bc419a7d3eba021736f3054919f98d569a0",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/step/P1_HeadBase.step",
+   "bytes": 1203319,
+   "sha256": "71b2abe50e2bce4bedb68a8f198f37b3d5d603a7d10aa0ce454df791d61375e3",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/step/P1_HeadPitch.step",
+   "bytes": 40130,
+   "sha256": "4efeb1cce4c4b9ff1edf5f7c6661fd04bd07cfc280bf71aa401da0b6b310d7ad",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/step/P1_HeadYaw.step",
+   "bytes": 54787,
+   "sha256": "15d8414ee7ef73fc88efc464b37fa65ad6a9c0cafa028a293c0e0cb1dbe79df8",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/step/P1_HipL_L.step",
+   "bytes": 154673,
+   "sha256": "382f206a0d1e7f209269fff72f012e867faf5417b49ad70e735a6df32b76e0a2",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/step/P1_HipL_R.step",
+   "bytes": 154999,
+   "sha256": "4cbdcb4547019c34a6c2ca5c306e792ea8c5eb4ca51df5e3c552723a495e9bf7",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/step/P1_Neck.step",
+   "bytes": 117030,
+   "sha256": "c290acef104069dc69c521af846e7f318ebc05ef90d0ba323b08b9ae29116358",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/step/P1_R17_HeadYawClampCap.step",
+   "bytes": 17918,
+   "sha256": "5782623a46e9e257d1d19e3d0af477365cc6b32fa619e4b6e1a31ef1f168b3ca",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/step/P1_R17_JawBearingKeeper.step",
+   "bytes": 13903,
+   "sha256": "c13589bc39a9234b80857dcedceca2bf5146e3bfea049df7862b7c4434fbcf44",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/step/P1_R17_JawBearingPlug.step",
+   "bytes": 15897,
+   "sha256": "52f291226a6875318fd5c4117abf537d09c788dd8569e4d7f01746161cc691ce",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/step/P1_R17_JawBearingTower.step",
+   "bytes": 27733,
+   "sha256": "994799c0fe2aa68adf2d3b2634f64d17d6224f9bb41ed0352f8daa6655da73aa",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/step/P1_R17_MouthServoCradle.step",
+   "bytes": 38434,
+   "sha256": "e34f5993ab3c866cb1ce623d499d78e07588d42f88b6653ab85b0ec5049a1cca",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/step/P1_R17_MouthServoKeeper.step",
+   "bytes": 11900,
+   "sha256": "d8235fff0f8be609d8245fe3b5a22980f5b1ec2d579b574aaf3e57ccf1971e74",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/step/P1_R17_RollCradleTopClamp.step",
+   "bytes": 19987,
+   "sha256": "7059648a951c7bc33e3a736956bc8d0b32e95567dc72caa53c974f5de91182bf",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/step/P1_R17_RollServoCradle.step",
+   "bytes": 77783,
+   "sha256": "a163db6ce9a39e65dc0f4836d1614c928626b87dc62ef50b49ec6d516b725ae9",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/step/P1_R18_NeckBearingRetainer.step",
+   "bytes": 15725,
+   "sha256": "7ff5daf8385305072ad12e8992a345e97600c3115cfe36a140388542db39fb7b",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/step/P1_ShankStructure_L.step",
+   "bytes": 97936,
+   "sha256": "255850c3552bec34502c3468ca9d80d18fe5b900e1c9435a1e69e758a9c8271a",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/step/P1_ShankStructure_R.step",
+   "bytes": 159225,
+   "sha256": "cd703e81236307cd89f87ca0e90b5f06bca76050cff0669a2bae3411f37b4e43",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/step/P1_Thigh_L.step",
+   "bytes": 79914,
+   "sha256": "619b0a3182fd9761254194138ac9982efd7e329a7b43e9f3ee6bb87832fb6870",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/step/P1_Thigh_R.step",
+   "bytes": 80018,
+   "sha256": "0a8c4c1d7bd2901dfdaf02dec193b205c0b4d59dc479a55d77a6d635127fc6a1",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/step/P1_Trunk.step",
+   "bytes": 355635,
+   "sha256": "4df0ff85e838256c52c841681337ed0361a31e56b98c5a167917639e808e530f",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/step/P1_Yaw_L.step",
+   "bytes": 44549,
+   "sha256": "fc40e6703351f69c1f5a92dbbbc28761e17c6a0acf117824a9ba989fb4799854",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/step/P1_Yaw_R.step",
+   "bytes": 44671,
+   "sha256": "b79558a0a1addadae5df884e1a45a65dade98c6ad6c7fec0cadbe6c4dac26193",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/stl/P1_CameraCarrier.stl",
+   "bytes": 50884,
+   "sha256": "66426639fb079a312b6eb02ed53b0363bd669d813c56e0a65928f1d16d44a008",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/stl/P1_FacetedFoot_L.stl",
+   "bytes": 211484,
+   "sha256": "565c28c63b8bc93d76fcb32576ce6d9227f906a5bc50818e859a83c550889d92",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/stl/P1_FacetedFoot_R.stl",
+   "bytes": 210884,
+   "sha256": "ffd88befef9bbe5367ffb3f0be2a2a7b81c13e77525ee12c5c4f791d22920556",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/stl/P1_FacetedSole_L.stl",
+   "bytes": 97184,
+   "sha256": "b2f33138ba03ac62d1625e0f13b2e8c3d0c52dd8b1bf962933befee6967b22fe",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/stl/P1_FacetedSole_R.stl",
+   "bytes": 93884,
+   "sha256": "e754e6e88e5ac79c262c87e9e3ddc11c9af60f4e7e5dc279d925c7c372723fec",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/stl/P1_HeadBase.stl",
+   "bytes": 350384,
+   "sha256": "f9f1399e8cd01117ad6d3111e4e983f496fd44a292481585d663f9f9e4d2c019",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/stl/P1_HeadPitch.stl",
+   "bytes": 105284,
+   "sha256": "ea7939429f84e87e341765fe774740863253dc7452f93b1b5d4f6a4387f957dc",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/stl/P1_HeadYaw.stl",
+   "bytes": 81384,
+   "sha256": "2e5c46695e886f18796b8ac8d96ae3f12213d56455cf97a42c48392f75a74d93",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/stl/P1_HipL_L.stl",
+   "bytes": 228884,
+   "sha256": "7638a7e36fdfb98cf32fd2ee07a39f0bfe32e86705ddd2687c2440a8703e937d",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/stl/P1_HipL_R.stl",
+   "bytes": 228884,
+   "sha256": "bd62222f7949ba2b16fea056ebcaac9c9139bd303d62da57636a5ff141f84586",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/stl/P1_Neck.stl",
+   "bytes": 123884,
+   "sha256": "b3c41bdf284109d1cb13a5928fbbf9c07282289f0896b2a452813d80401af8c1",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/stl/P1_R17_HeadYawClampCap.stl",
+   "bytes": 35684,
+   "sha256": "54fbb2b6356dfd53717038edc386d7166cae1fb06ec12e32028004521321aab4",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/stl/P1_R17_JawBearingKeeper.stl",
+   "bytes": 46484,
+   "sha256": "f43df60adca281151206ea9cf8d88caa0ce02ef3b086b1f9b26d55162b3d6dbb",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/stl/P1_R17_JawBearingPlug.stl",
+   "bytes": 26484,
+   "sha256": "95f11257d28da2bf4967b50a04eff14615998e3556b5ca12f77a5ef090089d5c",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/stl/P1_R17_JawBearingTower.stl",
+   "bytes": 73684,
+   "sha256": "3ded4b12bada98564ae0b29cb77bfcbdbabfb2e3615f0630e2d3e4f765644285",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/stl/P1_R17_MouthServoCradle.stl",
+   "bytes": 54884,
+   "sha256": "13106852d9e7a16dcefdb017160dd6be41e87c6fbf2b119aa98c631e69e7211c",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/stl/P1_R17_MouthServoKeeper.stl",
+   "bytes": 20084,
+   "sha256": "cabc2ee724c2c98cdeb31a1102770728a41c24deb25902439b86cca6d4deed10",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/stl/P1_R17_RollCradleTopClamp.stl",
+   "bytes": 75084,
+   "sha256": "43761949d59e1e308b8594038a5390fffad75192e235d71fac9ea18a38081541",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/stl/P1_R17_RollServoCradle.stl",
+   "bytes": 113484,
+   "sha256": "8d3106e6ea0a1f964ebf1f72eae74f54bdbe7baf907b13930c0cde196771be41",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/stl/P1_R18_NeckBearingRetainer.stl",
+   "bytes": 32484,
+   "sha256": "9217bd6b43d2cb414e52d3e4d370d04c288f1ebcccd205fc0efa4e8c2604b923",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/stl/P1_ShankStructure_L.stl",
+   "bytes": 143684,
+   "sha256": "f4b32466dc1f1261cb817d003e3c31e53053e42f9466538ee641bbbad0230787",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/stl/P1_ShankStructure_R.stl",
+   "bytes": 289684,
+   "sha256": "60c979c132d5099e66212a90a5c18ca5d2312c28b217498fe66f3aa495861621",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/stl/P1_Thigh_L.stl",
+   "bytes": 94884,
+   "sha256": "cfce62e49d4031ffaa3817ca3c2be589fb88e651b43105ddf96926c61d706362",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/stl/P1_Thigh_R.stl",
+   "bytes": 94884,
+   "sha256": "03da88fbac3d7135aab00ae4d20a60c86d3db750983392b2119055fd543444ae",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/stl/P1_Trunk.stl",
+   "bytes": 388584,
+   "sha256": "ceb91c4154134fe30d1a05d2d5ae16c1136f90157b127393a017b094980dd4ea",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/stl/P1_Yaw_L.stl",
+   "bytes": 73684,
+   "sha256": "9d4b4c8a28e135378eb48f17bc6ccb78a070a61313e6c2cfca9e776a1e5896dd",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/exports/stl/P1_Yaw_R.stl",
+   "bytes": 73684,
+   "sha256": "d2ea2e54072870283781dab96af7176255dfac82893f53bee0c6d45eb0da17bb",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
+   "path": "platform/native/IndieDuck_P1_HeadBase.FCStd",
+   "bytes": 392174,
+   "sha256": "860bfbed7cc2126a8bbd5d5af22b8eb9f2c843e06fe55326854b23faf63f4a84",
+   "scope": "platform",
+   "role": "Platform P1"
   }
  ],
  "earlier_releases": {
   "r20": "tag r20-simulation-study-v1",
   "cad_study": "tag cad-study-2026-10-09"
+ },
+ "layout": {
+  "platform": "platform/ (P1)",
+  "editions": [
+   "editions/cyber/"
+  ]
  }
 }

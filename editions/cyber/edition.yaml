@@ -1,0 +1,21 @@
+# IndieDuck edition description. Tools read this file; keep keys stable.
+id: cyber
+name: IndieDuck Cyber Edition
+form_factor: duck
+platform: P1
+design_revision: R25            # historical name; tags r25-* refer to this design
+designers:
+  - name: Zankar Savalia
+    link: https://www.linkedin.com/in/zankarvs/
+maintainer: Armature AI Labs
+licence: Apache-2.0
+maturity: sim-ready             # concept | cad-verified | sim-ready | trained | built | official
+model_id: indieduck-cyber
+training_task: Mjlab-Velocity-Flat-IndieDuck-Cyber
+native_assembly: native/IndieDuck_Cyber_Assembly.FCStd   # complete robot: platform P1 + this exterior
+parts: COMPONENTS.csv rows with edition = cyber (28 exterior parts)
+joint_ranges: validation/R25-joint-ranges.json
+open_items:
+  - Mouth: the head rims block the jaw surrounds; the interface needs a redesign.
+  - Cover fixings: most cover screw holes have no boss behind them.
+  - Retention for the optical rings and torso inlays.

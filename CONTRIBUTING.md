@@ -1,6 +1,6 @@
 # Contributing
 
-Start from the current R25 files in `native/robot/`. Open `IndieDuck_R25_Assembly.FCStd` for the complete robot; edit the head base in `IndieDuck_R25_HeadBase.FCStd` (driven by its `Params` sheet). Other R25 parts are solids without history, so changes to them are direct solid edits until they are rebuilt as editable features. Keep each part's `MovingBody` property and object label, since the export and simulator tooling depend on them.
+Read `platform/PLATFORM.md` first. Open `editions/cyber/native/IndieDuck_Cyber_Assembly.FCStd` for the complete robot; edit the head base in `platform/native/IndieDuck_P1_HeadBase.FCStd` (driven by its `Params` sheet). Platform changes apply to every edition; exterior changes belong to an edition (`editions/<id>/`, with an `edition.yaml`). Other parts are solids without history, so changes to them are direct solid edits until they are rebuilt as editable features. Keep each part's `MovingBody` property and object label, since the export and simulator tooling depend on them.
 
 For a focused change:
 

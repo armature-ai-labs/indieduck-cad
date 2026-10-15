@@ -1,25 +1,27 @@
-# IndieDuck by Armature AI Labs
+# IndieDuck CAD
 
-The current design is **R25**, a reference-driven exterior on the R20 mechanism: a tapered helmet with a recessed dark camera face, orange optical rings and rims, shoulder-faceted torso with orange inlays, forward hip cowls, slotted thigh caps, shin caps and faceted feet with white toe caps. Adapted from Open Duck Mini and inspired by Pollen Robotics' MicroDuck. Servo and joint positions are unchanged from R20. Project lineage and credits are in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+IndieDuck is organised as one shared mechanism, the **platform**, and **editions** that give it different exteriors. A platform change applies to every edition. The current edition is **IndieDuck Cyber Edition** (`editions/cyber/`), designed by [Zankar Savalia](https://www.linkedin.com/in/zankarvs/), on platform **P1** (`platform/`). Its design was developed as R25; the R25 tags and records refer to it.
 
-R25 is a **design-review CAD candidate, not a manufacturing release**. The previous release, R20, is available at the tag `r20-simulation-study-v1`.
+Cyber Edition is a **design-review CAD candidate, not a manufacturing release**. Earlier designs (R20 and before) are at the tag `r20-simulation-study-v1`.
 
-![R25 assembled CAD](previews/R25-assembly.png)
+![IndieDuck Cyber Edition, assembled CAD](editions/cyber/previews/cyber-assembly.png)
 
-**Credits.** [Zankar Savalia](https://www.linkedin.com/in/zankarvs/) contributed to the design of the R25 exterior and helped prepare it for publication. Thank you, Zankar. See [CONTRIBUTORS.md](CONTRIBUTORS.md).
-
-## R25 files
+## Layout
 
 | Path | Contents |
 |---|---|
-| `native/robot/IndieDuck_R25_HeadBase.FCStd` | The head base as an editable PartDesign body with a parameter sheet (see below) |
-| `native/robot/IndieDuck_R25_Assembly.FCStd` | Complete R25 robot in its saved pose, FreeCAD 1.1.4, self-contained. Each part stores a `MovingBody` property naming the joint link it moves with. |
-| `exports/R25/step/`, `exports/R25/stl/` | 55 printed-component candidates, STEP and STL, in assembly coordinates (millimetres) |
-| `exports/R25/IndieDuck_R25_Assembly.step` | Full assembly, 161 solids including purchased-part reference envelopes |
-| `exports/R25/print-oriented/R25_HelmetLower_upside-down.stl` | HelmetLower in its print orientation (see below) |
-| `previews/R25-*.png` | Actual CAD views: assembly, front, side, rear |
-| `validation/R25-fixes.json`, `validation/R25-export-readback.json` | Changes made for publication and the export readback checks |
-| `COMPONENTS.csv` | Maps every printed component to its native object, material and exports |
+| `platform/PLATFORM.md` | What platform P1 is, and the rules an edition must follow |
+| `platform/native/IndieDuck_P1_HeadBase.FCStd` | The head base as an editable PartDesign body with a parameter sheet |
+| `platform/exports/step/`, `platform/exports/stl/` | The 27 platform printed parts (`P1_*`), STEP and STL, assembly coordinates in millimetres |
+| `editions/cyber/edition.yaml` | Cyber Edition's description: designers, maturity, model ID, training task, open items |
+| `editions/cyber/native/IndieDuck_Cyber_Assembly.FCStd` | The complete robot (platform P1 plus the Cyber exterior) in its saved pose, FreeCAD 1.1.4. Each part stores a `MovingBody` property naming the joint link it moves with. |
+| `editions/cyber/exports/step/`, `editions/cyber/exports/stl/` | The 28 Cyber exterior parts (`Cyber_*`) |
+| `editions/cyber/exports/IndieDuck_Cyber_Assembly.step` | Full assembly, 161 solids including purchased-part reference envelopes |
+| `editions/cyber/exports/print-oriented/` | Parts exported in their print orientation (HelmetLower prints upside down) |
+| `editions/cyber/previews/`, `editions/cyber/validation/` | CAD views and verification records |
+| `COMPONENTS.csv` | Every printed part with its scope (`platform` or `edition`), edition, native object, material and exports |
+
+**New editions** follow `platform/PLATFORM.md`: a duck form factor on P1 that changes only the exterior, submitted as `editions/<id>/` with its own `edition.yaml`.
 
 **Editing.** The R25 assembly holds solids without construction history; the head base has its own editable PartDesign source. Edits to other R25 parts are direct solid edits for now. R20's history-bearing native documents are at the tag `r20-simulation-study-v1`.
 
@@ -34,7 +36,7 @@ Sliced in Bambu Studio 2.08 for a Bambu Lab P2S, 0.4 mm nozzle, 0.20 mm layers, 
 
 ## Joint ranges and cover trims (15 October 2026)
 
-Every joint was swept in 1 degree steps against every other part. Three hardware objects had the wrong joint link (the camera-carrier screws belong to the head-yaw link; the hip-pitch clamp screws and nuts belong to the hip bracket) and are corrected. Covers that blocked joints were trimmed by the swept path of the part they hit, plus 1 mm: pelvis front panel (side wings notched for the hips, 19 %), hip cowls (3 %), toe caps (16 %), shin caps (11 %), pelvis rear panel (under 1 %). Verified ranges with all covers fitted: hip yaw -19 to 0 deg (left, mirrored right), hip roll -18 to 22, hip pitch -90 to 0, knee -85 to 46, ankle 0 to 78, neck -65 to +27.5 (+15 when the head is also turned or rolled), head pitch -35 to 85, head yaw +-90, head roll -25 to +11 (structural stop at the jaw bearing; full +25 needs the jaw bearing tower moved). Open item: the head rims block the jaw surrounds from 0 deg, and trimming either part removes most of it, so that interface needs a redesign. Records: `validation/R25-joint-ranges.json`.
+Every joint was swept in 1 degree steps against every other part. Three hardware objects had the wrong joint link (the camera-carrier screws belong to the head-yaw link; the hip-pitch clamp screws and nuts belong to the hip bracket) and are corrected. Covers that blocked joints were trimmed by the swept path of the part they hit, plus 1 mm: pelvis front panel (side wings notched for the hips, 19 %), hip cowls (3 %), toe caps (16 %), shin caps (11 %), pelvis rear panel (under 1 %). Verified ranges with all covers fitted: hip yaw -19 to 0 deg (left, mirrored right), hip roll -18 to 22, hip pitch -90 to 0, knee -85 to 46, ankle 0 to 78, neck -65 to +27.5 (+15 when the head is also turned or rolled), head pitch -35 to 85, head yaw +-90, head roll -25 to +11 (structural stop at the jaw bearing; full +25 needs the jaw bearing tower moved). Open item: the head rims block the jaw surrounds from 0 deg, and trimming either part removes most of it, so that interface needs a redesign. Records: `editions/cyber/validation/R25-joint-ranges.json`.
 
 ## Support parts added to the printed list (14 October 2026)
 
@@ -42,7 +44,7 @@ Four printed support parts were modelled in the assembly but missing from `COMPO
 
 ## Head base redrawn (13 October 2026)
 
-The head base (the head's chassis: the roll-servo cradle, mouth-servo cradle, jaw bearing tower and camera carrier all mount on it) was the last part built from XGO-Duck geometry. It is replaced by `A_HeadBase`, drawn by IndieDuck from our own parameters: the same footprint and mounting points, a 5 mm floor, a stiffening wall, and clearances taken from our neighbouring parts and from the swept paths of the head roll, head yaw and jaw. It is clear of every other part, and clear through head roll ±25°, head yaw ±90°, jaw 0° to 30° and the neck range. It prints flat with no supports (25.8 g, 56 min on a P2S). The front half is 7 mm narrower each side than before, where the jaw's sides pass. Editable source: `native/robot/IndieDuck_R25_HeadBase.FCStd`; comparison in `previews/R25-headbase-replacement.png`; record in `validation/R25-headbase-replacement.json`.
+The head base (the head's chassis: the roll-servo cradle, mouth-servo cradle, jaw bearing tower and camera carrier all mount on it) was the last part built from XGO-Duck geometry. It is replaced by `A_HeadBase`, drawn by IndieDuck from our own parameters: the same footprint and mounting points, a 5 mm floor, a stiffening wall, and clearances taken from our neighbouring parts and from the swept paths of the head roll, head yaw and jaw. It is clear of every other part, and clear through head roll ±25°, head yaw ±90°, jaw 0° to 30° and the neck range. It prints flat with no supports (25.8 g, 56 min on a P2S). The front half is 7 mm narrower each side than before, where the jaw's sides pass. Editable source: `platform/native/IndieDuck_P1_HeadBase.FCStd`; comparison in `editions/cyber/previews/cyber-headbase-replacement.png`; record in `editions/cyber/validation/R25-headbase-replacement.json`.
 
 ## R25 limits
 
