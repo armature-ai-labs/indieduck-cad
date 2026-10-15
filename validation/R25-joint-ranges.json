@@ -1,0 +1,328 @@
+{
+ "date": "2026-10-15",
+ "method": "each joint rotated about its servo-horn axis (pivots verified 0.00 mm, 0.00 deg) in 1 deg steps from the standing pose, other joints standing; contact = overlap above 0.5 mm3",
+ "relabelled": {
+  "A_ref_R17_FixedCarrierFasteners": "head_yaw_link",
+  "A_R18C_PitchClampScrew_L/R and PitchClampNut_L/R": "left/right_hip_roll_link"
+ },
+ "structural_ranges_without_covers": {
+  "left_hip_yaw": {
+   "stand": -15.0,
+   "limits": [
+    -25.0,
+    30.0
+   ],
+   "down": -19.0,
+   "down_by": [
+    [
+     "A_HipL_L",
+     "A_HipL_R",
+     0.9
+    ]
+   ],
+   "up": 30.0,
+   "up_by": null
+  },
+  "right_hip_yaw": {
+   "stand": 15.0,
+   "limits": [
+    -30.0,
+    25.0
+   ],
+   "down": -30.0,
+   "down_by": null,
+   "up": 19.0,
+   "up_by": [
+    [
+     "A_HipL_R",
+     "A_HipL_L",
+     0.9
+    ]
+   ]
+  },
+  "left_hip_pitch": {
+   "stand": -22.9,
+   "limits": [
+    -90.0,
+    90.0
+   ],
+   "down": -90.0,
+   "down_by": null,
+   "up": 0.1,
+   "up_by": [
+    [
+     "ShankStructure_L",
+     "A_Trunk",
+     1.0
+    ]
+   ]
+  },
+  "right_hip_pitch": {
+   "stand": 22.9,
+   "limits": [
+    -90.0,
+    90.0
+   ],
+   "down": -0.1,
+   "down_by": [
+    [
+     "ShankStructure_R",
+     "A_Trunk",
+     1.0
+    ]
+   ],
+   "up": 90.0,
+   "up_by": null
+  },
+  "left_ankle": {
+   "stand": 45.8,
+   "limits": [
+    -90.0,
+    90.0
+   ],
+   "down": -78.2,
+   "down_by": [
+    [
+     "FacetedFoot_L",
+     "ShankStructure_L",
+     6.3
+    ]
+   ],
+   "up": 78.8,
+   "up_by": [
+    [
+     "FacetedFoot_L",
+     "ShankStructure_L",
+     16.7
+    ]
+   ]
+  },
+  "right_ankle": {
+   "stand": -45.8,
+   "limits": [
+    -90.0,
+    90.0
+   ],
+   "down": -78.8,
+   "down_by": [
+    [
+     "FacetedFoot_R",
+     "ShankStructure_R",
+     16.7
+    ]
+   ],
+   "up": 78.2,
+   "up_by": [
+    [
+     "FacetedFoot_R",
+     "ShankStructure_R",
+     6.3
+    ]
+   ]
+  },
+  "head_roll": {
+   "stand": 0.0,
+   "limits": [
+    -25.0,
+    25.0
+   ],
+   "down": -25.0,
+   "down_by": null,
+   "up": 11.0,
+   "up_by": [
+    [
+     "A_R17_JawBearingPlug",
+     "A_R17_HeadYawClampCap",
+     2.7
+    ],
+    [
+     "A_R17_JawBearingKeeper",
+     "A_R17_HeadYawClampCap",
+     1.2
+    ]
+   ]
+  },
+  "mouth": {
+   "stand": 0.0,
+   "limits": [
+    0.0,
+    30.0
+   ],
+   "down": 0.0,
+   "down_by": null,
+   "up": 30.0,
+   "up_by": null
+  },
+  "left_knee": {
+   "stand": 22.9,
+   "limits": [
+    -90.0,
+    90.0
+   ],
+   "down": -86.1,
+   "down_by": [
+    [
+     "ShankStructure_L",
+     "A_Trunk",
+     1.6
+    ]
+   ],
+   "up": 46.9,
+   "up_by": [
+    [
+     "A_ref_servo_left_ankle",
+     "A_Thigh_L",
+     0.6
+    ]
+   ]
+  },
+  "right_knee": {
+   "stand": -22.9,
+   "limits": [
+    -90.0,
+    90.0
+   ],
+   "down": -46.9,
+   "down_by": [
+    [
+     "A_ref_servo_right_ankle",
+     "A_Thigh_R",
+     0.6
+    ]
+   ],
+   "up": 86.1,
+   "up_by": [
+    [
+     "ShankStructure_R",
+     "A_Trunk",
+     1.6
+    ]
+   ]
+  }
+ },
+ "trims": {
+  "PelvisFront": {
+   "original": 10021.6,
+   "final": 8101.5,
+   "removed_pct": 19.2,
+   "valid": true,
+   "solids": 1
+  },
+  "HipCowl_L": {
+   "original": 3311.5,
+   "final": 3214.4,
+   "removed_pct": 2.9,
+   "valid": true,
+   "solids": 1
+  },
+  "HipCowl_R": {
+   "original": 3311.5,
+   "final": 3214.4,
+   "removed_pct": 2.9,
+   "valid": true,
+   "solids": 1
+  },
+  "ToeCap_L": {
+   "original": 2557.2,
+   "final": 2259.5,
+   "removed_pct": 11.6,
+   "valid": true,
+   "solids": 1
+  },
+  "ToeCap_R": {
+   "original": 2556.8,
+   "final": 2259.7,
+   "removed_pct": 11.6,
+   "valid": true,
+   "solids": 1
+  },
+  "ShinCap_L": {
+   "original": 752.7,
+   "final": 669.9,
+   "removed_pct": 11.0,
+   "valid": true,
+   "solids": 1
+  },
+  "ShinCap_R": {
+   "original": 752.9,
+   "final": 670.1,
+   "removed_pct": 11.0,
+   "valid": true,
+   "solids": 1
+  },
+  "PelvisRear": {
+   "original": 9925.1,
+   "final": 9858.3,
+   "removed_pct": 0.7,
+   "valid": true,
+   "solids": 1
+  }
+ },
+ "ankle_trims_0_78": {
+  "PelvisFront": {
+   "original": 10021.6,
+   "final": 8101.5,
+   "removed_pct": 19.2,
+   "valid": true,
+   "solids": 1
+  },
+  "HipCowl_L": {
+   "original": 3311.5,
+   "final": 3214.4,
+   "removed_pct": 2.9,
+   "valid": true,
+   "solids": 1
+  },
+  "HipCowl_R": {
+   "original": 3311.5,
+   "final": 3214.4,
+   "removed_pct": 2.9,
+   "valid": true,
+   "solids": 1
+  },
+  "ToeCap_L": {
+   "original": 2557.2,
+   "final": 2259.5,
+   "removed_pct": 11.6,
+   "valid": true,
+   "solids": 1
+  },
+  "ToeCap_R": {
+   "original": 2556.8,
+   "final": 2259.7,
+   "removed_pct": 11.6,
+   "valid": true,
+   "solids": 1
+  },
+  "ShinCap_L": {
+   "original": 752.7,
+   "final": 669.9,
+   "removed_pct": 11.0,
+   "valid": true,
+   "solids": 1
+  },
+  "ShinCap_R": {
+   "original": 752.9,
+   "final": 670.1,
+   "removed_pct": 11.0,
+   "valid": true,
+   "solids": 1
+  },
+  "PelvisRear": {
+   "original": 9925.1,
+   "final": 9858.3,
+   "removed_pct": 0.7,
+   "valid": true,
+   "solids": 1
+  }
+ },
+ "verified_with_covers": {
+  "from_full_run": 11,
+  "ankles_0_78": "CLEAR both sides"
+ },
+ "open_items": [
+  "mouth: head rim vs jaw surround interface (trimming removes 52-80 % of a rim or all of a surround)",
+  "head roll above +11 deg needs the jaw bearing tower moved",
+  "neck above +15 deg only with the head centred"
+ ]
+}

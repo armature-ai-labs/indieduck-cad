@@ -1,7 +1,7 @@
 {
  "project": "IndieDuck by Armature AI Labs",
  "revision": "R25",
- "release": "r25-cad-study-v6",
+ "release": "r25-cad-study-v7",
  "units": "mm",
  "assembly": "native/robot/IndieDuck_R25_Assembly.FCStd",
  "component_manifest": "COMPONENTS.csv",
@@ -25,7 +25,7 @@
   {
    "path": "COMPONENTS.csv",
    "bytes": 9733,
-   "sha256": "a52fa8c7e11e3692a1bb3ee1cd5422331ec94f97889e6f95e6bc7703684c8448",
+   "sha256": "280a50662d8f1dc86e9e7423fa80286b1d618601c4a6f05e5884c3a0071f61c6",
    "revision": "R25",
    "role": "CAD source, export, documentation or verification"
   },
@@ -45,8 +45,8 @@
   },
   {
    "path": "README.md",
-   "bytes": 6314,
-   "sha256": "0aea141b5e17fd7e9830d95c4d44d692475c04152431ff592fa5b88749861b6f",
+   "bytes": 7399,
+   "sha256": "ecfd30ab744331bf6bba8b4404b1b364400485cc98c2a1dc1c9603196bbbdf0e",
    "revision": "R25",
    "role": "CAD source, export, documentation or verification"
   },
@@ -59,8 +59,8 @@
   },
   {
    "path": "VERIFICATION.md",
-   "bytes": 3511,
-   "sha256": "8bf4aab8bd7613126e7954b999d32b5cf1e90d9a314840b5f75a6f67fa5bbf7a",
+   "bytes": 3766,
+   "sha256": "f7cb66a6694142d7065ed8efb2a13ff1bc5fffb7d44f96033b1a32e19e2eeca6",
    "revision": "R25",
    "role": "CAD source, export, documentation or verification"
   },
@@ -185,15 +185,15 @@
   },
   {
    "path": "exports/R25/step/R25_HipCowl_L.step",
-   "bytes": 33954,
-   "sha256": "126598be7a98e15d7c112a25e01508f054eab6ebc5a0f5c62963841162fa78b2",
+   "bytes": 50660,
+   "sha256": "484e67537765abf368ca186ba01479d2c004839b6112d1f8fe3c9ddfba6f2807",
    "revision": "R25",
    "role": "R25 CAD source, export, preview or verification"
   },
   {
    "path": "exports/R25/step/R25_HipCowl_R.step",
-   "bytes": 34111,
-   "sha256": "8ef05e66d27433c190bba52f974832fd55e7c5f6f53423703e8ea8046658761f",
+   "bytes": 87220,
+   "sha256": "7a3f6351cad58549769ec9ab5f2c0efbb943c6a2389b0010371516d215f71c66",
    "revision": "R25",
    "role": "R25 CAD source, export, preview or verification"
   },
@@ -248,15 +248,15 @@
   },
   {
    "path": "exports/R25/step/R25_PelvisFront.step",
-   "bytes": 57837,
-   "sha256": "34f2f824f26c7ba1aae072f0fb151037ec5c64f83cd14f77dc15d1c0dbe86309",
+   "bytes": 87196,
+   "sha256": "5867c3558af8952c5b0c1aa13650b19677b828ae1045a98a1ba85613976bd70d",
    "revision": "R25",
    "role": "R25 CAD source, export, preview or verification"
   },
   {
    "path": "exports/R25/step/R25_PelvisRear.step",
-   "bytes": 76703,
-   "sha256": "2a24e00f3be86f01d77a665e0f2f90a6b999b70470375bc489f17f23ec71e32e",
+   "bytes": 119018,
+   "sha256": "e736abb22b3133b8be31d9fb447943e655840432836cb22fcf01f176c2737df2",
    "revision": "R25",
    "role": "R25 CAD source, export, preview or verification"
   },
@@ -346,15 +346,15 @@
   },
   {
    "path": "exports/R25/step/R25_ShinCap_L.step",
-   "bytes": 62143,
-   "sha256": "d2360c1f3fcea9d0627b6d535ffbd94c058876c9d53345c961eb95cd5fbc38e3",
+   "bytes": 106306,
+   "sha256": "be0d32aaefa427ef6d4ccdbc66805d451807333038b8df7d1a9f746c1f74e031",
    "revision": "R25",
    "role": "R25 CAD source, export, preview or verification"
   },
   {
    "path": "exports/R25/step/R25_ShinCap_R.step",
-   "bytes": 106901,
-   "sha256": "92faa2d3344062bcd5c7adff93adfd0cdfc982e50243700d6128c00d747be856",
+   "bytes": 163876,
+   "sha256": "48494d10be0d6971d8c3ca77136417ca9423fdfc51ad515d5a7ee699ef6b7a6e",
    "revision": "R25",
    "role": "R25 CAD source, export, preview or verification"
   },
@@ -388,15 +388,15 @@
   },
   {
    "path": "exports/R25/step/R25_ToeCap_L.step",
-   "bytes": 106264,
-   "sha256": "5da77c0bf58c378b3c7fa9fc9d7d7ddc0ea890cfbe46c0e4c593e7423c9eaa2c",
+   "bytes": 495277,
+   "sha256": "aef3870ad39fe9b0a462e337c81f6d6343ef58bf930203fb63ffaebd572dfd1b",
    "revision": "R25",
    "role": "R25 CAD source, export, preview or verification"
   },
   {
    "path": "exports/R25/step/R25_ToeCap_R.step",
-   "bytes": 160080,
-   "sha256": "0530e17fa2b8a04050a342b1fe39201754cb6b0d7c880b70cf72fa925e7127e5",
+   "bytes": 553390,
+   "sha256": "e174c2162f96bac3b64614711a7be178a2dd5cb6592a3bda0fab46bdfac77895",
    "revision": "R25",
    "role": "R25 CAD source, export, preview or verification"
   },
@@ -570,15 +570,15 @@
   },
   {
    "path": "exports/R25/stl/R25_HipCowl_L.stl",
-   "bytes": 39684,
-   "sha256": "2a65cdf74461296b903c18f7a2419b869097a18fea2b8ca112672a15e7c7bb35",
+   "bytes": 44584,
+   "sha256": "7145c77a3c4e46a2a66dd43cff7d682ca1f0d9a5f337898ad04d62baa38c1528",
    "revision": "R25",
    "role": "R25 CAD source, export, preview or verification"
   },
   {
    "path": "exports/R25/stl/R25_HipCowl_R.stl",
-   "bytes": 39684,
-   "sha256": "9e29b6012b93ce55458619db7ef8f7bfa1e6a1d8ff0588c29ae3171f1509a5f2",
+   "bytes": 60984,
+   "sha256": "f75fd91810bce80ac021c941d72b0baadb1a6c0429c3b3be1af4a11fd98dd9c4",
    "revision": "R25",
    "role": "R25 CAD source, export, preview or verification"
   },
@@ -633,15 +633,15 @@
   },
   {
    "path": "exports/R25/stl/R25_PelvisFront.stl",
-   "bytes": 23984,
-   "sha256": "f78564fcd61f13b5cbe72b0aae79cfca70176d12feb03255bb9aa51f7e79d7ba",
+   "bytes": 30984,
+   "sha256": "f2fce63066b33563387d3a63008e305df98a1ffc12f207bf65218b9f94940409",
    "revision": "R25",
    "role": "R25 CAD source, export, preview or verification"
   },
   {
    "path": "exports/R25/stl/R25_PelvisRear.stl",
-   "bytes": 24284,
-   "sha256": "3905e1d0b83dc914d00132caa4b88f8e7b7c957a5f1a8c7eac24ad3155e2b267",
+   "bytes": 31684,
+   "sha256": "1ac54081368027d1ef4441eed5201d76a1307502d9235d876ce84b1349951264",
    "revision": "R25",
    "role": "R25 CAD source, export, preview or verification"
   },
@@ -731,15 +731,15 @@
   },
   {
    "path": "exports/R25/stl/R25_ShinCap_L.stl",
-   "bytes": 44084,
-   "sha256": "e78ff781bba0bfee80ca7cf614e541b4f13b2ade4655343b4dd108b6125ce27a",
+   "bytes": 49284,
+   "sha256": "1d1746d28ec9dfd06622984a0b4458c5d2b383aeff489cd4adce6f2e44494765",
    "revision": "R25",
    "role": "R25 CAD source, export, preview or verification"
   },
   {
    "path": "exports/R25/stl/R25_ShinCap_R.stl",
-   "bytes": 64784,
-   "sha256": "160147e63edbf418ab04df4218238d9a94ade01c6d521a633601efc045959444",
+   "bytes": 70284,
+   "sha256": "786e10897b96cca63d0a2748d907ca59f7a80e10034e1c0a546bb2def9cd180c",
    "revision": "R25",
    "role": "R25 CAD source, export, preview or verification"
   },
@@ -773,15 +773,15 @@
   },
   {
    "path": "exports/R25/stl/R25_ToeCap_L.stl",
-   "bytes": 73784,
-   "sha256": "348652d5645cf0b51d899da5fdd366c52fff85c246eee9acf3978508d6ba61ad",
+   "bytes": 112584,
+   "sha256": "71a4718a8af4a9a1742e556bfeb8ab97ec30b6e86b8c7943da2011573feaa94b",
    "revision": "R25",
    "role": "R25 CAD source, export, preview or verification"
   },
   {
    "path": "exports/R25/stl/R25_ToeCap_R.stl",
-   "bytes": 86684,
-   "sha256": "c87cc576b7cacd07beddc49151f560498ae1e9a1b1faa41d6181c9976a031e00",
+   "bytes": 127984,
+   "sha256": "4328827cdee0b6ace66acd2a4117560b229ed7b9eca70f12b8cb7a9c9ab563de",
    "revision": "R25",
    "role": "R25 CAD source, export, preview or verification"
   },
@@ -850,8 +850,8 @@
   },
   {
    "path": "native/robot/IndieDuck_R25_Assembly.FCStd",
-   "bytes": 2205408,
-   "sha256": "1c8b77aca189bb8a70e319e3077c87a264e2095ce2c2982bef616dd8ba1449c8",
+   "bytes": 2372498,
+   "sha256": "079f9111f95f94358d1ba63fea7c5c734e603a9b8b9b27cb15fd4d42eacee349",
    "revision": "R25",
    "role": "R25 CAD source, export, preview or verification"
   },
@@ -906,8 +906,8 @@
   },
   {
    "path": "validation/R25-export-readback.json",
-   "bytes": 17144,
-   "sha256": "db5e885f4e7fd9f3941dc2394790093082ea9f660bff060dda38171e45236d0e",
+   "bytes": 17697,
+   "sha256": "20464ea440854e7e3a5e956eebdf3d106ac164bfe5cd8c5750db68c1ad652acf",
    "revision": "R25",
    "role": "R25 CAD source, export, preview or verification"
   },
@@ -929,6 +929,13 @@
    "path": "validation/R25-headbase-replacement.json",
    "bytes": 2304,
    "sha256": "be47edfcff8d1a0e402e4f2eb921248d058f266398e31e171e80b693702b4783",
+   "revision": "R25",
+   "role": "R25 CAD source, export, preview or verification"
+  },
+  {
+   "path": "validation/R25-joint-ranges.json",
+   "bytes": 5209,
+   "sha256": "895d07354edbaf8a4d026003e30fcc0424f11ba9db931ddebbbfe150c1967af1",
    "revision": "R25",
    "role": "R25 CAD source, export, preview or verification"
   }

@@ -293,25 +293,27 @@
    "part": "R25_PelvisFront",
    "native_object": "PelvisFront",
    "moving_body": "trunk_base",
-   "native_volume_mm3": 10021.584,
+   "native_volume_mm3": 8101.478,
    "step_valid": true,
    "step_solids": 1,
-   "step_drift_ppm": 0.023,
+   "step_drift_ppm": 0.026,
    "stl_closed": true,
-   "stl_facets": 478,
-   "stl_volume_diff_pct": 0.001
+   "stl_facets": 618,
+   "stl_volume_diff_pct": 0.001,
+   "note": "trimmed 15 Oct 2026 to clear the verified joint ranges"
   },
   {
    "part": "R25_PelvisRear",
    "native_object": "PelvisRear",
    "moving_body": "trunk_base",
-   "native_volume_mm3": 9925.15,
+   "native_volume_mm3": 9858.286,
    "step_valid": true,
    "step_solids": 1,
-   "step_drift_ppm": 0.008,
+   "step_drift_ppm": 0.013,
    "stl_closed": true,
-   "stl_facets": 484,
-   "stl_volume_diff_pct": 0.001
+   "stl_facets": 632,
+   "stl_volume_diff_pct": 0.0,
+   "note": "trimmed 15 Oct 2026 to clear the verified joint ranges"
   },
   {
    "part": "R25_ThighCap_L",
@@ -353,13 +355,14 @@
    "part": "R25_ShinCap_L",
    "native_object": "ShinCap_L",
    "moving_body": "left_knee_link",
-   "native_volume_mm3": 752.663,
+   "native_volume_mm3": 669.926,
    "step_valid": true,
    "step_solids": 1,
-   "step_drift_ppm": 0.087,
+   "step_drift_ppm": 0.123,
    "stl_closed": true,
-   "stl_facets": 880,
-   "stl_volume_diff_pct": 0.086
+   "stl_facets": 984,
+   "stl_volume_diff_pct": 0.118,
+   "note": "trimmed 15 Oct 2026 to clear the verified joint ranges"
   },
   {
    "part": "R25_FacetedFoot_L",
@@ -401,13 +404,14 @@
    "part": "R25_ShinCap_R",
    "native_object": "ShinCap_R",
    "moving_body": "right_knee_link",
-   "native_volume_mm3": 752.902,
+   "native_volume_mm3": 670.12,
    "step_valid": true,
    "step_solids": 1,
-   "step_drift_ppm": 177.679,
+   "step_drift_ppm": 185.233,
    "stl_closed": true,
-   "stl_facets": 1294,
-   "stl_volume_diff_pct": 0.006
+   "stl_facets": 1404,
+   "stl_volume_diff_pct": 0.011,
+   "note": "trimmed 15 Oct 2026 to clear the verified joint ranges"
   },
   {
    "part": "R25_FacetedFoot_R",
@@ -582,49 +586,53 @@
    "part": "R25_HipCowl_L",
    "native_object": "HipCowl_L",
    "moving_body": "left_hip_roll_link",
-   "native_volume_mm3": 3311.473,
+   "native_volume_mm3": 3214.435,
    "step_valid": true,
    "step_solids": 1,
-   "step_drift_ppm": 0.0,
+   "step_drift_ppm": 0.149,
    "stl_closed": true,
-   "stl_facets": 792,
-   "stl_volume_diff_pct": 0.013
+   "stl_facets": 890,
+   "stl_volume_diff_pct": 0.004,
+   "note": "trimmed 15 Oct 2026 to clear the verified joint ranges"
   },
   {
    "part": "R25_HipCowl_R",
    "native_object": "HipCowl_R",
    "moving_body": "right_hip_roll_link",
-   "native_volume_mm3": 3311.473,
+   "native_volume_mm3": 3214.436,
    "step_valid": true,
    "step_solids": 1,
-   "step_drift_ppm": 0.0,
+   "step_drift_ppm": 0.171,
    "stl_closed": true,
-   "stl_facets": 792,
-   "stl_volume_diff_pct": 0.01
+   "stl_facets": 1218,
+   "stl_volume_diff_pct": 0.034,
+   "note": "trimmed 15 Oct 2026 to clear the verified joint ranges"
   },
   {
    "part": "R25_ToeCap_L",
    "native_object": "ToeCap_L",
    "moving_body": "left_ankle_link",
-   "native_volume_mm3": 2557.217,
+   "native_volume_mm3": 2151.912,
    "step_valid": true,
    "step_solids": 1,
-   "step_drift_ppm": 0.002,
+   "step_drift_ppm": 0.0,
    "stl_closed": true,
-   "stl_facets": 1474,
-   "stl_volume_diff_pct": 0.071
+   "stl_facets": 2250,
+   "stl_volume_diff_pct": 0.085,
+   "note": "trimmed 15 Oct 2026 to clear the verified joint ranges"
   },
   {
    "part": "R25_ToeCap_R",
    "native_object": "ToeCap_R",
    "moving_body": "right_ankle_link",
-   "native_volume_mm3": 2556.788,
+   "native_volume_mm3": 2152.166,
    "step_valid": true,
    "step_solids": 1,
-   "step_drift_ppm": 72.228,
+   "step_drift_ppm": 93.283,
    "stl_closed": true,
-   "stl_facets": 1732,
-   "stl_volume_diff_pct": 0.096
+   "stl_facets": 2558,
+   "stl_volume_diff_pct": 0.082,
+   "note": "trimmed 15 Oct 2026 to clear the verified joint ranges"
   },
   {
    "part": "R25_R17_JawBearingTower",

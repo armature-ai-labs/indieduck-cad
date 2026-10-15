@@ -32,6 +32,10 @@ R25 is a **design-review CAD candidate, not a manufacturing release**. The previ
 
 Sliced in Bambu Studio 2.08 for a Bambu Lab P2S, 0.4 mm nozzle, 0.20 mm layers, 3 walls, 20 % infill: 39 parts on seven plates, about **360 g PLA and 34 g TPU 95A, roughly 16½ hours**. The retained R20 head base, thighs, yaw links, head brackets and cradles are extra. White, orange and dark are appearance colours; use PLA for rigid parts and TPU 95A for the soles. Keep the four HelmetRoof, HelmetLower, FaceBezel and CameraCarrier parts on two plates; Bambu silently dropped one part when all four shared a plate.
 
+## Joint ranges and cover trims (15 October 2026)
+
+Every joint was swept in 1 degree steps against every other part. Three hardware objects had the wrong joint link (the camera-carrier screws belong to the head-yaw link; the hip-pitch clamp screws and nuts belong to the hip bracket) and are corrected. Covers that blocked joints were trimmed by the swept path of the part they hit, plus 1 mm: pelvis front panel (side wings notched for the hips, 19 %), hip cowls (3 %), toe caps (16 %), shin caps (11 %), pelvis rear panel (under 1 %). Verified ranges with all covers fitted: hip yaw -19 to 0 deg (left, mirrored right), hip roll -18 to 22, hip pitch -90 to 0, knee -85 to 46, ankle 0 to 78, neck -65 to +27.5 (+15 when the head is also turned or rolled), head pitch -35 to 85, head yaw +-90, head roll -25 to +11 (structural stop at the jaw bearing; full +25 needs the jaw bearing tower moved). Open item: the head rims block the jaw surrounds from 0 deg, and trimming either part removes most of it, so that interface needs a redesign. Records: `validation/R25-joint-ranges.json`.
+
 ## Support parts added to the printed list (14 October 2026)
 
 Four printed support parts were modelled in the assembly but missing from `COMPONENTS.csv`: the jaw bearing tower, jaw bearing keeper and jaw bearing plug, and the neck bearing retainer. They are now listed and exported (PLA, structural), bringing the printed set to 55. The full bill of materials, including purchased parts, fasteners, electronics and wiring, is in the project hub: `armature-ai-labs/indieduck` `BOM.md`.

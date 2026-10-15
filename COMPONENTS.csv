@@ -22,16 +22,16 @@ R25,CameraCarrier,IndieDuck_R25_Assembly.FCStd,CameraCarrier,"PLA, white appeara
 R25,AngularJaw,IndieDuck_R25_Assembly.FCStd,AngularJaw,"PLA, orange appearance",exports/R25/step/R25_AngularJaw.step,exports/R25/stl/R25_AngularJaw.stl,7452.300
 R25,TorsoFront,IndieDuck_R25_Assembly.FCStd,TorsoFront,"PLA, white appearance",exports/R25/step/R25_TorsoFront.step,exports/R25/stl/R25_TorsoFront.stl,19927.351
 R25,TorsoRear,IndieDuck_R25_Assembly.FCStd,TorsoRear,"PLA, white appearance",exports/R25/step/R25_TorsoRear.step,exports/R25/stl/R25_TorsoRear.stl,20533.034
-R25,PelvisFront,IndieDuck_R25_Assembly.FCStd,PelvisFront,"PLA, white appearance",exports/R25/step/R25_PelvisFront.step,exports/R25/stl/R25_PelvisFront.stl,10021.584
-R25,PelvisRear,IndieDuck_R25_Assembly.FCStd,PelvisRear,"PLA, white appearance",exports/R25/step/R25_PelvisRear.step,exports/R25/stl/R25_PelvisRear.stl,9925.15
+R25,PelvisFront,IndieDuck_R25_Assembly.FCStd,PelvisFront,"PLA, white appearance",exports/R25/step/R25_PelvisFront.step,exports/R25/stl/R25_PelvisFront.stl,8101.478
+R25,PelvisRear,IndieDuck_R25_Assembly.FCStd,PelvisRear,"PLA, white appearance",exports/R25/step/R25_PelvisRear.step,exports/R25/stl/R25_PelvisRear.stl,9858.286
 R25,ThighCap_L,IndieDuck_R25_Assembly.FCStd,ThighCap_L,"PLA, white appearance",exports/R25/step/R25_ThighCap_L.step,exports/R25/stl/R25_ThighCap_L.stl,6083.221
 R25,ThighCap_R,IndieDuck_R25_Assembly.FCStd,ThighCap_R,"PLA, white appearance",exports/R25/step/R25_ThighCap_R.step,exports/R25/stl/R25_ThighCap_R.stl,6085.688
 R25,ShankStructure_L,IndieDuck_R25_Assembly.FCStd,ShankStructure_L,"PLA, structural (dark appearance)",exports/R25/step/R25_ShankStructure_L.step,exports/R25/stl/R25_ShankStructure_L.stl,11034.574
-R25,ShinCap_L,IndieDuck_R25_Assembly.FCStd,ShinCap_L,"PLA, white appearance",exports/R25/step/R25_ShinCap_L.step,exports/R25/stl/R25_ShinCap_L.stl,752.663
+R25,ShinCap_L,IndieDuck_R25_Assembly.FCStd,ShinCap_L,"PLA, white appearance",exports/R25/step/R25_ShinCap_L.step,exports/R25/stl/R25_ShinCap_L.stl,669.926
 R25,FacetedFoot_L,IndieDuck_R25_Assembly.FCStd,FacetedFoot_L,"PLA, orange appearance",exports/R25/step/R25_FacetedFoot_L.step,exports/R25/stl/R25_FacetedFoot_L.stl,28141.213
 R25,FacetedSole_L,IndieDuck_R25_Assembly.FCStd,FacetedSole_L,TPU 95A,exports/R25/step/R25_FacetedSole_L.step,exports/R25/stl/R25_FacetedSole_L.stl,24570.296
 R25,ShankStructure_R,IndieDuck_R25_Assembly.FCStd,ShankStructure_R,"PLA, structural (dark appearance)",exports/R25/step/R25_ShankStructure_R.step,exports/R25/stl/R25_ShankStructure_R.stl,11034.203
-R25,ShinCap_R,IndieDuck_R25_Assembly.FCStd,ShinCap_R,"PLA, white appearance",exports/R25/step/R25_ShinCap_R.step,exports/R25/stl/R25_ShinCap_R.stl,752.902
+R25,ShinCap_R,IndieDuck_R25_Assembly.FCStd,ShinCap_R,"PLA, white appearance",exports/R25/step/R25_ShinCap_R.step,exports/R25/stl/R25_ShinCap_R.stl,670.120
 R25,FacetedFoot_R,IndieDuck_R25_Assembly.FCStd,FacetedFoot_R,"PLA, orange appearance",exports/R25/step/R25_FacetedFoot_R.step,exports/R25/stl/R25_FacetedFoot_R.stl,28141.214
 R25,FacetedSole_R,IndieDuck_R25_Assembly.FCStd,FacetedSole_R,TPU 95A,exports/R25/step/R25_FacetedSole_R.step,exports/R25/stl/R25_FacetedSole_R.stl,24570.297
 R25,FaceBezel,IndieDuck_R25_Assembly.FCStd,FaceBezel,"PLA, white appearance",exports/R25/step/R25_FaceBezel.step,exports/R25/stl/R25_FaceBezel.stl,1622.947
@@ -46,10 +46,10 @@ R25,TorsoAccent_Front_L,IndieDuck_R25_Assembly.FCStd,TorsoAccent_Front_L,"PLA, o
 R25,TorsoAccent_Rear_L,IndieDuck_R25_Assembly.FCStd,TorsoAccent_Rear_L,"PLA, orange appearance",exports/R25/step/R25_TorsoAccent_Rear_L.step,exports/R25/stl/R25_TorsoAccent_Rear_L.stl,473.332
 R25,TorsoAccent_Front_R,IndieDuck_R25_Assembly.FCStd,TorsoAccent_Front_R,"PLA, orange appearance",exports/R25/step/R25_TorsoAccent_Front_R.step,exports/R25/stl/R25_TorsoAccent_Front_R.stl,461.647
 R25,TorsoAccent_Rear_R,IndieDuck_R25_Assembly.FCStd,TorsoAccent_Rear_R,"PLA, orange appearance",exports/R25/step/R25_TorsoAccent_Rear_R.step,exports/R25/stl/R25_TorsoAccent_Rear_R.stl,473.332
-R25,HipCowl_L,IndieDuck_R25_Assembly.FCStd,HipCowl_L,"PLA, white appearance",exports/R25/step/R25_HipCowl_L.step,exports/R25/stl/R25_HipCowl_L.stl,3311.473
-R25,HipCowl_R,IndieDuck_R25_Assembly.FCStd,HipCowl_R,"PLA, white appearance",exports/R25/step/R25_HipCowl_R.step,exports/R25/stl/R25_HipCowl_R.stl,3311.473
-R25,ToeCap_L,IndieDuck_R25_Assembly.FCStd,ToeCap_L,"PLA, white appearance",exports/R25/step/R25_ToeCap_L.step,exports/R25/stl/R25_ToeCap_L.stl,2557.217
-R25,ToeCap_R,IndieDuck_R25_Assembly.FCStd,ToeCap_R,"PLA, white appearance",exports/R25/step/R25_ToeCap_R.step,exports/R25/stl/R25_ToeCap_R.stl,2556.788
+R25,HipCowl_L,IndieDuck_R25_Assembly.FCStd,HipCowl_L,"PLA, white appearance",exports/R25/step/R25_HipCowl_L.step,exports/R25/stl/R25_HipCowl_L.stl,3214.435
+R25,HipCowl_R,IndieDuck_R25_Assembly.FCStd,HipCowl_R,"PLA, white appearance",exports/R25/step/R25_HipCowl_R.step,exports/R25/stl/R25_HipCowl_R.stl,3214.436
+R25,ToeCap_L,IndieDuck_R25_Assembly.FCStd,ToeCap_L,"PLA, white appearance",exports/R25/step/R25_ToeCap_L.step,exports/R25/stl/R25_ToeCap_L.stl,2151.912
+R25,ToeCap_R,IndieDuck_R25_Assembly.FCStd,ToeCap_R,"PLA, white appearance",exports/R25/step/R25_ToeCap_R.step,exports/R25/stl/R25_ToeCap_R.stl,2152.166
 R25,A_R17_JawBearingTower,IndieDuck_R25_Assembly.FCStd,A_R17_JawBearingTower,"PLA, structural (dark appearance)",exports/R25/step/R25_R17_JawBearingTower.step,exports/R25/stl/R25_R17_JawBearingTower.stl,2244.051
 R25,A_R17_JawBearingKeeper,IndieDuck_R25_Assembly.FCStd,A_R17_JawBearingKeeper,"PLA, structural (dark appearance)",exports/R25/step/R25_R17_JawBearingKeeper.step,exports/R25/stl/R25_R17_JawBearingKeeper.stl,579.693
 R25,A_R17_JawBearingPlug,IndieDuck_R25_Assembly.FCStd,A_R17_JawBearingPlug,"PLA, structural (dark appearance)",exports/R25/step/R25_R17_JawBearingPlug.step,exports/R25/stl/R25_R17_JawBearingPlug.stl,1125.097
