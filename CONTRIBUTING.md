@@ -1,5 +1,7 @@
 # Contributing
 
+**New edition?** Follow [Submit an edition to IndieDuck](https://github.com/armature-ai-labs/indieduck/blob/main/SUBMIT-AN-EDITION.md).
+
 Read `platform/PLATFORM.md` first. Open `editions/cyber/native/IndieDuck_Cyber_Assembly.FCStd` for the complete robot; edit the head base in `platform/native/IndieDuck_P1_HeadBase.FCStd` (driven by its `Params` sheet). Platform changes apply to every edition; exterior changes belong to an edition (`editions/<id>/`, with an `edition.yaml`). Other parts are solids without history, so changes to them are direct solid edits until they are rebuilt as editable features. Keep each part's `MovingBody` property and object label, since the export and simulator tooling depend on them.
 
 For a focused change:

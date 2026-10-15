@@ -31,8 +31,8 @@
   },
   {
    "path": "CONTRIBUTING.md",
-   "bytes": 2640,
-   "sha256": "698fae7d67e1d43ccfa1dd3c51e439aa195a098168a4fc21c8d45a854df096f9",
+   "bytes": 2777,
+   "sha256": "96bc5986c538f1c446283e03304c8b7e78566068a4136023f6aabc37b41ce6b0",
    "scope": "repository",
    "role": "Repository documentation and indexes"
   },
@@ -61,6 +61,13 @@
    "path": "VERIFICATION.md",
    "bytes": 3841,
    "sha256": "fe3e6eea82b6329d6d6d09eb9debad4621d70d51787b35d4ae40c32c170748d1",
+   "scope": "repository",
+   "role": "Repository documentation and indexes"
+  },
+  {
+   "path": "editions/README.md",
+   "bytes": 413,
+   "sha256": "fbca5dedb216c7b006e984ea0e0883a077a3800e449abb75a31f37aa1bb89c0c",
    "scope": "repository",
    "role": "Repository documentation and indexes"
   },
@@ -563,8 +570,8 @@
   },
   {
    "path": "platform/PLATFORM.md",
-   "bytes": 2186,
-   "sha256": "17736fae23ebc614c3394d65485014724a2394948ff665c72eacfef91219c638",
+   "bytes": 2339,
+   "sha256": "94af25d9585108e6649c94c95b2be927ce7fe3df70137299f707ed034d399831",
    "scope": "platform",
    "role": "Platform P1"
   },

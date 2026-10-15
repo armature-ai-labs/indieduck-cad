@@ -20,4 +20,6 @@ An edition is a duck form factor on P1 that changes only the exterior.
 5. **Record mass and centre of mass** of the exterior, because they change the simulation and the trained policies.
 6. **Licence and credits:** Apache-2.0 for submitted work, designers named in `edition.yaml`, any third-party source listed in `THIRD_PARTY_NOTICES.md`.
 
+How to submit an edition, step by step: [Submit an edition to IndieDuck](https://github.com/armature-ai-labs/indieduck/blob/main/SUBMIT-AN-EDITION.md).
+
 Each edition gets its own model ID (`indieduck-<edition>`), training task and policies.
