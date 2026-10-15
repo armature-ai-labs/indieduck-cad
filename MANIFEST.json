@@ -17,8 +17,8 @@
   },
   {
    "path": ".gitignore",
-   "bytes": 27,
-   "sha256": "ceefd9a3dce0603b94348825c6fbb4032902c4b888cc18facc794ee72cc595a1",
+   "bytes": 64,
+   "sha256": "926154b553b87149d5840f35b049074132c1a2978a57d9863f51743f5ced27fe",
    "revision": "R25",
    "role": "CAD source, export, documentation or verification"
   },
