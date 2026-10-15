@@ -1,0 +1,344 @@
+{
+ "platform": "P1",
+ "description": "IndieDuck platform P1 joint chain, in the assembly coordinates of every edition native file (millimetres). Generated from indieduck-rl contract.json (model indieduck-cyber); joint ranges are the CAD-verified P1 ranges with the Cyber exterior fitted.",
+ "source": {
+  "repository": "armature-ai-labs/indieduck-rl",
+  "file": "src/mjlab_microduck/robot/indieduck/contract.json",
+  "contract_version": 2
+ },
+ "root_body": "trunk_base",
+ "root_origin_mm": [
+  0,
+  0,
+  143
+ ],
+ "standing_pose": {
+  "base_position_mm": [
+   0,
+   0,
+   142.4467293981787
+  ],
+  "joint_deg": {
+   "left_hip_yaw": -15.0,
+   "left_hip_roll": 0.0,
+   "left_hip_pitch": -22.9183,
+   "left_knee": 22.9183,
+   "left_ankle": 45.8366,
+   "neck_pitch": 0.0,
+   "head_pitch": 0.0,
+   "head_yaw": 0.0,
+   "head_roll": 0.0,
+   "mouth": 0.0,
+   "right_hip_yaw": 15.0,
+   "right_hip_roll": 0.0,
+   "right_hip_pitch": 22.9183,
+   "right_knee": -22.9183,
+   "right_ankle": -45.8366
+  }
+ },
+ "joints": [
+  {
+   "name": "left_hip_yaw",
+   "parent_body": "trunk_base",
+   "body": "left_hip_yaw_link",
+   "origin_mm": [
+    20.0,
+    17.5,
+    117.0
+   ],
+   "axis": [
+    0,
+    0,
+    -1
+   ],
+   "verified_range_deg": [
+    -19.0,
+    0.0
+   ]
+  },
+  {
+   "name": "left_hip_roll",
+   "parent_body": "left_hip_yaw_link",
+   "body": "left_hip_roll_link",
+   "origin_mm": [
+    34.5,
+    17.5,
+    102.5
+   ],
+   "axis": [
+    1,
+    0,
+    0
+   ],
+   "verified_range_deg": [
+    -18.0,
+    22.0
+   ]
+  },
+  {
+   "name": "left_hip_pitch",
+   "parent_body": "left_hip_roll_link",
+   "body": "left_hip_pitch_link",
+   "origin_mm": [
+    18.0,
+    40.0,
+    102.5
+   ],
+   "axis": [
+    0,
+    1,
+    0
+   ],
+   "verified_range_deg": [
+    -90.0,
+    0.0
+   ]
+  },
+  {
+   "name": "left_knee",
+   "parent_body": "left_hip_pitch_link",
+   "body": "left_knee_link",
+   "origin_mm": [
+    -17.75,
+    40.0,
+    80.5
+   ],
+   "axis": [
+    0,
+    -1,
+    0
+   ],
+   "verified_range_deg": [
+    -85.0,
+    46.0
+   ]
+  },
+  {
+   "name": "left_ankle",
+   "parent_body": "left_knee_link",
+   "body": "left_ankle_link",
+   "origin_mm": [
+    -17.75,
+    64.0,
+    38.5
+   ],
+   "axis": [
+    0,
+    1,
+    0
+   ],
+   "verified_range_deg": [
+    0.0,
+    78.0
+   ]
+  },
+  {
+   "name": "neck_pitch",
+   "parent_body": "trunk_base",
+   "body": "neck_pitch_link",
+   "origin_mm": [
+    41.0,
+    14.5,
+    152.5
+   ],
+   "axis": [
+    0,
+    -1,
+    0
+   ],
+   "verified_range_deg": [
+    -65.0,
+    27.5
+   ]
+  },
+  {
+   "name": "head_pitch",
+   "parent_body": "neck_pitch_link",
+   "body": "head_pitch_link",
+   "origin_mm": [
+    41.0,
+    14.5,
+    202.5
+   ],
+   "axis": [
+    0,
+    1,
+    0
+   ],
+   "verified_range_deg": [
+    -35.0,
+    85.0
+   ]
+  },
+  {
+   "name": "head_yaw",
+   "parent_body": "head_pitch_link",
+   "body": "head_yaw_link",
+   "origin_mm": [
+    41.0,
+    0.0,
+    221.75
+   ],
+   "axis": [
+    0,
+    0,
+    1
+   ],
+   "verified_range_deg": [
+    -90.0,
+    90.0
+   ]
+  },
+  {
+   "name": "head_roll",
+   "parent_body": "head_yaw_link",
+   "body": "head_roll_link",
+   "origin_mm": [
+    23.1,
+    0.0,
+    236.25
+   ],
+   "axis": [
+    -1,
+    0,
+    0
+   ],
+   "verified_range_deg": [
+    -25.0,
+    11.0
+   ]
+  },
+  {
+   "name": "mouth",
+   "parent_body": "head_roll_link",
+   "body": "mouth_link",
+   "origin_mm": [
+    40.8999977111816,
+    0,
+    238.84999923706
+   ],
+   "axis": [
+    0,
+    1,
+    0
+   ],
+   "verified_range_deg": [
+    0.0,
+    30.0
+   ]
+  },
+  {
+   "name": "right_hip_yaw",
+   "parent_body": "trunk_base",
+   "body": "right_hip_yaw_link",
+   "origin_mm": [
+    20.0,
+    -17.5,
+    117.0
+   ],
+   "axis": [
+    0,
+    0,
+    -1
+   ],
+   "verified_range_deg": [
+    0.0,
+    19.0
+   ]
+  },
+  {
+   "name": "right_hip_roll",
+   "parent_body": "right_hip_yaw_link",
+   "body": "right_hip_roll_link",
+   "origin_mm": [
+    34.5,
+    -17.5,
+    102.5
+   ],
+   "axis": [
+    1,
+    0,
+    0
+   ],
+   "verified_range_deg": [
+    -22.0,
+    18.0
+   ]
+  },
+  {
+   "name": "right_hip_pitch",
+   "parent_body": "right_hip_roll_link",
+   "body": "right_hip_pitch_link",
+   "origin_mm": [
+    18.0,
+    -40.0,
+    102.5
+   ],
+   "axis": [
+    0,
+    -1,
+    0
+   ],
+   "verified_range_deg": [
+    0.0,
+    90.0
+   ]
+  },
+  {
+   "name": "right_knee",
+   "parent_body": "right_hip_pitch_link",
+   "body": "right_knee_link",
+   "origin_mm": [
+    -17.75,
+    -40.0,
+    80.5
+   ],
+   "axis": [
+    0,
+    1,
+    0
+   ],
+   "verified_range_deg": [
+    -46.0,
+    85.0
+   ]
+  },
+  {
+   "name": "right_ankle",
+   "parent_body": "right_knee_link",
+   "body": "right_ankle_link",
+   "origin_mm": [
+    -17.75,
+    -64.0,
+    38.5
+   ],
+   "axis": [
+    0,
+    -1,
+    0
+   ],
+   "verified_range_deg": [
+    -78.0,
+    0.0
+   ]
+  }
+ ],
+ "bodies": [
+  "trunk_base",
+  "left_hip_yaw_link",
+  "left_hip_roll_link",
+  "left_hip_pitch_link",
+  "left_knee_link",
+  "left_ankle_link",
+  "neck_pitch_link",
+  "head_pitch_link",
+  "head_yaw_link",
+  "head_roll_link",
+  "mouth_link",
+  "right_hip_yaw_link",
+  "right_hip_roll_link",
+  "right_hip_pitch_link",
+  "right_knee_link",
+  "right_ankle_link"
+ ]
+}

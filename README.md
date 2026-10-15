@@ -19,6 +19,8 @@ Cyber Edition is a **design-review CAD candidate, not a manufacturing release**.
 | `editions/cyber/exports/IndieDuck_Cyber_Assembly.step` | Full assembly, 161 solids including purchased-part reference envelopes |
 | `editions/cyber/exports/print-oriented/` | Parts exported in their print orientation (HelmetLower prints upside down) |
 | `editions/cyber/previews/`, `editions/cyber/validation/` | CAD views and verification records |
+| `platform/P1-kinematics.json` | Platform P1's joint chain: joints, axes, standing pose and verified ranges, in assembly coordinates |
+| `tools/edition_verify.py` | Verifies an edition against the platform (paperwork, unchanged platform, parts, standing-pose overlaps, joint sweeps): `EDITION=<id> freecadcmd tools/edition_verify.py` |
 | `COMPONENTS.csv` | Every printed part with its scope (`platform` or `edition`), edition, native object, material and exports |
 
 **New editions** follow `platform/PLATFORM.md`: a duck form factor on P1 that changes only the exterior, submitted as `editions/<id>/` with its own `edition.yaml`.

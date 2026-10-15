@@ -1,6 +1,6 @@
 # IndieDuck platform P1
 
-P1 is the mechanism every IndieDuck edition shares: the structure, joints, actuators, electronics, feet and soles. A change to P1 applies to every edition and gets a new platform version (P2, ...).
+P1 is the mechanism every IndieDuck edition shares: the structure, joints, actuators, electronics, feet and soles. A change to the platform applies to every edition and gets a new platform version. The full contents of each platform version (mechanism, electronics and sensors) and its history are in the project hub: [platform/P1.yaml](https://github.com/armature-ai-labs/indieduck/blob/main/platform/P1.yaml) and [PLATFORM-CHANGELOG.md](https://github.com/armature-ai-labs/indieduck/blob/main/platform/PLATFORM-CHANGELOG.md).
 
 ## What P1 includes
 
@@ -20,6 +20,6 @@ An edition is a duck form factor on P1 that changes only the exterior.
 5. **Record mass and centre of mass** of the exterior, because they change the simulation and the trained policies.
 6. **Licence and credits:** Apache-2.0 for submitted work, designers named in `edition.yaml`, any third-party source listed in `THIRD_PARTY_NOTICES.md`.
 
-How to submit an edition, step by step: [Submit an edition to IndieDuck](https://github.com/armature-ai-labs/indieduck/blob/main/SUBMIT-AN-EDITION.md).
+Check an edition with `EDITION=<id> freecadcmd tools/edition_verify.py`; it reads the joint chain and verified ranges from `platform/P1-kinematics.json`. How to submit an edition, step by step: [Submit an edition to IndieDuck](https://github.com/armature-ai-labs/indieduck/blob/main/SUBMIT-AN-EDITION.md).
 
 Each edition gets its own model ID (`indieduck-<edition>`), training task and policies.

@@ -45,8 +45,8 @@
   },
   {
    "path": "README.md",
-   "bytes": 7632,
-   "sha256": "fd3d3088c728b656bed3e4d9ccc8f8045e37bb9e8b5201848fe04cb4ed560b36",
+   "bytes": 7969,
+   "sha256": "3e9b86e35bb96de590515996afee70c8d653dfb4922dddaeea328f213b516e89",
    "scope": "repository",
    "role": "Repository documentation and indexes"
   },
@@ -569,9 +569,23 @@
    "role": "Cyber Edition"
   },
   {
+   "path": "editions/cyber/validation/edition-verify.json",
+   "bytes": 4084,
+   "sha256": "440b3d2ae80ec8e0f0ed97a7475845c21fd6f9fff2ddf749c2905555857968e8",
+   "scope": "cyber",
+   "role": "Cyber Edition"
+  },
+  {
+   "path": "platform/P1-kinematics.json",
+   "bytes": 5110,
+   "sha256": "246503906d92a62a04b550820bd171256a8e51e5e6302db0597efe9f938fbd6f",
+   "scope": "platform",
+   "role": "Platform P1"
+  },
+  {
    "path": "platform/PLATFORM.md",
-   "bytes": 2339,
-   "sha256": "94af25d9585108e6649c94c95b2be927ce7fe3df70137299f707ed034d399831",
+   "bytes": 2823,
+   "sha256": "cb209c3df301480e69b2a024d275eeefbdc0b09ae36882d33d302576b6c4c042",
    "scope": "platform",
    "role": "Platform P1"
   },
@@ -959,6 +973,20 @@
    "sha256": "860bfbed7cc2126a8bbd5d5af22b8eb9f2c843e06fe55326854b23faf63f4a84",
    "scope": "platform",
    "role": "Platform P1"
+  },
+  {
+   "path": "tools/__pycache__/edition_verify.cpython-311.pyc",
+   "bytes": 20459,
+   "sha256": "04d84f87e31de7772f09ca7bef7f636ef297b99fd1009bbfe0dea24a47bfad67",
+   "scope": "repository",
+   "role": "Tools"
+  },
+  {
+   "path": "tools/edition_verify.py",
+   "bytes": 9251,
+   "sha256": "c8155e5b1ce999cbbd5e6e060c3e9ff5145d57c063faef8cde1fa12fa82390eb",
+   "scope": "repository",
+   "role": "Tools"
   }
  ],
  "earlier_releases": {

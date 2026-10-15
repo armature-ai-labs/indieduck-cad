@@ -1,0 +1,229 @@
+{
+ "edition": "cyber",
+ "date": "2026-10-15",
+ "step_deg": 2.0,
+ "checks": {
+  "edition.yaml": {
+   "ok": true,
+   "detail": "id cyber, form_factor duck, platform P1, licence Apache-2.0"
+  },
+  "COMPONENTS.csv": {
+   "ok": true,
+   "detail": "28 edition parts, 27 platform parts; missing exports: []"
+  },
+  "platform unchanged": {
+   "ok": true,
+   "detail": "27 platform parts compared with platform/exports; changed: []"
+  },
+  "edition parts": {
+   "ok": true,
+   "detail": "28 parts checked; problems: []"
+  },
+  "standing pose": {
+   "ok": true,
+   "detail": "overlaps above 0.5 mm3: []"
+  },
+  "joint ranges": {
+   "ok": false,
+   "detail": "15 joints swept in 2.0 deg steps; reduced: ['mouth']"
+  }
+ },
+ "joints": {
+  "left_hip_yaw": {
+   "verified_range_deg": [
+    -19.0,
+    0.0
+   ],
+   "standing_deg": -15.0,
+   "down": -19.0,
+   "down_blocked_by": null,
+   "up": 0.0,
+   "up_blocked_by": null,
+   "full_range": true
+  },
+  "left_hip_roll": {
+   "verified_range_deg": [
+    -18.0,
+    22.0
+   ],
+   "standing_deg": 0.0,
+   "down": -18.0,
+   "down_blocked_by": null,
+   "up": 22.0,
+   "up_blocked_by": null,
+   "full_range": true
+  },
+  "left_hip_pitch": {
+   "verified_range_deg": [
+    -90.0,
+    0.0
+   ],
+   "standing_deg": -22.9183,
+   "down": -90.0,
+   "down_blocked_by": null,
+   "up": 0.0,
+   "up_blocked_by": null,
+   "full_range": true
+  },
+  "left_knee": {
+   "verified_range_deg": [
+    -85.0,
+    46.0
+   ],
+   "standing_deg": 22.9183,
+   "down": -85.0,
+   "down_blocked_by": null,
+   "up": 46.0,
+   "up_blocked_by": null,
+   "full_range": true
+  },
+  "left_ankle": {
+   "verified_range_deg": [
+    0.0,
+    78.0
+   ],
+   "standing_deg": 45.8366,
+   "down": 0.0,
+   "down_blocked_by": null,
+   "up": 78.0,
+   "up_blocked_by": null,
+   "full_range": true
+  },
+  "neck_pitch": {
+   "verified_range_deg": [
+    -65.0,
+    27.5
+   ],
+   "standing_deg": 0.0,
+   "down": -65.0,
+   "down_blocked_by": null,
+   "up": 27.5,
+   "up_blocked_by": null,
+   "full_range": true
+  },
+  "head_pitch": {
+   "verified_range_deg": [
+    -35.0,
+    85.0
+   ],
+   "standing_deg": 0.0,
+   "down": -35.0,
+   "down_blocked_by": null,
+   "up": 85.0,
+   "up_blocked_by": null,
+   "full_range": true
+  },
+  "head_yaw": {
+   "verified_range_deg": [
+    -90.0,
+    90.0
+   ],
+   "standing_deg": 0.0,
+   "down": -90.0,
+   "down_blocked_by": null,
+   "up": 90.0,
+   "up_blocked_by": null,
+   "full_range": true
+  },
+  "head_roll": {
+   "verified_range_deg": [
+    -25.0,
+    11.0
+   ],
+   "standing_deg": 0.0,
+   "down": -25.0,
+   "down_blocked_by": null,
+   "up": 11.0,
+   "up_blocked_by": null,
+   "full_range": true
+  },
+  "mouth": {
+   "verified_range_deg": [
+    0.0,
+    30.0
+   ],
+   "standing_deg": 0.0,
+   "down": 0.0,
+   "down_blocked_by": null,
+   "up": 0.0,
+   "up_blocked_by": [
+    [
+     "JawSurround_R",
+     "HeadRim_R",
+     10.9
+    ],
+    [
+     "JawSurround_L",
+     "HeadRim_L",
+     10.9
+    ]
+   ],
+   "full_range": false
+  },
+  "right_hip_yaw": {
+   "verified_range_deg": [
+    0.0,
+    19.0
+   ],
+   "standing_deg": 15.0,
+   "down": 0.0,
+   "down_blocked_by": null,
+   "up": 19.0,
+   "up_blocked_by": null,
+   "full_range": true
+  },
+  "right_hip_roll": {
+   "verified_range_deg": [
+    -22.0,
+    18.0
+   ],
+   "standing_deg": 0.0,
+   "down": -22.0,
+   "down_blocked_by": null,
+   "up": 18.0,
+   "up_blocked_by": null,
+   "full_range": true
+  },
+  "right_hip_pitch": {
+   "verified_range_deg": [
+    0.0,
+    90.0
+   ],
+   "standing_deg": 22.9183,
+   "down": 0.0,
+   "down_blocked_by": null,
+   "up": 90.0,
+   "up_blocked_by": null,
+   "full_range": true
+  },
+  "right_knee": {
+   "verified_range_deg": [
+    -46.0,
+    85.0
+   ],
+   "standing_deg": -22.9183,
+   "down": -46.0,
+   "down_blocked_by": null,
+   "up": 85.0,
+   "up_blocked_by": null,
+   "full_range": true
+  },
+  "right_ankle": {
+   "verified_range_deg": [
+    -78.0,
+    0.0
+   ],
+   "standing_deg": -45.8366,
+   "down": -78.0,
+   "down_blocked_by": null,
+   "up": 0.0,
+   "up_blocked_by": null,
+   "full_range": true
+  }
+ },
+ "result": "ATTENTION",
+ "problems": [
+  "joint ranges"
+ ],
+ "notes": []
+}
