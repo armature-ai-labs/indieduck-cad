@@ -477,50 +477,53 @@
    "part": "R25_HeadRim_L",
    "native_object": "HeadRim_L",
    "moving_body": "head_roll_link",
-   "native_volume_mm3": 2832.972,
+   "native_volume_mm3": 2674.16,
    "step_valid": true,
    "step_solids": 1,
-   "step_drift_ppm": 0.215,
+   "step_drift_ppm": 0.207,
    "stl_closed": true,
-   "stl_facets": 278,
-   "stl_volume_diff_pct": 0.002
+   "stl_facets": 624,
+   "stl_volume_diff_pct": 0.002,
+   "note": "mouth redesign 15 Oct 2026 (D25)"
   },
   {
    "part": "R25_HeadRim_R",
    "native_object": "HeadRim_R",
    "moving_body": "head_roll_link",
-   "native_volume_mm3": 2828.614,
+   "native_volume_mm3": 2669.803,
    "step_valid": true,
    "step_solids": 1,
-   "step_drift_ppm": 0.0,
+   "step_drift_ppm": 0.027,
    "stl_closed": true,
-   "stl_facets": 306,
-   "stl_volume_diff_pct": 0.0
+   "stl_facets": 660,
+   "stl_volume_diff_pct": 0.0,
+   "note": "mouth redesign 15 Oct 2026 (D25)"
   },
   {
    "part": "R25_JawSurround_R",
    "native_object": "JawSurround_R",
    "moving_body": "mouth_link",
-   "native_volume_mm3": 1587.328,
+   "native_volume_mm3": 1264.842,
    "step_valid": true,
    "step_solids": 1,
    "step_drift_ppm": 0.0,
    "stl_closed": true,
-   "stl_facets": 454,
-   "stl_volume_diff_pct": 0.141
+   "stl_facets": 1508,
+   "stl_volume_diff_pct": 0.141,
+   "note": "mouth redesign 15 Oct 2026 (D25)"
   },
   {
    "part": "R25_JawSurround_L",
    "native_object": "JawSurround_L",
    "moving_body": "mouth_link",
-   "native_volume_mm3": 1652.942,
+   "native_volume_mm3": 1330.456,
    "step_valid": true,
    "step_solids": 1,
    "step_drift_ppm": 0.0,
    "stl_closed": true,
-   "stl_facets": 2136,
+   "stl_facets": 5798,
    "stl_volume_diff_pct": 0.144,
-   "note": "pivot features rebuilt as exact geometry 2026-10-13"
+   "note": "mouth redesign 15 Oct 2026 (D25)"
   },
   {
    "part": "R25_RearHeadBumper",

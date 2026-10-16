@@ -15,7 +15,8 @@ training_task: Mjlab-Velocity-Flat-IndieDuck-Cyber
 native_assembly: native/IndieDuck_Cyber_Assembly.FCStd   # complete robot: platform P1 + this exterior
 parts: COMPONENTS.csv rows with edition = cyber (28 exterior parts)
 joint_ranges: validation/R25-joint-ranges.json
+resolved:
+  - Mouth (15 Oct 2026, decision D25): jaw surrounds are round caps centred on the jaw pivot and the rims have a matching 13 mm arc; the jaw opens 0 to 30 deg clear.
 open_items:
-  - Mouth: the head rims block the jaw surrounds; the interface needs a redesign.
   - Cover fixings: most cover screw holes have no boss behind them.
   - Retention for the optical rings and torso inlays.

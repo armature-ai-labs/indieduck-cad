@@ -25,7 +25,7 @@
   {
    "path": "COMPONENTS.csv",
    "bytes": 12673,
-   "sha256": "887d16fb41f5810c5ba372fe0cdc208b183f38bd065d00be83f85a9974b8dcaf",
+   "sha256": "f6936fe4dbde452cd2d68fea676540e9ffdd13b287c7a638eb93edb558543388",
    "scope": "repository",
    "role": "Repository documentation and indexes"
   },
@@ -45,8 +45,8 @@
   },
   {
    "path": "README.md",
-   "bytes": 7969,
-   "sha256": "3e9b86e35bb96de590515996afee70c8d653dfb4922dddaeea328f213b516e89",
+   "bytes": 8030,
+   "sha256": "c818543aeb5314f392549f6234bf09b62d91ed2121b6c1df4d40e0da3b3f3c9e",
    "scope": "repository",
    "role": "Repository documentation and indexes"
   },
@@ -73,15 +73,15 @@
   },
   {
    "path": "editions/cyber/edition.yaml",
-   "bytes": 969,
-   "sha256": "25c7c43f81a168fd1a49e86e3b4a8a46ee2bbb4a32ff30e955e907124c7ceb4e",
+   "bytes": 1063,
+   "sha256": "1368d7600fe76187c63f66980514abadd983fb4331a749c37a23c06ac19e4f2c",
    "scope": "cyber",
    "role": "Cyber Edition"
   },
   {
    "path": "editions/cyber/exports/IndieDuck_Cyber_Assembly.step",
-   "bytes": 13448916,
-   "sha256": "40ff9120b0a2b1f48fe7a76a23ab206f96516a55661471e8e5b16facbb0b5b76",
+   "bytes": 8536947,
+   "sha256": "fe8019eb93b8a2ff8a690152019df8a2bbcda3b6890f30491ca39440eb1e8291",
    "scope": "cyber",
    "role": "Cyber Edition"
   },
@@ -115,15 +115,15 @@
   },
   {
    "path": "editions/cyber/exports/step/Cyber_HeadRim_L.step",
-   "bytes": 105385,
-   "sha256": "44c3552eec1f2e498fc33987c56d0be856c4a7ae4917b0236f60e52134f79d08",
+   "bytes": 114399,
+   "sha256": "5c1bb71591623ab14ea85a16b21bf05e7dd77fed9b34c1fb28c1cc487210b73c",
    "scope": "cyber",
    "role": "Cyber Edition"
   },
   {
    "path": "editions/cyber/exports/step/Cyber_HeadRim_R.step",
-   "bytes": 103918,
-   "sha256": "24b59c7f7a2cc59c4810c03576ad8d2d247ea21ce8f29f39af9353d0c0cb2e95",
+   "bytes": 113716,
+   "sha256": "1d42bfb8c806dc79050bcc0b8a10d87e6d09f29a677794703447d573ac10fa4e",
    "scope": "cyber",
    "role": "Cyber Edition"
   },
@@ -157,15 +157,15 @@
   },
   {
    "path": "editions/cyber/exports/step/Cyber_JawSurround_L.step",
-   "bytes": 68596,
-   "sha256": "01d9f2223053720c18570168fbe6bb49ff400916f1288af66ea104423f5b10c6",
+   "bytes": 68812,
+   "sha256": "aa3204b8d77a7daddf786e64853a8645f3f4fe574e8091a291667c65ca5c8393",
    "scope": "cyber",
    "role": "Cyber Edition"
   },
   {
    "path": "editions/cyber/exports/step/Cyber_JawSurround_R.step",
-   "bytes": 12561,
-   "sha256": "27034d431a995f916295c69512ab75b48cbaf6b2b624a540937b728076f2a416",
+   "bytes": 12769,
+   "sha256": "40e005509a87851d981c85e8175d91bc83ce431a1defac2ca65703678e981282",
    "scope": "cyber",
    "role": "Cyber Edition"
   },
@@ -311,15 +311,15 @@
   },
   {
    "path": "editions/cyber/exports/stl/Cyber_HeadRim_L.stl",
-   "bytes": 13984,
-   "sha256": "8ba5b964ccf3bd28cc524aff7dd1a60d94840ea949ab6b783b9d009b0d12c793",
+   "bytes": 31284,
+   "sha256": "e2000a48b07e6bd16fbcc80021b8eefb7eba73e92eebd231800dce44c0b04348",
    "scope": "cyber",
    "role": "Cyber Edition"
   },
   {
    "path": "editions/cyber/exports/stl/Cyber_HeadRim_R.stl",
-   "bytes": 15384,
-   "sha256": "ff7c0a6a047dd0bae1a3df6fb544727f2615876b2f45987dd5edc2cd14c48d76",
+   "bytes": 33084,
+   "sha256": "2362f1e35e0dfc8e11d9263046a5aefc56e6fdf92813948d037329929f9e9626",
    "scope": "cyber",
    "role": "Cyber Edition"
   },
@@ -353,15 +353,15 @@
   },
   {
    "path": "editions/cyber/exports/stl/Cyber_JawSurround_L.stl",
-   "bytes": 106884,
-   "sha256": "a80ed20fbaf3ca9975f0d73fa7c134faf6d764e2f02c6062d0b60da48b4056fa",
+   "bytes": 289984,
+   "sha256": "5f9c900cb957fd26bdab569d19fd7a624b07e6d50fec3151a7d358f6176f426f",
    "scope": "cyber",
    "role": "Cyber Edition"
   },
   {
    "path": "editions/cyber/exports/stl/Cyber_JawSurround_R.stl",
-   "bytes": 22784,
-   "sha256": "170b66f3ae8d1bb3781807c66b623134a804490f5a34dc2c228fe4f02358d562",
+   "bytes": 75484,
+   "sha256": "2f012421808661c6b9004cd64f675ce9600d6eb5c8fad1911ab2ea337a4d0868",
    "scope": "cyber",
    "role": "Cyber Edition"
   },
@@ -486,8 +486,8 @@
   },
   {
    "path": "editions/cyber/native/IndieDuck_Cyber_Assembly.FCStd",
-   "bytes": 2372498,
-   "sha256": "079f9111f95f94358d1ba63fea7c5c734e603a9b8b9b27cb15fd4d42eacee349",
+   "bytes": 2449720,
+   "sha256": "f3365f9460f6e6b20d2fdaf89ca61bb39790967a8e3445aaef0d7e66b179ea5f",
    "scope": "cyber",
    "role": "Cyber Edition"
   },
@@ -535,8 +535,8 @@
   },
   {
    "path": "editions/cyber/validation/R25-export-readback.json",
-   "bytes": 17697,
-   "sha256": "20464ea440854e7e3a5e956eebdf3d106ac164bfe5cd8c5750db68c1ad652acf",
+   "bytes": 17821,
+   "sha256": "b44b0afd577f7802b78dd354cedbd4a0b1a8851a9bc66e6b1a40fa49e9b62d15",
    "scope": "cyber",
    "role": "Cyber Edition"
   },
