@@ -25,5 +25,5 @@ Every printed part has a revision (`part_rev` in `COMPONENTS.csv`), and [PARTS-C
 1. Run `python3 tools/part_versions.py update --note "what changed and why"`. It finds every part whose shape changed, bumps its revision, records your note and rebuilds the report.
 2. Commit `PART-VERSIONS.json`, `PARTS-CHANGELOG.md` and `COMPONENTS.csv` with your change.
 
-The `Part versions` check runs on every push and pull request and fails if a part's geometry changed without a new revision. Maintainers record each release with `python3 tools/part_versions.py release <name>`.
+Every new part also needs a unique `part_code` (P for platform, C or your edition's letter for an edition part) and a `location` in `COMPONENTS.csv`; the tool lists it in [PARTS-CATALOG.md](PARTS-CATALOG.md). The `Part versions` check runs on every push and pull request and fails if a part's geometry changed without a new revision, or a part has no code or shares one. Maintainers record each release with `python3 tools/part_versions.py release <name>`.
 

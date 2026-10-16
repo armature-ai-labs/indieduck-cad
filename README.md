@@ -22,6 +22,7 @@ Cyber Edition is a **design-review CAD candidate, not a manufacturing release**.
 | `editions/cyber/previews/`, `editions/cyber/validation/` | CAD views and verification records |
 | `platform/P1-kinematics.json` | Platform P1's joint chain: joints, axes, standing pose and verified ranges, in assembly coordinates |
 | `tools/edition_verify.py` | Verifies an edition against the platform (paperwork, unchanged platform, parts, standing-pose overlaps, joint sweeps): `EDITION=<id> freecadcmd tools/edition_verify.py` |
+| `PARTS-CATALOG.md` | **Every printed part with its code** (for example `C-TORF`), revision, colour, location on the robot and file links |
 | `PARTS-CHANGELOG.md` | **What changed and what to reprint**, for every release, with each part's revision history |
 | `PART-VERSIONS.json`, `tools/part_versions.py` | Part revisions and geometric fingerprints; `check`, `update`, `release` and `report` commands |
 | `COMPONENTS.csv` | Every printed part with its scope, and in `print_with` the panel a colour accent is printed with (`platform` or `edition`), edition, native object, material and exports |

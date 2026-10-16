@@ -31,15 +31,15 @@
   },
   {
    "path": "COMPONENTS.csv",
-   "bytes": 13044,
-   "sha256": "4e371fd7ec1c765f98a6944a6c07c843af9d1d55a4aaff6bd241ecc2def5684f",
+   "bytes": 14272,
+   "sha256": "95639543ce1148c36beecf003f506576184f291f637cc1c75887967841ddc529",
    "scope": "repository",
    "role": "Repository documentation and indexes"
   },
   {
    "path": "CONTRIBUTING.md",
-   "bytes": 3552,
-   "sha256": "949c07bb00e472174ecfa4663fd6f6cae966f9d4193f5ed19da893dbb9e9bc5f",
+   "bytes": 3798,
+   "sha256": "3eb67f45bdd1f1add28a7e0378c1c4a8fab15ece910d364ea81785d725ba4af6",
    "scope": "repository",
    "role": "Repository documentation and indexes"
   },
@@ -58,16 +58,23 @@
    "role": "Repository documentation and indexes"
   },
   {
+   "path": "PARTS-CATALOG.md",
+   "bytes": 12942,
+   "sha256": "d506a27682f533a0d8d7109307cbfef81f4404ea9054d31856707bbc9de33421",
+   "scope": "repository",
+   "role": "Repository documentation and indexes"
+  },
+  {
    "path": "PARTS-CHANGELOG.md",
-   "bytes": 36031,
-   "sha256": "f1af200ba508f299f752fc2298208c11f28e24741a6b0d24f6a01a4f6eb4bed7",
+   "bytes": 36096,
+   "sha256": "ca7561decbab1d4e0fcf7427bef496f25713b245de80f7dd6e0105b7bd01cbd6",
    "scope": "repository",
    "role": "Repository documentation and indexes"
   },
   {
    "path": "README.md",
-   "bytes": 9671,
-   "sha256": "622b2340e3852fcc67c120020b41946cdf3f976a8b52bf07d505719b2d360d27",
+   "bytes": 9812,
+   "sha256": "51f9a10d3963bd9556e0a6e26185915edeede297da55998e21688d6bdc5142b8",
    "scope": "repository",
    "role": "Repository documentation and indexes"
   },
@@ -1053,8 +1060,8 @@
   },
   {
    "path": "tools/part_versions.py",
-   "bytes": 8848,
-   "sha256": "7cd7468865a9b0e0dbac3ddeb4ed3def31faa3d70a6cffe377e5ef6ab6d14215",
+   "bytes": 11555,
+   "sha256": "afddf8e598131c5ee435a727736a6315ba7d7aa6af70e16b37f4e0b2c3cd0191",
    "scope": "repository",
    "role": "Tools"
   }
