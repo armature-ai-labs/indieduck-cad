@@ -570,8 +570,8 @@
   },
   {
    "path": "editions/cyber/validation/edition-verify.json",
-   "bytes": 4084,
-   "sha256": "440b3d2ae80ec8e0f0ed97a7475845c21fd6f9fff2ddf749c2905555857968e8",
+   "bytes": 3925,
+   "sha256": "287f2601ec4aea68b2fba387c89e80831404af448b33a0205af887df8aa2114c",
    "scope": "cyber",
    "role": "Cyber Edition"
   },
