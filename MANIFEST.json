@@ -24,8 +24,8 @@
   },
   {
    "path": "COMPONENTS.csv",
-   "bytes": 12673,
-   "sha256": "f6936fe4dbde452cd2d68fea676540e9ffdd13b287c7a638eb93edb558543388",
+   "bytes": 12797,
+   "sha256": "4c922d504fcfb845991a7a5210eed7fb0dfaa7f3030bab28b3bceaaa0da698db",
    "scope": "repository",
    "role": "Repository documentation and indexes"
   },
@@ -45,8 +45,8 @@
   },
   {
    "path": "README.md",
-   "bytes": 8030,
-   "sha256": "c818543aeb5314f392549f6234bf09b62d91ed2121b6c1df4d40e0da3b3f3c9e",
+   "bytes": 8364,
+   "sha256": "8e43d961cff23e025925625d31c07f2f5a169f5300d2219b58f162078b7e2647",
    "scope": "repository",
    "role": "Repository documentation and indexes"
   },
@@ -73,8 +73,8 @@
   },
   {
    "path": "editions/cyber/edition.yaml",
-   "bytes": 1063,
-   "sha256": "1368d7600fe76187c63f66980514abadd983fb4331a749c37a23c06ac19e4f2c",
+   "bytes": 1173,
+   "sha256": "e6cfbf4c5ec94ef3ba50fcafe4917e27fe80b8594042a27e86846099d9e13c69",
    "scope": "cyber",
    "role": "Cyber Edition"
   },
@@ -82,6 +82,27 @@
    "path": "editions/cyber/exports/IndieDuck_Cyber_Assembly.step",
    "bytes": 8536947,
    "sha256": "fe8019eb93b8a2ff8a690152019df8a2bbcda3b6890f30491ca39440eb1e8291",
+   "scope": "cyber",
+   "role": "Cyber Edition"
+  },
+  {
+   "path": "editions/cyber/exports/multicolour/Cyber_CameraFace_multicolour.step",
+   "bytes": 65555,
+   "sha256": "6a6a967960a5edf8332a01a4e9d6aa678b1b96c5855597eee8298daeb3298959",
+   "scope": "cyber",
+   "role": "Cyber Edition"
+  },
+  {
+   "path": "editions/cyber/exports/multicolour/Cyber_TorsoFront_multicolour.step",
+   "bytes": 397877,
+   "sha256": "d5f20e15bf6c2e570f5a29c35b2c170036e739b18de06d4a195f42972b66b7c6",
+   "scope": "cyber",
+   "role": "Cyber Edition"
+  },
+  {
+   "path": "editions/cyber/exports/multicolour/Cyber_TorsoRear_multicolour.step",
+   "bytes": 223681,
+   "sha256": "0e6b006a76b58a768b76b410cee2f155a3ad9de39f4c22b992ebee5ad049b619",
    "scope": "cyber",
    "role": "Cyber Edition"
   },
@@ -584,8 +605,8 @@
   },
   {
    "path": "platform/PLATFORM.md",
-   "bytes": 2823,
-   "sha256": "cb209c3df301480e69b2a024d275eeefbdc0b09ae36882d33d302576b6c4c042",
+   "bytes": 3197,
+   "sha256": "454ec3149a1eb04c79c5e20aeaba57456acb0fc016898a7e350a6f7aa01fa057",
    "scope": "platform",
    "role": "Platform P1"
   },

@@ -17,11 +17,12 @@ Cyber Edition is a **design-review CAD candidate, not a manufacturing release**.
 | `editions/cyber/native/IndieDuck_Cyber_Assembly.FCStd` | The complete robot (platform P1 plus the Cyber exterior) in its saved pose, FreeCAD 1.1.4. Each part stores a `MovingBody` property naming the joint link it moves with. |
 | `editions/cyber/exports/step/`, `editions/cyber/exports/stl/` | The 28 Cyber exterior parts (`Cyber_*`) |
 | `editions/cyber/exports/IndieDuck_Cyber_Assembly.step` | Full assembly, 161 solids including purchased-part reference envelopes |
+| `editions/cyber/exports/multicolour/` | Panels with their orange accents as one multi-colour print: the camera face with both optical rings, and the front and rear torso panels with their stripes. Load each into Bambu Studio as one object and give the accents orange |
 | `editions/cyber/exports/print-oriented/` | Parts exported in their print orientation (HelmetLower prints upside down) |
 | `editions/cyber/previews/`, `editions/cyber/validation/` | CAD views and verification records |
 | `platform/P1-kinematics.json` | Platform P1's joint chain: joints, axes, standing pose and verified ranges, in assembly coordinates |
 | `tools/edition_verify.py` | Verifies an edition against the platform (paperwork, unchanged platform, parts, standing-pose overlaps, joint sweeps): `EDITION=<id> freecadcmd tools/edition_verify.py` |
-| `COMPONENTS.csv` | Every printed part with its scope (`platform` or `edition`), edition, native object, material and exports |
+| `COMPONENTS.csv` | Every printed part with its scope, and in `print_with` the panel a colour accent is printed with (`platform` or `edition`), edition, native object, material and exports |
 
 **New editions** follow `platform/PLATFORM.md`: a duck form factor on P1 that changes only the exterior, submitted as `editions/<id>/` with its own `edition.yaml`.
 
