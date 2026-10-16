@@ -103,8 +103,9 @@ def subtree(b):
 def axis_world(name):
     j = J[name]; T = world[j['body']]
     return V(*T[:3, 3]), V(*(world[j['parent_body']][:3, :3] @ np.array(j['axis'], float)))
-moving = [o for o in objs.values() if getattr(o, 'MovingBody', '') in BODIES]
-edset = {r['assembly_link'] for r in erows}
+IGNORE = [x for x in os.environ.get('IGNORE', 'Fasteners').split(',') if x]  # reference fastener envelopes sit inside the holes they fill
+moving = [o for o in objs.values() if getattr(o, 'MovingBody', '') in BODIES and not any(k in o.Label for k in IGNORE)]
+edset = {r['assembly_link'] for r in erows} | {x for x in os.environ.get('EXTRA', '').split(',') if x}
 def contacts(mov, fix, rot=None):
     hits = []
     for o in mov:

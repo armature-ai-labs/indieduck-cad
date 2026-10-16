@@ -15,7 +15,7 @@ An edition is a duck form factor on P1 that changes only the exterior.
 
 1. **Leave platform parts unchanged.** Mechanism changes go to the platform and apply to every edition.
 2. **Clear the joints.** Exterior parts must not limit any joint more than the mechanism does, or the edition records its own reduced ranges after a 1 degree sweep (see Cyber's `validation/R25-joint-ranges.json`).
-3. **Fix covers to the structure**, never to a servo body. Cover fixings on P1 are still being designed; until they are, state the fixing method in the edition.
+3. **Fix covers with M2 self-tapping screws into printed posts on the platform**, never into a servo or the soft sole. Posts are 5.5 mm across with a 1.7 mm pilot, grow from the platform part that moves with the cover, and need a clear path (no servo, board or other moving part in the way); the cover gets a 2.4 mm hole. A trim piece with no structure behind it prints with the cover or part it sits on (`print_with`), and a panel may hook behind its neighbour, as Cyber's pelvis front does.
 4. **The jaw** may be restyled but must use the platform's jaw pivot, bearing and horn interface.
 5. **Record mass and centre of mass** of the exterior, because they change the simulation and the trained policies.
 6. **Colour accents print with their panel.** IndieDuck is printed on multi-colour printers, so model each colour accent as its own solid sitting exactly on its panel (touching, no gap or overlap), name the panel in the `print_with` column of `COMPONENTS.csv`, and export the panel with its accents as one multi-solid STEP. Accents are never separate pieces fitted by hand.

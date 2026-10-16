@@ -16,7 +16,7 @@ native_assembly: native/IndieDuck_Cyber_Assembly.FCStd   # complete robot: platf
 parts: COMPONENTS.csv rows with edition = cyber (28 exterior parts)
 joint_ranges: validation/R25-joint-ranges.json
 resolved:
+  - Cover fixings (15 Oct 2026, decisions D27 and D28): 34 M2 x 8 self-tapping screws into printed posts on the platform; the pelvis front hooks behind the torso front at the top; the face bezel, rear bumper, head rims and toe caps print with a neighbour.
   - Optical rings and torso stripes (15 Oct 2026, decision D26): printed in orange as part of their panel on a multi-colour printer; files in exports/multicolour/.
   - Mouth (15 Oct 2026, decision D25): jaw surrounds are round caps centred on the jaw pivot and the rims have a matching 13 mm arc; the jaw opens 0 to 30 deg clear.
 open_items:
-  - Cover fixings: most cover screw holes have no boss behind them.
