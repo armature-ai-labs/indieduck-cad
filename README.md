@@ -22,6 +22,8 @@ Cyber Edition is a **design-review CAD candidate, not a manufacturing release**.
 | `editions/cyber/previews/`, `editions/cyber/validation/` | CAD views and verification records |
 | `platform/P1-kinematics.json` | Platform P1's joint chain: joints, axes, standing pose and verified ranges, in assembly coordinates |
 | `tools/edition_verify.py` | Verifies an edition against the platform (paperwork, unchanged platform, parts, standing-pose overlaps, joint sweeps): `EDITION=<id> freecadcmd tools/edition_verify.py` |
+| `PARTS-CHANGELOG.md` | **What changed and what to reprint**, for every release, with each part's revision history |
+| `PART-VERSIONS.json`, `tools/part_versions.py` | Part revisions and geometric fingerprints; `check`, `update`, `release` and `report` commands |
 | `COMPONENTS.csv` | Every printed part with its scope, and in `print_with` the panel a colour accent is printed with (`platform` or `edition`), edition, native object, material and exports |
 
 **New editions** follow `platform/PLATFORM.md`: a duck form factor on P1 that changes only the exterior, submitted as `editions/<id>/` with its own `edition.yaml`.
@@ -43,7 +45,7 @@ Every joint was swept in 1 degree steps against every other part. Three hardware
 
 ## Cover fixings (15 October 2026)
 
-Cyber's original cover holes mostly had nothing behind them (9 of 45 could take a boss). Covers are now held by 34 M2 x 8 self-tapping screws through 2.4 mm holes into 5.5 mm posts printed on the platform parts that move with each cover (trunk, head base, camera carrier, jaw bearing tower, hip brackets, thighs and shanks). Unused holes are filled. The pelvis front has no structure behind it (the hip brackets swing there), so it hooks behind the torso front's lower edge and two of the screws go through the torso front into bosses on its tongues: fit the pelvis front first, then the torso front. The face bezel prints with the camera face, the head rims and rear bumper with the helmet lower, and the toe caps with the feet (`print_with` in `COMPONENTS.csv`, files in `editions/cyber/exports/multicolour/`). The right shin cap is now an exact mirror of the left. Every post was checked for a clear path and swept through all joint ranges.
+Cyber's original cover holes mostly had nothing behind them (9 of 45 could take a boss). Covers are now held by 34 M2 x 8 self-tapping screws through 2.4 mm holes into 5.5 mm posts printed on the platform parts that move with each cover (trunk, head base, camera carrier, jaw bearing tower, hip brackets, thighs and shanks). Unused holes are filled. The pelvis front has no structure behind it (the hip brackets swing there), so it hooks behind the torso front's lower edge and two of the screws go through the torso front into bosses on its tongues: fit the pelvis front first, then the torso front. The face bezel prints with the camera face, the head rims and rear bumper with the helmet lower, and the toe caps with the feet (`print_with` in `COMPONENTS.csv`, files in `editions/cyber/exports/multicolour/`). The right shin cap was re-made as an exact mirror of the left with clean geometry (its printed shape is unchanged). Every post was checked for a clear path and swept through all joint ranges.
 
 ## Support parts added to the printed list (14 October 2026)
 

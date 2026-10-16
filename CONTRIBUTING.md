@@ -17,3 +17,13 @@ Keep reference electronics and metal hardware distinct from printed parts. Colou
 Preserve upstream notices and source identity. Record any new external geometry, its repository, exact revision and licence in `THIRD_PARTY_NOTICES.md`. A geometric modification does not erase its source attribution or resolve an unclear reuse grant. Do not describe imported geometry as independently authored.
 
 When reporting a test, state what was actually checked. A valid solid, closed STL or clear screenshot alone does not establish strength, tolerances, continuous motion or a working robot. Hardware measurements and failed checks are useful contributions when their setup and uncertainty are recorded.
+
+## Part versions (required for every change to a printed part)
+
+Every printed part has a revision (`part_rev` in `COMPONENTS.csv`), and [PARTS-CHANGELOG.md](PARTS-CHANGELOG.md) tells people who already printed which parts to reprint. When you change a part's geometry and re-export it:
+
+1. Run `python3 tools/part_versions.py update --note "what changed and why"`. It finds every part whose shape changed, bumps its revision, records your note and rebuilds the report.
+2. Commit `PART-VERSIONS.json`, `PARTS-CHANGELOG.md` and `COMPONENTS.csv` with your change.
+
+The `Part versions` check runs on every push and pull request and fails if a part's geometry changed without a new revision. Maintainers record each release with `python3 tools/part_versions.py release <name>`.
+

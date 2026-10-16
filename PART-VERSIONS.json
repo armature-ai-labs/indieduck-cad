@@ -1,0 +1,2326 @@
+{
+ "parts": {
+  "A_HeadBase": {
+   "fingerprint": {
+    "area_mm2": 18130.1,
+    "bbox_mm": [
+     -19.0,
+     -44.0,
+     218.5,
+     108.3,
+     44.0,
+     235.45
+    ],
+    "centroid_mm": [
+     44.689,
+     0.671,
+     221.949
+    ],
+    "volume_mm3": 34793.7
+   },
+   "history": [
+    {
+     "commit": "bbe2f96",
+     "date": "2026-10-13",
+     "note": "Replace the XGO-derived head base with an IndieDuck-drawn part",
+     "rev": 1
+    },
+    {
+     "commit": "2f948ae",
+     "date": "2026-10-16",
+     "note": "cover fixings: M2 screw posts and re-drilled holes (D27, D28)",
+     "rev": 2
+    }
+   ],
+   "rev": 2
+  },
+  "A_HeadPitch": {
+   "fingerprint": {
+    "area_mm2": 3608.4,
+    "bbox_mm": [
+     29.0,
+     -12.0,
+     189.95,
+     53.0,
+     16.5,
+     223.2
+    ],
+    "centroid_mm": [
+     40.929,
+     8.233,
+     212.387
+    ],
+    "volume_mm3": 4713.2
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    }
+   ],
+   "rev": 1
+  },
+  "A_HeadYaw": {
+   "fingerprint": {
+    "area_mm2": 8092.5,
+    "bbox_mm": [
+     21.1,
+     -26.7,
+     223.7,
+     57.1,
+     12.0,
+     251.4
+    ],
+    "centroid_mm": [
+     35.206,
+     -5.886,
+     240.826
+    ],
+    "volume_mm3": 11015.3
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    }
+   ],
+   "rev": 1
+  },
+  "A_HipL_L": {
+   "fingerprint": {
+    "area_mm2": 10777.9,
+    "bbox_mm": [
+     -9.43,
+     0.09,
+     88.75,
+     46.75,
+     80.06,
+     121.0
+    ],
+    "centroid_mm": [
+     22.85,
+     41.061,
+     103.468
+    ],
+    "volume_mm3": 13870.1
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    },
+    {
+     "commit": "2f948ae",
+     "date": "2026-10-16",
+     "note": "cover fixings: M2 screw posts and re-drilled holes (D27, D28)",
+     "rev": 2
+    }
+   ],
+   "rev": 2
+  },
+  "A_HipL_R": {
+   "fingerprint": {
+    "area_mm2": 10777.9,
+    "bbox_mm": [
+     -9.43,
+     -80.06,
+     88.75,
+     46.75,
+     -0.09,
+     121.0
+    ],
+    "centroid_mm": [
+     22.85,
+     -41.061,
+     103.468
+    ],
+    "volume_mm3": 13870.1
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    },
+    {
+     "commit": "2f948ae",
+     "date": "2026-10-16",
+     "note": "cover fixings: M2 screw posts and re-drilled holes (D27, D28)",
+     "rev": 2
+    }
+   ],
+   "rev": 2
+  },
+  "A_Neck": {
+   "fingerprint": {
+    "area_mm2": 11344.6,
+    "bbox_mm": [
+     28.8,
+     -19.7,
+     140.25,
+     53.2,
+     5.5,
+     213.65
+    ],
+    "centroid_mm": [
+     41.606,
+     -7.583,
+     177.349
+    ],
+    "volume_mm3": 10027.6
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    }
+   ],
+   "rev": 1
+  },
+  "A_R17_HeadYawClampCap": {
+   "fingerprint": {
+    "area_mm2": 2685.9,
+    "bbox_mm": [
+     24.9,
+     -26.7,
+     251.4,
+     57.1,
+     11.7,
+     253.9
+    ],
+    "centroid_mm": [
+     40.714,
+     -8.67,
+     252.643
+    ],
+    "volume_mm3": 2736.1
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    }
+   ],
+   "rev": 1
+  },
+  "A_R17_JawBearingKeeper": {
+   "fingerprint": {
+    "area_mm2": 932.1,
+    "bbox_mm": [
+     23.21,
+     -31.7,
+     224.82,
+     58.6,
+     -29.7,
+     251.77
+    ],
+    "centroid_mm": [
+     40.9,
+     -30.7,
+     238.297
+    ],
+    "volume_mm3": 579.3
+   },
+   "history": [
+    {
+     "commit": "fa5a311",
+     "date": "2026-10-14",
+     "note": "added to the printed list",
+     "rev": 1
+    }
+   ],
+   "rev": 1
+  },
+  "A_R17_JawBearingPlug": {
+   "fingerprint": {
+    "area_mm2": 1015.7,
+    "bbox_mm": [
+     32.0,
+     -40.3,
+     229.42,
+     49.8,
+     -29.3,
+     247.17
+    ],
+    "centroid_mm": [
+     40.9,
+     -33.349,
+     238.297
+    ],
+    "volume_mm3": 1120.6
+   },
+   "history": [
+    {
+     "commit": "fa5a311",
+     "date": "2026-10-14",
+     "note": "added to the printed list",
+     "rev": 1
+    }
+   ],
+   "rev": 1
+  },
+  "A_R17_JawBearingTower": {
+   "fingerprint": {
+    "area_mm2": 2924.6,
+    "bbox_mm": [
+     15.9,
+     -39.85,
+     223.5,
+     65.9,
+     -31.7,
+     275.36
+    ],
+    "centroid_mm": [
+     40.082,
+     -35.413,
+     238.442
+    ],
+    "volume_mm3": 2786.7
+   },
+   "history": [
+    {
+     "commit": "fa5a311",
+     "date": "2026-10-14",
+     "note": "added to the printed list",
+     "rev": 1
+    },
+    {
+     "commit": "2f948ae",
+     "date": "2026-10-16",
+     "note": "cover fixings: M2 screw posts and re-drilled holes (D27, D28)",
+     "rev": 2
+    }
+   ],
+   "rev": 2
+  },
+  "A_R17_MouthServoCradle": {
+   "fingerprint": {
+    "area_mm2": 2516.8,
+    "bbox_mm": [
+     60.2,
+     12.1,
+     227.1,
+     77.0,
+     40.1,
+     250.3
+    ],
+    "centroid_mm": [
+     69.064,
+     24.227,
+     238.719
+    ],
+    "volume_mm3": 4578.2
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    }
+   ],
+   "rev": 1
+  },
+  "A_R17_MouthServoKeeper": {
+   "fingerprint": {
+    "area_mm2": 574.0,
+    "bbox_mm": [
+     59.6,
+     37.6,
+     230.45,
+     72.6,
+     39.6,
+     247.55
+    ],
+    "centroid_mm": [
+     65.98,
+     38.598,
+     238.925
+    ],
+    "volume_mm3": 428.4
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    }
+   ],
+   "rev": 1
+  },
+  "A_R17_RollCradleTopClamp": {
+   "fingerprint": {
+    "area_mm2": 769.5,
+    "bbox_mm": [
+     5.95,
+     -30.89,
+     245.7,
+     12.15,
+     16.59,
+     247.9
+    ],
+    "centroid_mm": [
+     9.05,
+     -7.175,
+     246.798
+    ],
+    "volume_mm3": 585.3
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    }
+   ],
+   "rev": 1
+  },
+  "A_R17_RollServoCradle": {
+   "fingerprint": {
+    "area_mm2": 4200.2,
+    "bbox_mm": [
+     -8.9,
+     -32.6,
+     223.5,
+     14.1,
+     17.6,
+     245.9
+    ],
+    "centroid_mm": [
+     4.709,
+     -7.085,
+     229.533
+    ],
+    "volume_mm3": 4264.9
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    }
+   ],
+   "rev": 1
+  },
+  "A_R18_NeckBearingRetainer": {
+   "fingerprint": {
+    "area_mm2": 592.6,
+    "bbox_mm": [
+     33.0,
+     -27.7,
+     139.95,
+     49.0,
+     -25.7,
+     157.64
+    ],
+    "centroid_mm": [
+     41.0,
+     -26.7,
+     147.329
+    ],
+    "volume_mm3": 406.4
+   },
+   "history": [
+    {
+     "commit": "fa5a311",
+     "date": "2026-10-14",
+     "note": "added to the printed list",
+     "rev": 1
+    }
+   ],
+   "rev": 1
+  },
+  "A_Thigh_L": {
+   "fingerprint": {
+    "area_mm2": 13337.0,
+    "bbox_mm": [
+     -39.95,
+     31.83,
+     52.23,
+     25.9,
+     72.22,
+     117.74
+    ],
+    "centroid_mm": [
+     -10.036,
+     53.554,
+     83.611
+    ],
+    "volume_mm3": 12807.3
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    },
+    {
+     "commit": "2f948ae",
+     "date": "2026-10-16",
+     "note": "cover fixings: M2 screw posts and re-drilled holes (D27, D28)",
+     "rev": 2
+    }
+   ],
+   "rev": 2
+  },
+  "A_Thigh_R": {
+   "fingerprint": {
+    "area_mm2": 13337.0,
+    "bbox_mm": [
+     -39.95,
+     -72.22,
+     52.23,
+     25.9,
+     -31.83,
+     117.74
+    ],
+    "centroid_mm": [
+     -10.036,
+     -53.554,
+     83.611
+    ],
+    "volume_mm3": 12807.3
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    },
+    {
+     "commit": "2f948ae",
+     "date": "2026-10-16",
+     "note": "cover fixings: M2 screw posts and re-drilled holes (D27, D28)",
+     "rev": 2
+    }
+   ],
+   "rev": 2
+  },
+  "A_Trunk": {
+   "fingerprint": {
+    "area_mm2": 46000.2,
+    "bbox_mm": [
+     -58.2,
+     -36.06,
+     72.45,
+     57.86,
+     39.46,
+     167.2
+    ],
+    "centroid_mm": [
+     -12.268,
+     0.841,
+     125.23
+    ],
+    "volume_mm3": 45970.1
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    },
+    {
+     "commit": "2f948ae",
+     "date": "2026-10-16",
+     "note": "cover fixings: M2 screw posts and re-drilled holes (D27, D28)",
+     "rev": 2
+    },
+    {
+     "commit": "2c8f35c",
+     "date": "2026-10-16",
+     "note": "pelvis front screwed to the torso front; two blocked posts removed (D27)",
+     "rev": 3
+    }
+   ],
+   "rev": 3
+  },
+  "A_Yaw_L": {
+   "fingerprint": {
+    "area_mm2": 6308.1,
+    "bbox_mm": [
+     1.87,
+     1.7,
+     75.25,
+     34.75,
+     32.39,
+     118.45
+    ],
+    "centroid_mm": [
+     16.688,
+     16.613,
+     100.708
+    ],
+    "volume_mm3": 7223.8
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    }
+   ],
+   "rev": 1
+  },
+  "A_Yaw_R": {
+   "fingerprint": {
+    "area_mm2": 6308.1,
+    "bbox_mm": [
+     1.87,
+     -32.39,
+     75.25,
+     34.75,
+     -1.7,
+     118.45
+    ],
+    "centroid_mm": [
+     16.688,
+     -16.613,
+     100.708
+    ],
+    "volume_mm3": 7223.8
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    }
+   ],
+   "rev": 1
+  },
+  "AngularJaw": {
+   "fingerprint": {
+    "area_mm2": 6070.9,
+    "bbox_mm": [
+     31.91,
+     -44.5,
+     218.0,
+     102.0,
+     44.5,
+     247.3
+    ],
+    "centroid_mm": [
+     61.787,
+     -6.838,
+     229.153
+    ],
+    "volume_mm3": 7444.9
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    },
+    {
+     "commit": "c17611c",
+     "date": "2026-10-14",
+     "note": "Rebuild faceted jaw features as exact geometry",
+     "rev": 2
+    }
+   ],
+   "rev": 2
+  },
+  "CameraCarrier": {
+   "fingerprint": {
+    "area_mm2": 7163.5,
+    "bbox_mm": [
+     78.25,
+     -43.34,
+     232.9,
+     102.0,
+     43.88,
+     277.87
+    ],
+    "centroid_mm": [
+     87.131,
+     -1.455,
+     247.206
+    ],
+    "volume_mm3": 6674.3
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    },
+    {
+     "commit": "2f948ae",
+     "date": "2026-10-16",
+     "note": "cover fixings: M2 screw posts and re-drilled holes (D27, D28)",
+     "rev": 2
+    }
+   ],
+   "rev": 2
+  },
+  "CameraFace": {
+   "fingerprint": {
+    "area_mm2": 8382.6,
+    "bbox_mm": [
+     97.5,
+     -43.0,
+     230.0,
+     110.5,
+     43.0,
+     275.0
+    ],
+    "centroid_mm": [
+     108.633,
+     -0.008,
+     251.929
+    ],
+    "volume_mm3": 7741.5
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    },
+    {
+     "commit": "2f948ae",
+     "date": "2026-10-16",
+     "note": "cover fixings: M2 screw posts and re-drilled holes (D27, D28)",
+     "rev": 2
+    }
+   ],
+   "rev": 2
+  },
+  "FaceBezel": {
+   "fingerprint": {
+    "area_mm2": 2671.7,
+    "bbox_mm": [
+     110.5,
+     -43.0,
+     230.0,
+     112.3,
+     43.0,
+     275.0
+    ],
+    "centroid_mm": [
+     111.379,
+     -0.0,
+     252.552
+    ],
+    "volume_mm3": 1639.5
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    },
+    {
+     "commit": "2f948ae",
+     "date": "2026-10-16",
+     "note": "cover fixings: M2 screw posts and re-drilled holes (D27, D28)",
+     "rev": 2
+    }
+   ],
+   "rev": 2
+  },
+  "FacetedFoot_L": {
+   "fingerprint": {
+    "area_mm2": 10370.4,
+    "bbox_mm": [
+     -14.14,
+     19.13,
+     13.0,
+     46.67,
+     72.88,
+     50.5
+    ],
+    "centroid_mm": [
+     16.055,
+     46.073,
+     20.95
+    ],
+    "volume_mm3": 28126.0
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    }
+   ],
+   "rev": 1
+  },
+  "FacetedFoot_R": {
+   "fingerprint": {
+    "area_mm2": 10370.4,
+    "bbox_mm": [
+     -14.14,
+     -72.88,
+     13.0,
+     46.67,
+     -19.13,
+     50.5
+    ],
+    "centroid_mm": [
+     16.055,
+     -46.073,
+     20.95
+    ],
+    "volume_mm3": 28126.0
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    }
+   ],
+   "rev": 1
+  },
+  "FacetedSole_L": {
+   "fingerprint": {
+    "area_mm2": 8965.9,
+    "bbox_mm": [
+     -14.14,
+     19.13,
+     0.0,
+     46.67,
+     72.88,
+     13.0
+    ],
+    "centroid_mm": [
+     16.312,
+     46.017,
+     6.435
+    ],
+    "volume_mm3": 24559.2
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    }
+   ],
+   "rev": 1
+  },
+  "FacetedSole_R": {
+   "fingerprint": {
+    "area_mm2": 8965.8,
+    "bbox_mm": [
+     -14.14,
+     -72.88,
+     -0.0,
+     46.67,
+     -19.13,
+     13.0
+    ],
+    "centroid_mm": [
+     16.312,
+     -46.017,
+     6.435
+    ],
+    "volume_mm3": 24558.9
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    }
+   ],
+   "rev": 1
+  },
+  "HeadRim_L": {
+   "fingerprint": {
+    "area_mm2": 3267.8,
+    "bbox_mm": [
+     -24.0,
+     -0.0,
+     222.42,
+     110.0,
+     49.0,
+     233.0
+    ],
+    "centroid_mm": [
+     16.036,
+     36.041,
+     228.257
+    ],
+    "volume_mm3": 2674.2
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    },
+    {
+     "commit": "249f104",
+     "date": "2026-10-16",
+     "note": "mouth redesign: round jaw-surround caps and matching rim arcs (D25)",
+     "rev": 2
+    }
+   ],
+   "rev": 2
+  },
+  "HeadRim_R": {
+   "fingerprint": {
+    "area_mm2": 3263.4,
+    "bbox_mm": [
+     -24.0,
+     -49.0,
+     222.42,
+     110.0,
+     -0.2,
+     233.0
+    ],
+    "centroid_mm": [
+     16.1,
+     -36.1,
+     228.256
+    ],
+    "volume_mm3": 2669.9
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    },
+    {
+     "commit": "249f104",
+     "date": "2026-10-16",
+     "note": "mouth redesign: round jaw-surround caps and matching rim arcs (D25)",
+     "rev": 2
+    }
+   ],
+   "rev": 2
+  },
+  "HelmetLower": {
+   "fingerprint": {
+    "area_mm2": 22719.4,
+    "bbox_mm": [
+     -23.0,
+     -48.0,
+     230.0,
+     108.0,
+     48.0,
+     266.0
+    ],
+    "centroid_mm": [
+     24.731,
+     -0.047,
+     251.834
+    ],
+    "volume_mm3": 22936.2
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    },
+    {
+     "commit": "2f948ae",
+     "date": "2026-10-16",
+     "note": "cover fixings: M2 screw posts and re-drilled holes (D27, D28)",
+     "rev": 2
+    }
+   ],
+   "rev": 2
+  },
+  "HelmetRoof": {
+   "fingerprint": {
+    "area_mm2": 26559.1,
+    "bbox_mm": [
+     -15.08,
+     -48.0,
+     266.2,
+     108.0,
+     48.0,
+     284.0
+    ],
+    "centroid_mm": [
+     44.82,
+     0.028,
+     276.127
+    ],
+    "volume_mm3": 28033.9
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    },
+    {
+     "commit": "2f948ae",
+     "date": "2026-10-16",
+     "note": "cover fixings: M2 screw posts and re-drilled holes (D27, D28)",
+     "rev": 2
+    }
+   ],
+   "rev": 2
+  },
+  "HipCowl_L": {
+   "fingerprint": {
+    "area_mm2": 3857.4,
+    "bbox_mm": [
+     44.0,
+     29.0,
+     88.0,
+     49.0,
+     69.0,
+     127.0
+    ],
+    "centroid_mm": [
+     47.292,
+     48.78,
+     108.497
+    ],
+    "volume_mm3": 3209.3
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    },
+    {
+     "commit": "a576c22",
+     "date": "2026-10-15",
+     "note": "trimmed so it no longer blocks a joint",
+     "rev": 2
+    },
+    {
+     "commit": "2f948ae",
+     "date": "2026-10-16",
+     "note": "cover fixings: M2 screw posts and re-drilled holes (D27, D28)",
+     "rev": 3
+    }
+   ],
+   "rev": 3
+  },
+  "HipCowl_R": {
+   "fingerprint": {
+    "area_mm2": 3857.4,
+    "bbox_mm": [
+     44.0,
+     -69.0,
+     88.0,
+     49.0,
+     -29.0,
+     127.0
+    ],
+    "centroid_mm": [
+     47.292,
+     -48.78,
+     108.497
+    ],
+    "volume_mm3": 3209.3
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    },
+    {
+     "commit": "a576c22",
+     "date": "2026-10-15",
+     "note": "trimmed so it no longer blocks a joint",
+     "rev": 2
+    },
+    {
+     "commit": "2f948ae",
+     "date": "2026-10-16",
+     "note": "cover fixings: M2 screw posts and re-drilled holes (D27, D28)",
+     "rev": 3
+    }
+   ],
+   "rev": 3
+  },
+  "JawSurround_L": {
+   "fingerprint": {
+    "area_mm2": 1291.4,
+    "bbox_mm": [
+     29.11,
+     42.0,
+     226.3,
+     52.75,
+     49.7,
+     249.3
+    ],
+    "centroid_mm": [
+     40.899,
+     47.426,
+     237.863
+    ],
+    "volume_mm3": 1329.9
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    },
+    {
+     "commit": "c17611c",
+     "date": "2026-10-14",
+     "note": "Rebuild faceted jaw features as exact geometry",
+     "rev": 2
+    },
+    {
+     "commit": "249f104",
+     "date": "2026-10-16",
+     "note": "mouth redesign: round jaw-surround caps and matching rim arcs (D25)",
+     "rev": 3
+    }
+   ],
+   "rev": 3
+  },
+  "JawSurround_R": {
+   "fingerprint": {
+    "area_mm2": 1190.8,
+    "bbox_mm": [
+     29.11,
+     -49.7,
+     226.3,
+     52.75,
+     -44.0,
+     249.29
+    ],
+    "centroid_mm": [
+     40.898,
+     -47.64,
+     237.841
+    ],
+    "volume_mm3": 1264.4
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    },
+    {
+     "commit": "249f104",
+     "date": "2026-10-16",
+     "note": "mouth redesign: round jaw-surround caps and matching rim arcs (D25)",
+     "rev": 2
+    }
+   ],
+   "rev": 2
+  },
+  "OpticalRing_L": {
+   "fingerprint": {
+    "area_mm2": 280.1,
+    "bbox_mm": [
+     110.5,
+     6.95,
+     241.75,
+     111.35,
+     29.45,
+     264.25
+    ],
+    "centroid_mm": [
+     110.925,
+     18.2,
+     253.0
+    ],
+    "volume_mm3": 70.8
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    }
+   ],
+   "rev": 1
+  },
+  "OpticalRing_R": {
+   "fingerprint": {
+    "area_mm2": 280.1,
+    "bbox_mm": [
+     110.5,
+     -29.45,
+     241.75,
+     111.35,
+     -6.95,
+     264.25
+    ],
+    "centroid_mm": [
+     110.925,
+     -18.2,
+     253.0
+    ],
+    "volume_mm3": 70.8
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    }
+   ],
+   "rev": 1
+  },
+  "PelvisFront": {
+   "fingerprint": {
+    "area_mm2": 10941.0,
+    "bbox_mm": [
+     51.2,
+     -43.0,
+     82.0,
+     59.5,
+     43.0,
+     153.5
+    ],
+    "centroid_mm": [
+     56.878,
+     -0.555,
+     113.872
+    ],
+    "volume_mm3": 9297.4
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    },
+    {
+     "commit": "a576c22",
+     "date": "2026-10-15",
+     "note": "trimmed so it no longer blocks a joint",
+     "rev": 2
+    },
+    {
+     "commit": "2f948ae",
+     "date": "2026-10-16",
+     "note": "cover fixings: M2 screw posts and re-drilled holes (D27, D28)",
+     "rev": 3
+    },
+    {
+     "commit": "2c8f35c",
+     "date": "2026-10-16",
+     "note": "pelvis front screwed to the torso front; two blocked posts removed (D27)",
+     "rev": 4
+    }
+   ],
+   "rev": 4
+  },
+  "PelvisRear": {
+   "fingerprint": {
+    "area_mm2": 10064.1,
+    "bbox_mm": [
+     -60.0,
+     -43.0,
+     82.0,
+     -55.0,
+     43.0,
+     139.0
+    ],
+    "centroid_mm": [
+     -58.035,
+     -0.007,
+     109.862
+    ],
+    "volume_mm3": 9869.6
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    },
+    {
+     "commit": "a576c22",
+     "date": "2026-10-15",
+     "note": "trimmed so it no longer blocks a joint",
+     "rev": 2
+    },
+    {
+     "commit": "2f948ae",
+     "date": "2026-10-16",
+     "note": "cover fixings: M2 screw posts and re-drilled holes (D27, D28)",
+     "rev": 3
+    }
+   ],
+   "rev": 3
+  },
+  "RearHeadBumper": {
+   "fingerprint": {
+    "area_mm2": 2470.3,
+    "bbox_mm": [
+     -26.0,
+     -31.0,
+     233.0,
+     -22.0,
+     31.0,
+     251.5
+    ],
+    "centroid_mm": [
+     -24.375,
+     0.0,
+     242.604
+    ],
+    "volume_mm3": 2934.7
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    },
+    {
+     "commit": "2f948ae",
+     "date": "2026-10-16",
+     "note": "cover fixings: M2 screw posts and re-drilled holes (D27, D28)",
+     "rev": 2
+    }
+   ],
+   "rev": 2
+  },
+  "ShankStructure_L": {
+   "fingerprint": {
+    "area_mm2": 9028.0,
+    "bbox_mm": [
+     -28.33,
+     24.14,
+     21.6,
+     35.69,
+     59.11,
+     84.87
+    ],
+    "centroid_mm": [
+     5.563,
+     37.804,
+     50.591
+    ],
+    "volume_mm3": 11048.6
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    },
+    {
+     "commit": "2f948ae",
+     "date": "2026-10-16",
+     "note": "cover fixings: M2 screw posts and re-drilled holes (D27, D28)",
+     "rev": 2
+    }
+   ],
+   "rev": 2
+  },
+  "ShankStructure_R": {
+   "fingerprint": {
+    "area_mm2": 9028.0,
+    "bbox_mm": [
+     -28.33,
+     -59.11,
+     21.6,
+     35.69,
+     -24.14,
+     84.87
+    ],
+    "centroid_mm": [
+     5.563,
+     -37.804,
+     50.591
+    ],
+    "volume_mm3": 11048.6
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    },
+    {
+     "commit": "2f948ae",
+     "date": "2026-10-16",
+     "note": "cover fixings: M2 screw posts and re-drilled holes (D27, D28)",
+     "rev": 2
+    }
+   ],
+   "rev": 2
+  },
+  "ShinCap_L": {
+   "fingerprint": {
+    "area_mm2": 985.7,
+    "bbox_mm": [
+     -13.93,
+     52.97,
+     35.16,
+     18.67,
+     64.29,
+     64.82
+    ],
+    "centroid_mm": [
+     1.05,
+     59.024,
+     52.611
+    ],
+    "volume_mm3": 670.7
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    },
+    {
+     "commit": "a576c22",
+     "date": "2026-10-15",
+     "note": "trimmed so it no longer blocks a joint",
+     "rev": 2
+    }
+   ],
+   "rev": 2
+  },
+  "ShinCap_R": {
+   "fingerprint": {
+    "area_mm2": 985.7,
+    "bbox_mm": [
+     -13.93,
+     -64.29,
+     35.16,
+     18.67,
+     -52.97,
+     64.82
+    ],
+    "centroid_mm": [
+     1.054,
+     -59.026,
+     52.611
+    ],
+    "volume_mm3": 670.2
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    },
+    {
+     "commit": "a576c22",
+     "date": "2026-10-15",
+     "note": "trimmed so it no longer blocks a joint",
+     "rev": 2
+    }
+   ],
+   "rev": 2
+  },
+  "ThighCap_L": {
+   "fingerprint": {
+    "area_mm2": 7519.6,
+    "bbox_mm": [
+     -45.25,
+     59.55,
+     51.34,
+     27.49,
+     82.75,
+     119.2
+    ],
+    "centroid_mm": [
+     -9.906,
+     72.473,
+     85.352
+    ],
+    "volume_mm3": 6206.6
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    },
+    {
+     "commit": "2f948ae",
+     "date": "2026-10-16",
+     "note": "cover fixings: M2 screw posts and re-drilled holes (D27, D28)",
+     "rev": 2
+    }
+   ],
+   "rev": 2
+  },
+  "ThighCap_R": {
+   "fingerprint": {
+    "area_mm2": 7519.6,
+    "bbox_mm": [
+     -45.25,
+     -82.75,
+     51.34,
+     27.49,
+     -59.55,
+     119.2
+    ],
+    "centroid_mm": [
+     -9.906,
+     -72.473,
+     85.352
+    ],
+    "volume_mm3": 6206.6
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    },
+    {
+     "commit": "2f948ae",
+     "date": "2026-10-16",
+     "note": "cover fixings: M2 screw posts and re-drilled holes (D27, D28)",
+     "rev": 2
+    }
+   ],
+   "rev": 2
+  },
+  "ToeCap_L": {
+   "fingerprint": {
+    "area_mm2": 2528.8,
+    "bbox_mm": [
+     17.68,
+     29.27,
+     17.0,
+     48.66,
+     72.43,
+     29.2
+    ],
+    "centroid_mm": [
+     37.858,
+     51.807,
+     25.906
+    ],
+    "volume_mm3": 2217.4
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    },
+    {
+     "commit": "a576c22",
+     "date": "2026-10-15",
+     "note": "trimmed so it no longer blocks a joint",
+     "rev": 2
+    },
+    {
+     "commit": "2f948ae",
+     "date": "2026-10-16",
+     "note": "cover fixings: M2 screw posts and re-drilled holes (D27, D28)",
+     "rev": 3
+    }
+   ],
+   "rev": 3
+  },
+  "ToeCap_R": {
+   "fingerprint": {
+    "area_mm2": 2528.8,
+    "bbox_mm": [
+     17.68,
+     -72.43,
+     17.0,
+     48.66,
+     -29.27,
+     29.2
+    ],
+    "centroid_mm": [
+     37.858,
+     -51.807,
+     25.906
+    ],
+    "volume_mm3": 2217.4
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    },
+    {
+     "commit": "a576c22",
+     "date": "2026-10-15",
+     "note": "trimmed so it no longer blocks a joint",
+     "rev": 2
+    },
+    {
+     "commit": "2f948ae",
+     "date": "2026-10-16",
+     "note": "cover fixings: M2 screw posts and re-drilled holes (D27, D28)",
+     "rev": 3
+    }
+   ],
+   "rev": 3
+  },
+  "TorsoAccent_Front_L": {
+   "fingerprint": {
+    "area_mm2": 617.0,
+    "bbox_mm": [
+     30.0,
+     34.67,
+     133.0,
+     38.0,
+     42.0,
+     162.0
+    ],
+    "centroid_mm": [
+     34.0,
+     38.772,
+     148.538
+    ],
+    "volume_mm3": 461.6
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    }
+   ],
+   "rev": 1
+  },
+  "TorsoAccent_Front_R": {
+   "fingerprint": {
+    "area_mm2": 617.0,
+    "bbox_mm": [
+     30.0,
+     -42.0,
+     133.0,
+     38.0,
+     -34.67,
+     162.0
+    ],
+    "centroid_mm": [
+     34.0,
+     -38.772,
+     148.538
+    ],
+    "volume_mm3": 461.6
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    }
+   ],
+   "rev": 1
+  },
+  "TorsoAccent_Rear_L": {
+   "fingerprint": {
+    "area_mm2": 679.4,
+    "bbox_mm": [
+     -52.0,
+     30.34,
+     133.0,
+     -44.0,
+     42.0,
+     162.0
+    ],
+    "centroid_mm": [
+     -48.106,
+     38.614,
+     148.791
+    ],
+    "volume_mm3": 473.3
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    }
+   ],
+   "rev": 1
+  },
+  "TorsoAccent_Rear_R": {
+   "fingerprint": {
+    "area_mm2": 679.4,
+    "bbox_mm": [
+     -52.0,
+     -42.0,
+     133.0,
+     -44.0,
+     -30.34,
+     162.0
+    ],
+    "centroid_mm": [
+     -48.106,
+     -38.614,
+     148.791
+    ],
+    "volume_mm3": 473.3
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    }
+   ],
+   "rev": 1
+  },
+  "TorsoFront": {
+   "fingerprint": {
+    "area_mm2": 21432.4,
+    "bbox_mm": [
+     -7.8,
+     -42.0,
+     133.0,
+     61.0,
+     42.0,
+     181.0
+    ],
+    "centroid_mm": [
+     26.809,
+     1.336,
+     161.957
+    ],
+    "volume_mm3": 19986.7
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    },
+    {
+     "commit": "2f948ae",
+     "date": "2026-10-16",
+     "note": "cover fixings: M2 screw posts and re-drilled holes (D27, D28)",
+     "rev": 2
+    },
+    {
+     "commit": "2c8f35c",
+     "date": "2026-10-16",
+     "note": "pelvis front screwed to the torso front; two blocked posts removed (D27)",
+     "rev": 3
+    }
+   ],
+   "rev": 3
+  },
+  "TorsoRear": {
+   "fingerprint": {
+    "area_mm2": 21468.7,
+    "bbox_mm": [
+     -64.0,
+     -42.0,
+     133.0,
+     -8.0,
+     42.0,
+     181.0
+    ],
+    "centroid_mm": [
+     -38.023,
+     -0.0,
+     163.165
+    ],
+    "volume_mm3": 20588.9
+   },
+   "history": [
+    {
+     "commit": "13f0ec1",
+     "date": "2026-10-13",
+     "note": "first published (R25)",
+     "rev": 1
+    },
+    {
+     "commit": "2f948ae",
+     "date": "2026-10-16",
+     "note": "cover fixings: M2 screw posts and re-drilled holes (D27, D28)",
+     "rev": 2
+    }
+   ],
+   "rev": 2
+  }
+ },
+ "releases": [
+  {
+   "date": "2026-10-13",
+   "name": "r25-cad-study-v1",
+   "parts": {
+    "A_HeadPitch": 1,
+    "A_HeadYaw": 1,
+    "A_HipL_L": 1,
+    "A_HipL_R": 1,
+    "A_Neck": 1,
+    "A_R17_HeadYawClampCap": 1,
+    "A_R17_MouthServoCradle": 1,
+    "A_R17_MouthServoKeeper": 1,
+    "A_R17_RollCradleTopClamp": 1,
+    "A_R17_RollServoCradle": 1,
+    "A_Thigh_L": 1,
+    "A_Thigh_R": 1,
+    "A_Trunk": 1,
+    "A_Yaw_L": 1,
+    "A_Yaw_R": 1,
+    "AngularJaw": 1,
+    "CameraCarrier": 1,
+    "CameraFace": 1,
+    "FaceBezel": 1,
+    "FacetedFoot_L": 1,
+    "FacetedFoot_R": 1,
+    "FacetedSole_L": 1,
+    "FacetedSole_R": 1,
+    "HeadRim_L": 1,
+    "HeadRim_R": 1,
+    "HelmetLower": 1,
+    "HelmetRoof": 1,
+    "HipCowl_L": 1,
+    "HipCowl_R": 1,
+    "JawSurround_L": 1,
+    "JawSurround_R": 1,
+    "OpticalRing_L": 1,
+    "OpticalRing_R": 1,
+    "PelvisFront": 1,
+    "PelvisRear": 1,
+    "RearHeadBumper": 1,
+    "ShankStructure_L": 1,
+    "ShankStructure_R": 1,
+    "ShinCap_L": 1,
+    "ShinCap_R": 1,
+    "ThighCap_L": 1,
+    "ThighCap_R": 1,
+    "ToeCap_L": 1,
+    "ToeCap_R": 1,
+    "TorsoAccent_Front_L": 1,
+    "TorsoAccent_Front_R": 1,
+    "TorsoAccent_Rear_L": 1,
+    "TorsoAccent_Rear_R": 1,
+    "TorsoFront": 1,
+    "TorsoRear": 1
+   }
+  },
+  {
+   "date": "2026-10-13",
+   "name": "r25-cad-study-v2",
+   "parts": {
+    "A_HeadBase": 1,
+    "A_HeadPitch": 1,
+    "A_HeadYaw": 1,
+    "A_HipL_L": 1,
+    "A_HipL_R": 1,
+    "A_Neck": 1,
+    "A_R17_HeadYawClampCap": 1,
+    "A_R17_MouthServoCradle": 1,
+    "A_R17_MouthServoKeeper": 1,
+    "A_R17_RollCradleTopClamp": 1,
+    "A_R17_RollServoCradle": 1,
+    "A_Thigh_L": 1,
+    "A_Thigh_R": 1,
+    "A_Trunk": 1,
+    "A_Yaw_L": 1,
+    "A_Yaw_R": 1,
+    "AngularJaw": 1,
+    "CameraCarrier": 1,
+    "CameraFace": 1,
+    "FaceBezel": 1,
+    "FacetedFoot_L": 1,
+    "FacetedFoot_R": 1,
+    "FacetedSole_L": 1,
+    "FacetedSole_R": 1,
+    "HeadRim_L": 1,
+    "HeadRim_R": 1,
+    "HelmetLower": 1,
+    "HelmetRoof": 1,
+    "HipCowl_L": 1,
+    "HipCowl_R": 1,
+    "JawSurround_L": 1,
+    "JawSurround_R": 1,
+    "OpticalRing_L": 1,
+    "OpticalRing_R": 1,
+    "PelvisFront": 1,
+    "PelvisRear": 1,
+    "RearHeadBumper": 1,
+    "ShankStructure_L": 1,
+    "ShankStructure_R": 1,
+    "ShinCap_L": 1,
+    "ShinCap_R": 1,
+    "ThighCap_L": 1,
+    "ThighCap_R": 1,
+    "ToeCap_L": 1,
+    "ToeCap_R": 1,
+    "TorsoAccent_Front_L": 1,
+    "TorsoAccent_Front_R": 1,
+    "TorsoAccent_Rear_L": 1,
+    "TorsoAccent_Rear_R": 1,
+    "TorsoFront": 1,
+    "TorsoRear": 1
+   }
+  },
+  {
+   "date": "2026-10-13",
+   "name": "r25-cad-study-v3",
+   "parts": {
+    "A_HeadBase": 1,
+    "A_HeadPitch": 1,
+    "A_HeadYaw": 1,
+    "A_HipL_L": 1,
+    "A_HipL_R": 1,
+    "A_Neck": 1,
+    "A_R17_HeadYawClampCap": 1,
+    "A_R17_MouthServoCradle": 1,
+    "A_R17_MouthServoKeeper": 1,
+    "A_R17_RollCradleTopClamp": 1,
+    "A_R17_RollServoCradle": 1,
+    "A_Thigh_L": 1,
+    "A_Thigh_R": 1,
+    "A_Trunk": 1,
+    "A_Yaw_L": 1,
+    "A_Yaw_R": 1,
+    "AngularJaw": 1,
+    "CameraCarrier": 1,
+    "CameraFace": 1,
+    "FaceBezel": 1,
+    "FacetedFoot_L": 1,
+    "FacetedFoot_R": 1,
+    "FacetedSole_L": 1,
+    "FacetedSole_R": 1,
+    "HeadRim_L": 1,
+    "HeadRim_R": 1,
+    "HelmetLower": 1,
+    "HelmetRoof": 1,
+    "HipCowl_L": 1,
+    "HipCowl_R": 1,
+    "JawSurround_L": 1,
+    "JawSurround_R": 1,
+    "OpticalRing_L": 1,
+    "OpticalRing_R": 1,
+    "PelvisFront": 1,
+    "PelvisRear": 1,
+    "RearHeadBumper": 1,
+    "ShankStructure_L": 1,
+    "ShankStructure_R": 1,
+    "ShinCap_L": 1,
+    "ShinCap_R": 1,
+    "ThighCap_L": 1,
+    "ThighCap_R": 1,
+    "ToeCap_L": 1,
+    "ToeCap_R": 1,
+    "TorsoAccent_Front_L": 1,
+    "TorsoAccent_Front_R": 1,
+    "TorsoAccent_Rear_L": 1,
+    "TorsoAccent_Rear_R": 1,
+    "TorsoFront": 1,
+    "TorsoRear": 1
+   }
+  },
+  {
+   "date": "2026-10-14",
+   "name": "r25-cad-study-v4",
+   "parts": {
+    "A_HeadBase": 1,
+    "A_HeadPitch": 1,
+    "A_HeadYaw": 1,
+    "A_HipL_L": 1,
+    "A_HipL_R": 1,
+    "A_Neck": 1,
+    "A_R17_HeadYawClampCap": 1,
+    "A_R17_MouthServoCradle": 1,
+    "A_R17_MouthServoKeeper": 1,
+    "A_R17_RollCradleTopClamp": 1,
+    "A_R17_RollServoCradle": 1,
+    "A_Thigh_L": 1,
+    "A_Thigh_R": 1,
+    "A_Trunk": 1,
+    "A_Yaw_L": 1,
+    "A_Yaw_R": 1,
+    "AngularJaw": 2,
+    "CameraCarrier": 1,
+    "CameraFace": 1,
+    "FaceBezel": 1,
+    "FacetedFoot_L": 1,
+    "FacetedFoot_R": 1,
+    "FacetedSole_L": 1,
+    "FacetedSole_R": 1,
+    "HeadRim_L": 1,
+    "HeadRim_R": 1,
+    "HelmetLower": 1,
+    "HelmetRoof": 1,
+    "HipCowl_L": 1,
+    "HipCowl_R": 1,
+    "JawSurround_L": 2,
+    "JawSurround_R": 1,
+    "OpticalRing_L": 1,
+    "OpticalRing_R": 1,
+    "PelvisFront": 1,
+    "PelvisRear": 1,
+    "RearHeadBumper": 1,
+    "ShankStructure_L": 1,
+    "ShankStructure_R": 1,
+    "ShinCap_L": 1,
+    "ShinCap_R": 1,
+    "ThighCap_L": 1,
+    "ThighCap_R": 1,
+    "ToeCap_L": 1,
+    "ToeCap_R": 1,
+    "TorsoAccent_Front_L": 1,
+    "TorsoAccent_Front_R": 1,
+    "TorsoAccent_Rear_L": 1,
+    "TorsoAccent_Rear_R": 1,
+    "TorsoFront": 1,
+    "TorsoRear": 1
+   }
+  },
+  {
+   "date": "2026-10-14",
+   "name": "r25-cad-study-v5",
+   "parts": {
+    "A_HeadBase": 1,
+    "A_HeadPitch": 1,
+    "A_HeadYaw": 1,
+    "A_HipL_L": 1,
+    "A_HipL_R": 1,
+    "A_Neck": 1,
+    "A_R17_HeadYawClampCap": 1,
+    "A_R17_MouthServoCradle": 1,
+    "A_R17_MouthServoKeeper": 1,
+    "A_R17_RollCradleTopClamp": 1,
+    "A_R17_RollServoCradle": 1,
+    "A_Thigh_L": 1,
+    "A_Thigh_R": 1,
+    "A_Trunk": 1,
+    "A_Yaw_L": 1,
+    "A_Yaw_R": 1,
+    "AngularJaw": 2,
+    "CameraCarrier": 1,
+    "CameraFace": 1,
+    "FaceBezel": 1,
+    "FacetedFoot_L": 1,
+    "FacetedFoot_R": 1,
+    "FacetedSole_L": 1,
+    "FacetedSole_R": 1,
+    "HeadRim_L": 1,
+    "HeadRim_R": 1,
+    "HelmetLower": 1,
+    "HelmetRoof": 1,
+    "HipCowl_L": 1,
+    "HipCowl_R": 1,
+    "JawSurround_L": 2,
+    "JawSurround_R": 1,
+    "OpticalRing_L": 1,
+    "OpticalRing_R": 1,
+    "PelvisFront": 1,
+    "PelvisRear": 1,
+    "RearHeadBumper": 1,
+    "ShankStructure_L": 1,
+    "ShankStructure_R": 1,
+    "ShinCap_L": 1,
+    "ShinCap_R": 1,
+    "ThighCap_L": 1,
+    "ThighCap_R": 1,
+    "ToeCap_L": 1,
+    "ToeCap_R": 1,
+    "TorsoAccent_Front_L": 1,
+    "TorsoAccent_Front_R": 1,
+    "TorsoAccent_Rear_L": 1,
+    "TorsoAccent_Rear_R": 1,
+    "TorsoFront": 1,
+    "TorsoRear": 1
+   }
+  },
+  {
+   "date": "2026-10-14",
+   "name": "r25-cad-study-v6",
+   "parts": {
+    "A_HeadBase": 1,
+    "A_HeadPitch": 1,
+    "A_HeadYaw": 1,
+    "A_HipL_L": 1,
+    "A_HipL_R": 1,
+    "A_Neck": 1,
+    "A_R17_HeadYawClampCap": 1,
+    "A_R17_JawBearingKeeper": 1,
+    "A_R17_JawBearingPlug": 1,
+    "A_R17_JawBearingTower": 1,
+    "A_R17_MouthServoCradle": 1,
+    "A_R17_MouthServoKeeper": 1,
+    "A_R17_RollCradleTopClamp": 1,
+    "A_R17_RollServoCradle": 1,
+    "A_R18_NeckBearingRetainer": 1,
+    "A_Thigh_L": 1,
+    "A_Thigh_R": 1,
+    "A_Trunk": 1,
+    "A_Yaw_L": 1,
+    "A_Yaw_R": 1,
+    "AngularJaw": 2,
+    "CameraCarrier": 1,
+    "CameraFace": 1,
+    "FaceBezel": 1,
+    "FacetedFoot_L": 1,
+    "FacetedFoot_R": 1,
+    "FacetedSole_L": 1,
+    "FacetedSole_R": 1,
+    "HeadRim_L": 1,
+    "HeadRim_R": 1,
+    "HelmetLower": 1,
+    "HelmetRoof": 1,
+    "HipCowl_L": 1,
+    "HipCowl_R": 1,
+    "JawSurround_L": 2,
+    "JawSurround_R": 1,
+    "OpticalRing_L": 1,
+    "OpticalRing_R": 1,
+    "PelvisFront": 1,
+    "PelvisRear": 1,
+    "RearHeadBumper": 1,
+    "ShankStructure_L": 1,
+    "ShankStructure_R": 1,
+    "ShinCap_L": 1,
+    "ShinCap_R": 1,
+    "ThighCap_L": 1,
+    "ThighCap_R": 1,
+    "ToeCap_L": 1,
+    "ToeCap_R": 1,
+    "TorsoAccent_Front_L": 1,
+    "TorsoAccent_Front_R": 1,
+    "TorsoAccent_Rear_L": 1,
+    "TorsoAccent_Rear_R": 1,
+    "TorsoFront": 1,
+    "TorsoRear": 1
+   }
+  },
+  {
+   "date": "2026-10-15",
+   "name": "r25-cad-study-v7",
+   "parts": {
+    "A_HeadBase": 1,
+    "A_HeadPitch": 1,
+    "A_HeadYaw": 1,
+    "A_HipL_L": 1,
+    "A_HipL_R": 1,
+    "A_Neck": 1,
+    "A_R17_HeadYawClampCap": 1,
+    "A_R17_JawBearingKeeper": 1,
+    "A_R17_JawBearingPlug": 1,
+    "A_R17_JawBearingTower": 1,
+    "A_R17_MouthServoCradle": 1,
+    "A_R17_MouthServoKeeper": 1,
+    "A_R17_RollCradleTopClamp": 1,
+    "A_R17_RollServoCradle": 1,
+    "A_R18_NeckBearingRetainer": 1,
+    "A_Thigh_L": 1,
+    "A_Thigh_R": 1,
+    "A_Trunk": 1,
+    "A_Yaw_L": 1,
+    "A_Yaw_R": 1,
+    "AngularJaw": 2,
+    "CameraCarrier": 1,
+    "CameraFace": 1,
+    "FaceBezel": 1,
+    "FacetedFoot_L": 1,
+    "FacetedFoot_R": 1,
+    "FacetedSole_L": 1,
+    "FacetedSole_R": 1,
+    "HeadRim_L": 1,
+    "HeadRim_R": 1,
+    "HelmetLower": 1,
+    "HelmetRoof": 1,
+    "HipCowl_L": 2,
+    "HipCowl_R": 2,
+    "JawSurround_L": 2,
+    "JawSurround_R": 1,
+    "OpticalRing_L": 1,
+    "OpticalRing_R": 1,
+    "PelvisFront": 2,
+    "PelvisRear": 2,
+    "RearHeadBumper": 1,
+    "ShankStructure_L": 1,
+    "ShankStructure_R": 1,
+    "ShinCap_L": 2,
+    "ShinCap_R": 2,
+    "ThighCap_L": 1,
+    "ThighCap_R": 1,
+    "ToeCap_L": 2,
+    "ToeCap_R": 2,
+    "TorsoAccent_Front_L": 1,
+    "TorsoAccent_Front_R": 1,
+    "TorsoAccent_Rear_L": 1,
+    "TorsoAccent_Rear_R": 1,
+    "TorsoFront": 1,
+    "TorsoRear": 1
+   }
+  },
+  {
+   "date": "2026-10-15",
+   "name": "cyber-edition-v1",
+   "parts": {
+    "A_HeadBase": 1,
+    "A_HeadPitch": 1,
+    "A_HeadYaw": 1,
+    "A_HipL_L": 1,
+    "A_HipL_R": 1,
+    "A_Neck": 1,
+    "A_R17_HeadYawClampCap": 1,
+    "A_R17_JawBearingKeeper": 1,
+    "A_R17_JawBearingPlug": 1,
+    "A_R17_JawBearingTower": 1,
+    "A_R17_MouthServoCradle": 1,
+    "A_R17_MouthServoKeeper": 1,
+    "A_R17_RollCradleTopClamp": 1,
+    "A_R17_RollServoCradle": 1,
+    "A_R18_NeckBearingRetainer": 1,
+    "A_Thigh_L": 1,
+    "A_Thigh_R": 1,
+    "A_Trunk": 1,
+    "A_Yaw_L": 1,
+    "A_Yaw_R": 1,
+    "AngularJaw": 2,
+    "CameraCarrier": 1,
+    "CameraFace": 1,
+    "FaceBezel": 1,
+    "FacetedFoot_L": 1,
+    "FacetedFoot_R": 1,
+    "FacetedSole_L": 1,
+    "FacetedSole_R": 1,
+    "HeadRim_L": 1,
+    "HeadRim_R": 1,
+    "HelmetLower": 1,
+    "HelmetRoof": 1,
+    "HipCowl_L": 2,
+    "HipCowl_R": 2,
+    "JawSurround_L": 2,
+    "JawSurround_R": 1,
+    "OpticalRing_L": 1,
+    "OpticalRing_R": 1,
+    "PelvisFront": 2,
+    "PelvisRear": 2,
+    "RearHeadBumper": 1,
+    "ShankStructure_L": 1,
+    "ShankStructure_R": 1,
+    "ShinCap_L": 2,
+    "ShinCap_R": 2,
+    "ThighCap_L": 1,
+    "ThighCap_R": 1,
+    "ToeCap_L": 2,
+    "ToeCap_R": 2,
+    "TorsoAccent_Front_L": 1,
+    "TorsoAccent_Front_R": 1,
+    "TorsoAccent_Rear_L": 1,
+    "TorsoAccent_Rear_R": 1,
+    "TorsoFront": 1,
+    "TorsoRear": 1
+   }
+  },
+  {
+   "date": "2026-10-16",
+   "name": "cyber-edition-v2",
+   "parts": {
+    "A_HeadBase": 2,
+    "A_HeadPitch": 1,
+    "A_HeadYaw": 1,
+    "A_HipL_L": 2,
+    "A_HipL_R": 2,
+    "A_Neck": 1,
+    "A_R17_HeadYawClampCap": 1,
+    "A_R17_JawBearingKeeper": 1,
+    "A_R17_JawBearingPlug": 1,
+    "A_R17_JawBearingTower": 2,
+    "A_R17_MouthServoCradle": 1,
+    "A_R17_MouthServoKeeper": 1,
+    "A_R17_RollCradleTopClamp": 1,
+    "A_R17_RollServoCradle": 1,
+    "A_R18_NeckBearingRetainer": 1,
+    "A_Thigh_L": 2,
+    "A_Thigh_R": 2,
+    "A_Trunk": 3,
+    "A_Yaw_L": 1,
+    "A_Yaw_R": 1,
+    "AngularJaw": 2,
+    "CameraCarrier": 2,
+    "CameraFace": 2,
+    "FaceBezel": 2,
+    "FacetedFoot_L": 1,
+    "FacetedFoot_R": 1,
+    "FacetedSole_L": 1,
+    "FacetedSole_R": 1,
+    "HeadRim_L": 2,
+    "HeadRim_R": 2,
+    "HelmetLower": 2,
+    "HelmetRoof": 2,
+    "HipCowl_L": 3,
+    "HipCowl_R": 3,
+    "JawSurround_L": 3,
+    "JawSurround_R": 2,
+    "OpticalRing_L": 1,
+    "OpticalRing_R": 1,
+    "PelvisFront": 4,
+    "PelvisRear": 3,
+    "RearHeadBumper": 2,
+    "ShankStructure_L": 2,
+    "ShankStructure_R": 2,
+    "ShinCap_L": 2,
+    "ShinCap_R": 2,
+    "ThighCap_L": 2,
+    "ThighCap_R": 2,
+    "ToeCap_L": 3,
+    "ToeCap_R": 3,
+    "TorsoAccent_Front_L": 1,
+    "TorsoAccent_Front_R": 1,
+    "TorsoAccent_Rear_L": 1,
+    "TorsoAccent_Rear_R": 1,
+    "TorsoFront": 3,
+    "TorsoRear": 2
+   }
+  }
+ ]
+}

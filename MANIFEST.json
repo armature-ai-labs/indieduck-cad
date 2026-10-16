@@ -16,6 +16,13 @@
    "role": "Repository documentation and indexes"
   },
   {
+   "path": ".github/workflows/part-versions.yml",
+   "bytes": 322,
+   "sha256": "7fdb70dd5cb7e264377fe2b31e07464285b95a048f4de07412828bb532807280",
+   "scope": "repository",
+   "role": "Repository documentation and indexes"
+  },
+  {
    "path": ".gitignore",
    "bytes": 83,
    "sha256": "85242ace56b4cc634de7bd73f4d98d443d953f5f2140b55e6e0d5cbe04d6b1ad",
@@ -24,15 +31,15 @@
   },
   {
    "path": "COMPONENTS.csv",
-   "bytes": 12870,
-   "sha256": "dfbb94e501f4a532aa06a839763030f88f4a984889492b313468b159d738df53",
+   "bytes": 13044,
+   "sha256": "4e371fd7ec1c765f98a6944a6c07c843af9d1d55a4aaff6bd241ecc2def5684f",
    "scope": "repository",
    "role": "Repository documentation and indexes"
   },
   {
    "path": "CONTRIBUTING.md",
-   "bytes": 2777,
-   "sha256": "96bc5986c538f1c446283e03304c8b7e78566068a4136023f6aabc37b41ce6b0",
+   "bytes": 3552,
+   "sha256": "949c07bb00e472174ecfa4663fd6f6cae966f9d4193f5ed19da893dbb9e9bc5f",
    "scope": "repository",
    "role": "Repository documentation and indexes"
   },
@@ -44,9 +51,23 @@
    "role": "Repository documentation and indexes"
   },
   {
+   "path": "PART-VERSIONS.json",
+   "bytes": 41132,
+   "sha256": "57f117e4317704057996036da976772de216591e209d614b122d89fc62147866",
+   "scope": "repository",
+   "role": "Repository documentation and indexes"
+  },
+  {
+   "path": "PARTS-CHANGELOG.md",
+   "bytes": 36031,
+   "sha256": "f1af200ba508f299f752fc2298208c11f28e24741a6b0d24f6a01a4f6eb4bed7",
+   "scope": "repository",
+   "role": "Repository documentation and indexes"
+  },
+  {
    "path": "README.md",
-   "bytes": 9345,
-   "sha256": "ea3c0623c0bc427855f128bef2f071b362795bb2cadda801f40dc4042846ef31",
+   "bytes": 9671,
+   "sha256": "622b2340e3852fcc67c120020b41946cdf3f976a8b52bf07d505719b2d360d27",
    "scope": "repository",
    "role": "Repository documentation and indexes"
   },
@@ -626,8 +647,8 @@
   },
   {
    "path": "platform/PLATFORM.md",
-   "bytes": 3590,
-   "sha256": "b241d29b49a1b30d7cad358d1f00266427ed6bc5f693094bc607811e57508133",
+   "bytes": 3728,
+   "sha256": "ff8ac4677f4815d678fae3f8b5aee181c77ff40a6477ea226a13983f7fdb7e8d",
    "scope": "platform",
    "role": "Platform P1"
   },
@@ -1027,6 +1048,13 @@
    "path": "tools/edition_verify.py",
    "bytes": 9491,
    "sha256": "07de87c5536186c97118b0ac22c7909800cc1048c7f5546b66badcc78657e6f8",
+   "scope": "repository",
+   "role": "Tools"
+  },
+  {
+   "path": "tools/part_versions.py",
+   "bytes": 8848,
+   "sha256": "7cd7468865a9b0e0dbac3ddeb4ed3def31faa3d70a6cffe377e5ef6ab6d14215",
    "scope": "repository",
    "role": "Tools"
   }

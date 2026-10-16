@@ -21,6 +21,6 @@ An edition is a duck form factor on P1 that changes only the exterior.
 6. **Colour accents print with their panel.** IndieDuck is printed on multi-colour printers, so model each colour accent as its own solid sitting exactly on its panel (touching, no gap or overlap), name the panel in the `print_with` column of `COMPONENTS.csv`, and export the panel with its accents as one multi-solid STEP. Accents are never separate pieces fitted by hand.
 7. **Licence and credits:** Apache-2.0 for submitted work, designers named in `edition.yaml`, any third-party source listed in `THIRD_PARTY_NOTICES.md`.
 
-Check an edition with `EDITION=<id> freecadcmd tools/edition_verify.py`; it reads the joint chain and verified ranges from `platform/P1-kinematics.json`. How to submit an edition, step by step: [Submit an edition to IndieDuck](https://github.com/armature-ai-labs/indieduck/blob/main/SUBMIT-AN-EDITION.md).
+Every printed part has a revision; after changing a part, run `python3 tools/part_versions.py update --note "why"` (see CONTRIBUTING.md). Check an edition with `EDITION=<id> freecadcmd tools/edition_verify.py`; it reads the joint chain and verified ranges from `platform/P1-kinematics.json`. How to submit an edition, step by step: [Submit an edition to IndieDuck](https://github.com/armature-ai-labs/indieduck/blob/main/SUBMIT-AN-EDITION.md).
 
 Each edition gets its own model ID (`indieduck-<edition>`), training task and policies.
