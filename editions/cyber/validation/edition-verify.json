@@ -24,8 +24,8 @@
    "detail": "overlaps above 0.5 mm3: []"
   },
   "joint ranges": {
-   "ok": false,
-   "detail": "15 joints swept in 2.0 deg steps; reduced: ['neck_pitch', 'right_hip_yaw', 'right_hip_roll']"
+   "ok": true,
+   "detail": "15 joints swept in 2.0 deg steps; reduced: []"
   }
  },
  "joints": {
@@ -95,23 +95,11 @@
     27.5
    ],
    "standing_deg": 0.0,
-   "down": -14.0,
-   "down_blocked_by": [
-    [
-     "A_Neck",
-     "A_Trunk",
-     0.9
-    ]
-   ],
-   "up": 12.0,
-   "up_blocked_by": [
-    [
-     "A_Neck",
-     "A_Trunk",
-     1.2
-    ]
-   ],
-   "full_range": false
+   "down": -65.0,
+   "down_blocked_by": null,
+   "up": 27.5,
+   "up_blocked_by": null,
+   "full_range": true
   },
   "head_pitch": {
    "verified_range_deg": [
@@ -167,17 +155,11 @@
     19.0
    ],
    "standing_deg": 15.0,
-   "down": 15.0,
-   "down_blocked_by": [
-    [
-     "HipCowl_R",
-     "A_Trunk",
-     0.9
-    ]
-   ],
+   "down": 0.0,
+   "down_blocked_by": null,
    "up": 19.0,
    "up_blocked_by": null,
-   "full_range": false
+   "full_range": true
   },
   "right_hip_roll": {
    "verified_range_deg": [
@@ -185,17 +167,11 @@
     18.0
    ],
    "standing_deg": 0.0,
-   "down": 0.0,
-   "down_blocked_by": [
-    [
-     "HipCowl_R",
-     "A_Trunk",
-     1.2
-    ]
-   ],
+   "down": -22.0,
+   "down_blocked_by": null,
    "up": 18.0,
    "up_blocked_by": null,
-   "full_range": false
+   "full_range": true
   },
   "right_hip_pitch": {
    "verified_range_deg": [
@@ -234,9 +210,7 @@
    "full_range": true
   }
  },
- "result": "ATTENTION",
- "problems": [
-  "joint ranges"
- ],
+ "result": "PASS",
+ "problems": [],
  "notes": []
 }
