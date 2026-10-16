@@ -1,5 +1,5 @@
 revision,assembly_link,native_file,native_object,material,step,stl,volume_mm3,scope,edition,print_with
-R25,A_Trunk,editions/cyber/native/IndieDuck_Cyber_Assembly.FCStd,A_Trunk,"PLA, structural (dark appearance)",platform/exports/step/P1_Trunk.step,platform/exports/stl/P1_Trunk.stl,47073.243,platform,,
+R25,A_Trunk,editions/cyber/native/IndieDuck_Cyber_Assembly.FCStd,A_Trunk,"PLA, structural (dark appearance)",platform/exports/step/P1_Trunk.step,platform/exports/stl/P1_Trunk.stl,45970.422,platform,,
 R25,A_Neck,editions/cyber/native/IndieDuck_Cyber_Assembly.FCStd,A_Neck,"PLA, structural (dark appearance)",platform/exports/step/P1_Neck.step,platform/exports/stl/P1_Neck.stl,10029.225,platform,,
 R25,A_HeadPitch,editions/cyber/native/IndieDuck_Cyber_Assembly.FCStd,A_HeadPitch,"PLA, structural (dark appearance)",platform/exports/step/P1_HeadPitch.step,platform/exports/stl/P1_HeadPitch.stl,4710.736,platform,,
 R25,A_HeadYaw,editions/cyber/native/IndieDuck_Cyber_Assembly.FCStd,A_HeadYaw,"PLA, structural (dark appearance)",platform/exports/step/P1_HeadYaw.step,platform/exports/stl/P1_HeadYaw.stl,11014.231,platform,,
@@ -20,9 +20,9 @@ R25,HelmetLower,editions/cyber/native/IndieDuck_Cyber_Assembly.FCStd,HelmetLower
 R25,CameraFace,editions/cyber/native/IndieDuck_Cyber_Assembly.FCStd,CameraFace,"PLA, structural (dark appearance)",editions/cyber/exports/step/Cyber_CameraFace.step,editions/cyber/exports/stl/Cyber_CameraFace.stl,7740.200,edition,cyber,
 R25,CameraCarrier,editions/cyber/native/IndieDuck_Cyber_Assembly.FCStd,CameraCarrier,"PLA, white appearance",platform/exports/step/P1_CameraCarrier.step,platform/exports/stl/P1_CameraCarrier.stl,6674.838,platform,,
 R25,AngularJaw,editions/cyber/native/IndieDuck_Cyber_Assembly.FCStd,AngularJaw,"PLA, orange appearance",editions/cyber/exports/step/Cyber_AngularJaw.step,editions/cyber/exports/stl/Cyber_AngularJaw.stl,7452.300,edition,cyber,
-R25,TorsoFront,editions/cyber/native/IndieDuck_Cyber_Assembly.FCStd,TorsoFront,"PLA, white appearance",editions/cyber/exports/step/Cyber_TorsoFront.step,editions/cyber/exports/stl/Cyber_TorsoFront.stl,19986.116,edition,cyber,
+R25,TorsoFront,editions/cyber/native/IndieDuck_Cyber_Assembly.FCStd,TorsoFront,"PLA, white appearance",editions/cyber/exports/step/Cyber_TorsoFront.step,editions/cyber/exports/stl/Cyber_TorsoFront.stl,19986.776,edition,cyber,
 R25,TorsoRear,editions/cyber/native/IndieDuck_Cyber_Assembly.FCStd,TorsoRear,"PLA, white appearance",editions/cyber/exports/step/Cyber_TorsoRear.step,editions/cyber/exports/stl/Cyber_TorsoRear.stl,20589.176,edition,cyber,
-R25,PelvisFront,editions/cyber/native/IndieDuck_Cyber_Assembly.FCStd,PelvisFront,"PLA, white appearance",editions/cyber/exports/step/Cyber_PelvisFront.step,editions/cyber/exports/stl/Cyber_PelvisFront.stl,8810.400,edition,cyber,
+R25,PelvisFront,editions/cyber/native/IndieDuck_Cyber_Assembly.FCStd,PelvisFront,"PLA, white appearance",editions/cyber/exports/step/Cyber_PelvisFront.step,editions/cyber/exports/stl/Cyber_PelvisFront.stl,9297.437,edition,cyber,
 R25,PelvisRear,editions/cyber/native/IndieDuck_Cyber_Assembly.FCStd,PelvisRear,"PLA, white appearance",editions/cyber/exports/step/Cyber_PelvisRear.step,editions/cyber/exports/stl/Cyber_PelvisRear.stl,9869.614,edition,cyber,
 R25,ThighCap_L,editions/cyber/native/IndieDuck_Cyber_Assembly.FCStd,ThighCap_L,"PLA, white appearance",editions/cyber/exports/step/Cyber_ThighCap_L.step,editions/cyber/exports/stl/Cyber_ThighCap_L.stl,6206.700,edition,cyber,
 R25,ThighCap_R,editions/cyber/native/IndieDuck_Cyber_Assembly.FCStd,ThighCap_R,"PLA, white appearance",editions/cyber/exports/step/Cyber_ThighCap_R.step,editions/cyber/exports/stl/Cyber_ThighCap_R.stl,6206.700,edition,cyber,

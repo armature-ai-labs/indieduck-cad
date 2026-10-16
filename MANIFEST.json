@@ -25,7 +25,7 @@
   {
    "path": "COMPONENTS.csv",
    "bytes": 12870,
-   "sha256": "65778e0d3451dcfd9d47ee76485ccd71d9e682b0ffe7deb59f74e60b86a3254d",
+   "sha256": "dfbb94e501f4a532aa06a839763030f88f4a984889492b313468b159d738df53",
    "scope": "repository",
    "role": "Repository documentation and indexes"
   },
@@ -45,8 +45,8 @@
   },
   {
    "path": "README.md",
-   "bytes": 9177,
-   "sha256": "cdb4860aec464f9f1ab27f0dacb706d97920cd78a778254c9c0f30444cd2cac2",
+   "bytes": 9345,
+   "sha256": "ea3c0623c0bc427855f128bef2f071b362795bb2cadda801f40dc4042846ef31",
    "scope": "repository",
    "role": "Repository documentation and indexes"
   },
@@ -73,15 +73,15 @@
   },
   {
    "path": "editions/cyber/edition.yaml",
-   "bytes": 1361,
-   "sha256": "11da9a4196adf6676cde503a106028d9db3a20e99a347e622847a9a5405b0909",
+   "bytes": 1400,
+   "sha256": "05861281aa2219f3935f01a58ddd41c30af84d2dd94ad0864010b2c6c59d9609",
    "scope": "cyber",
    "role": "Cyber Edition"
   },
   {
    "path": "editions/cyber/exports/IndieDuck_Cyber_Assembly.step",
-   "bytes": 7590942,
-   "sha256": "8cccc1924ae60c26aa21f40e645592a22647f3e63e4295a4f0222871992dc716",
+   "bytes": 7681955,
+   "sha256": "bd91c228f2a4b759b4cb5a7a69f68bf3745d6377c92e06893f049d8f314460d1",
    "scope": "cyber",
    "role": "Cyber Edition"
   },
@@ -115,8 +115,8 @@
   },
   {
    "path": "editions/cyber/exports/multicolour/Cyber_TorsoFront_multicolour.step",
-   "bytes": 457288,
-   "sha256": "05dba3ab3042fbfb8e0a839e8abc8bd67f7c8f6b40e59a9611f6648b79fde230",
+   "bytes": 495925,
+   "sha256": "14f004a95b334122e2811cec58588f25f57cc1c9105d87a6b70d306c6dd4b6c1",
    "scope": "cyber",
    "role": "Cyber Edition"
   },
@@ -227,8 +227,8 @@
   },
   {
    "path": "editions/cyber/exports/step/Cyber_PelvisFront.step",
-   "bytes": 94876,
-   "sha256": "e4a9c5384aee314a26a8cabaacd5de11b489d3014929601404d5c9ab4e7700c5",
+   "bytes": 169004,
+   "sha256": "4ffc493f0fe6506157e21aaff0e8e7bca6dde31bc5c176d69297f85cb9724f92",
    "scope": "cyber",
    "role": "Cyber Edition"
   },
@@ -318,8 +318,8 @@
   },
   {
    "path": "editions/cyber/exports/step/Cyber_TorsoFront.step",
-   "bytes": 423140,
-   "sha256": "27413a642685595d2d86cb10b51cb9d74ff777c4480f28a9fc51dabcbcf48fca",
+   "bytes": 461786,
+   "sha256": "9f46ccc5b664df6d649afc2aa7583630e37fbc91f6b089dc6d9304e265042a55",
    "scope": "cyber",
    "role": "Cyber Edition"
   },
@@ -423,8 +423,8 @@
   },
   {
    "path": "editions/cyber/exports/stl/Cyber_PelvisFront.stl",
-   "bytes": 164084,
-   "sha256": "ae9b5b6001c9df56a537fb142928cd1bda73dee65293b1d3dba090aab6fdcc20",
+   "bytes": 385984,
+   "sha256": "4055e517fdf75b627c52fc7d1f9f0eac512c0a8b31a3c0755aa508efa2820e99",
    "scope": "cyber",
    "role": "Cyber Edition"
   },
@@ -514,8 +514,8 @@
   },
   {
    "path": "editions/cyber/exports/stl/Cyber_TorsoFront.stl",
-   "bytes": 501384,
-   "sha256": "e8c3fb86e63b7c37378aba855280890bc60dbbe0a2923ca5346ba77447ccd033",
+   "bytes": 1182084,
+   "sha256": "b590f58185eb304b4c16567d58a24123d8be8e32ff2e55d2422bf71874053916",
    "scope": "cyber",
    "role": "Cyber Edition"
   },
@@ -528,8 +528,8 @@
   },
   {
    "path": "editions/cyber/native/IndieDuck_Cyber_Assembly.FCStd",
-   "bytes": 2476061,
-   "sha256": "f33afa0e38a987624953d7c571017ef84792b34ab0e909e04bb41c93cf3cca56",
+   "bytes": 2529324,
+   "sha256": "9ad0a7cff91b8cd22ea9d73ed3388b7e2cee017043d9a928b891920908f558a8",
    "scope": "cyber",
    "role": "Cyber Edition"
   },
@@ -577,8 +577,8 @@
   },
   {
    "path": "editions/cyber/validation/R25-export-readback.json",
-   "bytes": 18351,
-   "sha256": "8ba40271d0a342de616892b252d4a2668e1939e53ce2e5ae8907831351aa89e1",
+   "bytes": 18353,
+   "sha256": "6e7984d4166d103e3931c8bdf20d1e3fef4060a7d7c8041b86c7527ca457a12c",
    "scope": "cyber",
    "role": "Cyber Edition"
   },
@@ -612,8 +612,8 @@
   },
   {
    "path": "editions/cyber/validation/edition-verify.json",
-   "bytes": 3925,
-   "sha256": "287f2601ec4aea68b2fba387c89e80831404af448b33a0205af887df8aa2114c",
+   "bytes": 4221,
+   "sha256": "fa2e4e5a1d0866ee0741b15078fdca2002f569f9fe257121545ab19ef3209139",
    "scope": "cyber",
    "role": "Cyber Edition"
   },
@@ -626,8 +626,8 @@
   },
   {
    "path": "platform/PLATFORM.md",
-   "bytes": 3529,
-   "sha256": "690503c6e0149f34ef9aac71e075a670786b986703806f69e042d7e756e9a48a",
+   "bytes": 3590,
+   "sha256": "b241d29b49a1b30d7cad358d1f00266427ed6bc5f693094bc607811e57508133",
    "scope": "platform",
    "role": "Platform P1"
   },
@@ -801,8 +801,8 @@
   },
   {
    "path": "platform/exports/step/P1_Trunk.step",
-   "bytes": 489790,
-   "sha256": "74a28bdc23b40620412c01d7df2a3544c2790faae1203cb513a2793a4b69cc4f",
+   "bytes": 462238,
+   "sha256": "2d72bd91038c12b16ebc7de889f8ac117b7624e283c21481835843118420d333",
    "scope": "platform",
    "role": "Platform P1"
   },
@@ -990,8 +990,8 @@
   },
   {
    "path": "platform/exports/stl/P1_Trunk.stl",
-   "bytes": 1504484,
-   "sha256": "171ab6813625f65e7d5777fb840d9a9d911f95a9fb80c95f568d0a3d6dca4bec",
+   "bytes": 2754584,
+   "sha256": "0add5e721aa08086abc5719831bfca14416b930c4d5d556f7f7c247f3a3ee6cb",
    "scope": "platform",
    "role": "Platform P1"
   },
@@ -1018,8 +1018,8 @@
   },
   {
    "path": "tools/__pycache__/edition_verify.cpython-311.pyc",
-   "bytes": 20768,
-   "sha256": "1a48d30af47fc4201270016d6eca7cfd7b9ea15d04f8529d99139a5399cd0b0d",
+   "bytes": 21391,
+   "sha256": "917e5ceee28c35654351d578c90f35ca54febf25442693bfba06d9979531732c",
    "scope": "repository",
    "role": "Tools"
   },
